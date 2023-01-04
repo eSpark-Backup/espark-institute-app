@@ -1,4 +1,4 @@
-@import url(./assets/fonts/awesome/css/fontawesome-all.min.css);
+/* @import url(./assets/fonts/awesome/css/fontawesome-all.min.css);
 @import url(./assets/css/style.css);
 @import url(./assets/css/topbar.css);
 @import url(./assets/css/animations.min.css);
@@ -9,4 +9,37 @@
 @import url(./assets/fonts/gordita/font-gordita.min.css);
 @import url(./assets/libs/growl/css/jquery.growl.min.css);
 @import url(./assets/libs/swiper/css/swiper.min.css);
-@import url(./assets/dist/block-library/style.min.css);
+@import url(./assets/dist/block-library/style.min.css); */
+
+
+@import url(./assets/css/edumall-events-manager-css.css);
+@import url(./assets/css/edumall-style-css.css);
+@import url(./assets/css/edumall-tutor-css.css);
+@import url(./assets/css/edumall-woocommerce-css.css);
+@import url(./assets/css/edumall-zoom-meetings-css.css);
+@import url(./assets/css/elementor-animations-css.css);
+@import url(./assets/css/elementor-frontend-css.css);
+@import url(./assets/css/elementor-frontend-legacy-css.css);
+@import url(./assets/css/elementor-icons-css.css);
+@import url(./assets/css/elementor-post-2387-css.css);
+@import url(./assets/css/elementor-post-47-css.css);
+@import url(./assets/css/elementor-post-507-css.css);
+@import url(./assets/css/elementor-post-706-css.css);
+@import url(./assets/css/elementor-pro-css.css);
+@import url(./assets/css/font-awesome-pro-css.css);
+@import url(./assets/css/font-gordita-css.css);
+@import url(./assets/css/growl-css.css);
+@import url(./assets/css/isw-frontend-css.css);
+@import url(./assets/css/lightgallery-css.css);
+@import url(./assets/css/perfect-scrollbar-css.css);
+@import url(./assets/css/perfect-scrollbar-wpc-css.css);
+@import url(./assets/css/swiper-css.css);
+@import url(./assets/css/tutor-frontend-css.css);
+@import url(./assets/css/tutor-icon-css.css);
+@import url(./assets/css/tutor-plyr-css.css);
+@import url(./assets/css/video-conferencing-with-zoom-api-css.css);
+@import url(./assets/css/wc-blocks-style-css.css);
+@import url(./assets/css/wc-blocks-vendors-style-css.css);
+@import url(./assets/css/woosc-frontend-css.css);
+@import url(./assets/css/woosw-frontend-css.css);
+@import url(./assets/css/wp-block-library-css.css);

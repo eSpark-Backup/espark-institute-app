@@ -1,260 +1,20 @@
 @charset "UTF-8";
 
 
-.boxed {
-    max-width: 1200px
-}
-
-::-moz-selection {
-    color: #fff;
-    background-color: #0071dc
-}
-
-::selection {
-    color: #fff;
-    background-color: #0071dc
-}
-
-.primary-fill-color {
-    fill: #0071dc
-}
-
-mark,
-.primary-color.primary-color,
-.growl-close:hover,
-.link-transition-02,
-.edumall-infinite-loader,
-.edumall-blog-caption-style-03 .tm-button,
-.tm-portfolio .post-categories a:hover,
-.tm-portfolio .post-title a:hover,
-.edumall-timeline.style-01 .title,
-.edumall-timeline.style-01 .timeline-dot,
-.tm-google-map .style-signal .animated-dot,
-.edumall-list .marker,
-.tm-social-networks .link:hover,
-.tm-social-networks.style-solid-rounded-icon .link,
-.edumall-team-member-style-01 .social-networks a:hover,
-.edumall-modern-carousel-style-02 .slide-button,
-.tm-slider a:hover .heading,
-.woosw-area .woosw-inner .woosw-content .woosw-content-bot .woosw-content-bot-inner .woosw-page a:hover,
-.woosw-continue:hover,
-.tm-menu .menu-price,
-.woocommerce-widget-layered-nav-list a:hover,
-.blog-nav-links h6:before,
-.page-main-content .search-form .search-submit,
-.page-sidebar .widget_pages .current-menu-item>a,
-.page-sidebar .widget_nav_menu .current-menu-item>a,
-.comment-list .comment-actions a:hover,
-.portfolio-nav-links.style-01 .inner>a:hover,
-.portfolio-nav-links.style-02 .nav-list .hover,
-.edumall-nice-select-wrap .edumall-nice-select li.selected:before,
-.elementor-widget-tm-icon-box.edumall-icon-box-style-01 .edumall-box:hover div.tm-button.style-text,
-.elementor-widget-tm-icon-box.edumall-icon-box-style-01 a.tm-button.style-text:hover,
-.tm-image-box.edumall-box:hover div.tm-button.style-text,
-.tm-image-box a.tm-button.style-text:hover,
-form.isw-swatches.isw-swatches--in-single .isw-swatch--isw_text .isw-term.isw-enabled:hover,
-form.isw-swatches.isw-swatches--in-single .isw-swatch--isw_text .isw-term.isw-selected,
-.wishlist-btn.style-02 a:hover,
-.compare-btn.style-02 a:hover,
-.order-by .selected-order a,
-.edumall-product-price-filter .current-state,
-.cart-collaterals .order-total .amount,
-.woocommerce-mini-cart__empty-message .empty-basket,
-.woocommerce .cart_list.product_list_widget a:hover,
-.woocommerce .cart.shop_table td.product-name a:hover,
-.woocommerce ul.product_list_widget li .product-title:hover,
-.entry-product-meta a:hover,
-.edumall-product .woocommerce-loop-product__title a:hover,
-.edumall-product .loop-product__category a:hover,
-.popup-product-quick-view .product_title a:hover,
-.woocommerce .wc_payment_methods .payment-selected .payment_title,
-.woocommerce .wc_payment_methods .payment_title:hover,
-.woocommerce-MyAccount-content .woocommerce-Address-title a,
-.woosw-area.woosw-area .woosw-inner .woosw-content .woosw-content-mid table.woosw-content-items .woosw-content-item .woosw-content-item--title a:hover,
-.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table thead tr th a:hover,
-.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items .button,
-.woocommerce nav.woocommerce-pagination ul li a:hover {
-    color: #0071dc
-}
-
-.primary-background-color,
-.link-transition-02:after,
-.wp-block-tag-cloud a:hover,
-.wp-block-calendar #today,
-.edumall-nice-select-wrap .edumall-nice-select li:hover,
-.edumall-progress .progress-bar,
-.edumall-link-animate-border .heading-primary a mark:after,
-.edumall-blog-caption-style-03 .tm-button.style-bottom-line .button-content-wrapper:after,
-.hint--primary:after,
-[data-fp-section-skin='dark'] #fp-nav ul li a span,
-[data-fp-section-skin='dark'] .fp-slidesNav ul li a span,
-.page-scroll-up,
-.top-bar-01 .top-bar-button,
-.tm-social-networks.style-flat-rounded-icon .link:hover,
-.tm-swiper .swiper-pagination-progressbar .swiper-pagination-progressbar-fill,
-.tm-social-networks.style-flat-rounded-icon .link,
-.tm-social-networks.style-solid-rounded-icon .link:hover,
-.portfolio-overlay-group-01.portfolio-overlay-colored-faded .post-overlay,
-.edumall-modern-carousel .slide-tag,
-.edumall-light-gallery .edumall-box .edumall-overlay,
-.edumall-modern-carousel-style-02 .slide-button:after,
-.tm-gradation .item:hover .count,
-.nav-links a:hover,
-.single-post .entry-post-feature.post-quote,
-.entry-portfolio-feature .gallery-item .overlay,
-.widget_calendar #today,
-.page-main-content .search-form .search-submit:hover,
-.woocommerce-notice,
-.wishlist-btn.style-01 a:hover,
-.compare-btn.style-01 a:hover,
-.edumall-product.style-grid .quick-view-icon:hover,
-.edumall-product.style-grid .woocommerce_loop_add_to_cart_wrap a:hover,
-.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items .button:hover,
-.woocommerce nav.woocommerce-pagination ul li span.current,
-.woocommerce-info,
-.woocommerce-message,
-.woocommerce-MyAccount-navigation .is-active a,
-.woocommerce-MyAccount-navigation a:hover,
-.edumall-wp-widget-product-layered-nav ul.show-display-check-list .chosen>a:before,
-.edumall-wp-widget-product-categories-layered-nav ul.show-display-check-list .chosen>a:before {
-    background-color: #0071dc
-}
-
-.primary-background-color-important,
-.lg-progress-bar .lg-progress {
-    background-color: #0071dc !important
-}
-
-.wp-block-quote,
-.wp-block-quote.has-text-align-right,
-.wp-block-quote.has-text-align-right,
-.edumall-nice-select-wrap.focused .edumall-nice-select-current,
-.edumall-nice-select-wrap .edumall-nice-select-current:hover,
-.page-search-popup .search-field,
-.tm-social-networks.style-solid-rounded-icon .link,
-.tm-popup-video.type-button .video-play,
-.widget_pages .current-menu-item,
-.widget_nav_menu .current-menu-item,
-.insight-core-bmw .current-menu-item,
-form.isw-swatches.isw-swatches--in-single .isw-swatch--isw_text .isw-term.isw-selected,
-.wishlist-btn.style-01 a:hover,
-.compare-btn.style-01 a:hover,
-.edumall-wp-widget-product-layered-nav ul.show-display-check-list a:hover:before,
-.edumall-wp-widget-product-categories-layered-nav ul.show-display-check-list a:hover:before,
-body.woocommerce-cart table.cart td.actions .coupon .input-text:focus,
-.woocommerce.single-product div.product .images .thumbnails .item img:hover {
-    border-color: #0071dc
-}
-
-.single-product .woo-single-gallery .edumall-thumbs-swiper .swiper-slide:hover img,
-.single-product .woo-single-gallery .edumall-thumbs-swiper .swiper-slide-thumb-active img,
-.lg-outer .lg-thumb-item.active,
-.lg-outer .lg-thumb-item:hover {
-    border-color: #0071dc !important
-}
-
-.hint--primary.hint--top-left:before,
-.hint--primary.hint--top-right:before,
-.hint--primary.hint--top:before {
-    border-top-color: #0071dc
-}
-
-.hint--primary.hint--right:before {
-    border-right-color: #0071dc
-}
-
-.hint--primary.hint--bottom-left:before,
-.hint--primary.hint--bottom-right:before,
-.hint--primary.hint--bottom:before,
-.mini-cart .widget_shopping_cart_content,
-.single-product .woocommerce-tabs li.active {
-    border-bottom-color: #0071dc
-}
-
-.hint--primary.hint--left:before,
-.tm-popup-video.type-button .video-play-icon:before {
-    border-left-color: #0071dc
-}
-
-.edumall-accordion-style-01 .edumall-accordion .accordion-section.active .accordion-header,
-.edumall-accordion-style-01 .edumall-accordion .accordion-section:hover .accordion-header {
-    background-color: rgba(0, 113, 220, 0.7)
-}
-
-.portfolio-overlay-group-01 .post-overlay {
-    background-color: rgba(0, 113, 220, 0.8)
-}
-
-.secondary-color-important {
-    color: #ffc221 !important
-}
-
-.secondary-background-color,
-.hint--secondary:after,
-.tm-button.style-flat.button-secondary-lighten:after {
-    background-color: #ffc221
-}
-
-.edumall-event-carousel .event-overlay-background {
-    background-color: rgba(255, 194, 33, 0.6)
-}
-
-.tm-zoom-meeting .zoom-countdown .countdown-content .text {
-    color: rgba(255, 194, 33, 0.7)
-}
-
-.tm-button.style-flat.button-secondary-lighten:before {
-    background-color: rgba(255, 194, 33, 0.3)
-}
-
-.tm-button.style-flat.button-secondary-lighten {
-    color: #031f42 !important
-}
-
-.hint--secondary.hint--top-left:before,
-.hint--secondary.hint--top-right:before,
-.hint--secondary.hint--top:before {
-    border-top-color: #ffc221
-}
-
-.hint--secondary.hint--right:before {
-    border-right-color: #ffc221
-}
-
-.hint--secondary.hint--bottom-left:before,
-.hint--secondary.hint--bottom-right:before,
-.hint--secondary.hint--bottom:before {
-    border-bottom-color: #ffc221
-}
-
-.hint--secondary.hint--left:before {
-    border-left-color: #ffc221
-}
-
-.secondary-border-color {
-    border-color: #ffc221
-}
-
-.secondary-fill-color {
-    fill: #ffc221
-}
-
-.lg-backdrop {
-    background-color: #000 !important
-}
-
-.page-mobile-main-menu>.inner {
-    background-color: #3f3a64;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-    background-position: top center
-}
 
 
-/* DASDSAasd */
-
-
+/*!
+Theme Name: Edumall
+Theme URI: https://edumall.thememove.com
+Author: ThemeMove
+Author URI: https://thememove.com
+Description: Edumall – Professional LMS Education Center WordPress Theme
+Version: 2.9.5
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: edumall
+Tags: editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+*/
 .archive-layout-switcher .switcher-item:after,
 .archive-layout-switcher .switcher-item:before,
 .archive-top-filter-content .count,
@@ -614,7 +374,7 @@ input[type=checkbox]:after {
 .mfp-inline-holder .mfp-content,
 .mfp-wrap,
 .page-mobile-main-menu {
-    cursor: url(../images/cursor/light-close.png) 16 16, pointer
+    cursor: url(assets/images/cursor/light-close.png) 16 16, pointer
 }
 
 *,
@@ -5200,8 +4960,7 @@ blockquote {
 }
 
 body {
-    color: var(--edumall-color-text);
-    font-family: Gordita;
+    color: var(--edumall-color-text)
 }
 
 .heading,
@@ -6119,7 +5878,7 @@ article.hentry p:last-child img.alignright {
 }
 
 .header-wrap {
-    position: relative;
+    position: relative
 }
 
 .mobile-menu .header-wrap {
@@ -10346,7 +10105,125 @@ html .row:before {
     }
 }
 
+@media (min-width:768px) {
+    .grid-sm-1 {
+        -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr)
+    }
 
+    .grid-sm-2 {
+        -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .grid-sm-3 {
+        -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr)
+    }
+
+    .grid-sm-4 {
+        -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr)
+    }
+
+    .grid-sm-5 {
+        -ms-grid-columns: (1fr)[5];
+        grid-template-columns: repeat(5, 1fr)
+    }
+
+    .grid-sm-6 {
+        -ms-grid-columns: (1fr)[6];
+        grid-template-columns: repeat(6, 1fr)
+    }
+
+    .grid-sm-normal-gutter {
+        grid-column-gap: 30px
+    }
+
+    .grid-sm-large-gutter {
+        grid-column-gap: 60px
+    }
+}
+
+@media (min-width:992px) {
+    .grid-md-1 {
+        -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr)
+    }
+
+    .grid-md-2 {
+        -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .grid-md-3 {
+        -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr)
+    }
+
+    .grid-md-4 {
+        -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr)
+    }
+
+    .grid-md-5 {
+        -ms-grid-columns: (1fr)[5];
+        grid-template-columns: repeat(5, 1fr)
+    }
+
+    .grid-md-6 {
+        -ms-grid-columns: (1fr)[6];
+        grid-template-columns: repeat(6, 1fr)
+    }
+
+    .grid-md-normal-gutter {
+        grid-column-gap: 30px
+    }
+
+    .grid-md-large-gutter {
+        grid-column-gap: 60px
+    }
+}
+
+@media (min-width:1200px) {
+    .grid-lg-1 {
+        -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr)
+    }
+
+    .grid-lg-2 {
+        -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .grid-lg-3 {
+        -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr)
+    }
+
+    .grid-lg-4 {
+        -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr)
+    }
+
+    .grid-lg-5 {
+        -ms-grid-columns: (1fr)[5];
+        grid-template-columns: repeat(5, 1fr)
+    }
+
+    .grid-lg-6 {
+        -ms-grid-columns: (1fr)[6];
+        grid-template-columns: repeat(6, 1fr)
+    }
+
+    .grid-lg-normal-gutter {
+        grid-column-gap: 30px
+    }
+
+    .grid-lg-large-gutter {
+        grid-column-gap: 60px
+    }
+}
 
 .page-loading {
     position: fixed;
@@ -12299,7 +12176,7 @@ body.loaded .page-loading {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    cursor: url(../images/cursor/light-close.png) 16 16, pointer
+    cursor: url(assets/images/cursor/light-close.png) 16 16, pointer
 }
 
 .edumall-popup.open,
@@ -13035,7 +12912,7 @@ ins .amount {
 }
 
 .page-content {
-    /* margin-top: 80px; */
+    margin-top: 80px;
     margin-bottom: 80px
 }
 
@@ -13542,7 +13419,7 @@ body.elementor-page.page-has-no-sidebar .page-content {
 .blog-nav-links .nav-list {
     display: -ms-grid;
     display: grid;
-
+    -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px
 }
@@ -13731,7 +13608,7 @@ body.elementor-page.page-has-no-sidebar .page-content {
     margin-top: 55px;
     display: -ms-grid;
     display: grid;
-
+    -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 66px 30px
 }
@@ -13822,7 +13699,7 @@ body.elementor-page.page-has-no-sidebar .page-content {
 .portfolio-nav-links.style-01 .nav-list {
     display: -ms-grid;
     display: grid;
-
+    -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px 30px
 }
@@ -14601,8 +14478,8 @@ body.elementor-page.page-has-no-sidebar .page-content {
     mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     mask-size: contain;
-    -webkit-mask-image: url(../svg/headline-curve.svg);
-    mask-image: url(../svg/headline-curve.svg)
+    -webkit-mask-image: url(assets/svg/headline-curve.svg);
+    mask-image: url(assets/svg/headline-curve.svg)
 }
 
 .archive-tabs-section.edumall-tabpanel {
@@ -14730,21 +14607,21 @@ body.elementor-page.page-has-no-sidebar .page-content {
 }
 
 .tm-grid-portfolio-main .modern-grid {
-
+    -ms-grid-columns: (1fr)[3];
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px
 }
 
 @media (max-width:1199px) {
     .tm-grid-portfolio-main .modern-grid {
-
+        -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr)
     }
 }
 
 @media (max-width:767px) {
     .tm-grid-portfolio-main .modern-grid {
-
+        -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr)
     }
 }
@@ -16130,7 +16007,9 @@ body:not(.elementor-editor-active) .modern-grid .grid-item.grid-skeleton-item.an
 .lazy-grid {
     display: -ms-grid;
     display: grid;
-
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px
 }
 
 .lazy-grid .grid-sizer {
@@ -19699,7 +19578,7 @@ a.tm-button.style-thick-border:hover:after {
 .edumall-blog-one-left-featured .edumall-grid {
     display: -ms-grid;
     display: grid;
-
+    -ms-grid-columns: (1fr)[4];
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px
 }
@@ -19903,7 +19782,7 @@ a.tm-button.style-thick-border:hover:after {
 
 @media (max-width:1024px) {
     .edumall-blog-zigzag .edumall-grid {
-
+        -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
         -webkit-box-pack: normal;
         -webkit-justify-content: normal;
@@ -19931,14 +19810,14 @@ a.tm-button.style-thick-border:hover:after {
     }
 
     .edumall-blog-one-left-featured .edumall-grid {
-
+        -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr)
     }
 }
 
 @media (max-width:767px) {
     .edumall-blog-zigzag .edumall-grid {
-
+        -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr)
     }
 
@@ -21321,8 +21200,8 @@ a.tm-button.style-thick-border:hover:after {
     mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     mask-size: contain;
-    -webkit-mask-image: url(../svg/headline-curve.svg);
-    mask-image: url(../svg/headline-curve.svg)
+    -webkit-mask-image: url(assets/svg/headline-curve.svg);
+    mask-image: url(assets/svg/headline-curve.svg)
 }
 
 .edumall-modern-heading-style-02 .heading-primary mark {
@@ -21353,8 +21232,8 @@ a.tm-button.style-thick-border:hover:after {
     mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     mask-size: contain;
-    -webkit-mask-image: url(../svg/headline-underline-zigzag.svg);
-    mask-image: url(../svg/headline-underline-zigzag.svg)
+    -webkit-mask-image: url(assets/svg/headline-underline-zigzag.svg);
+    mask-image: url(assets/svg/headline-underline-zigzag.svg)
 }
 
 .edumall-link-animate-border .heading-primary a:hover mark:before {
@@ -23261,7 +23140,7 @@ body:not(.elementor-editor-active) .edumall-timeline .edumall-entrance-animation
     .edumall-event-grid.style-alternate-grid .modern-grid {
         display: -ms-grid;
         display: grid;
-
+        -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 70px 30px
     }
@@ -25758,180 +25637,3 @@ figure.wp-block-image.alignright {
 .edumall-faqs .faq-read-more-btn .tm-button {
     color: var(--edumall-color-primary)
 }
-
-<style id='wp-block-library-theme-inline-css'>
-		#start-resizable-editor-section {
-			display: none
-		}
-
-		.wp-block-audio figcaption {
-			color: #555;
-			font-size: 13px;
-			text-align: center
-		}
-
-		.is-dark-theme .wp-block-audio figcaption {
-			color: hsla(0, 0%, 100%, .65)
-		}
-
-		.wp-block-code {
-			font-family: Menlo, Consolas, monaco, monospace;
-			color: #1e1e1e;
-			padding: .8em 1em;
-			border: 1px solid #ddd;
-			border-radius: 4px
-		}
-
-		.wp-block-embed figcaption {
-			color: #555;
-			font-size: 13px;
-			text-align: center
-		}
-
-		.is-dark-theme .wp-block-embed figcaption {
-			color: hsla(0, 0%, 100%, .65)
-		}
-
-		.blocks-gallery-caption {
-			color: #555;
-			font-size: 13px;
-			text-align: center
-		}
-
-		.is-dark-theme .blocks-gallery-caption {
-			color: hsla(0, 0%, 100%, .65)
-		}
-
-		.wp-block-image figcaption {
-			color: #555;
-			font-size: 13px;
-			text-align: center
-		}
-
-		.is-dark-theme .wp-block-image figcaption {
-			color: hsla(0, 0%, 100%, .65)
-		}
-
-		.wp-block-pullquote {
-			border-top: 4px solid;
-			border-bottom: 4px solid;
-			margin-bottom: 1.75em;
-			color: currentColor
-		}
-
-		.wp-block-pullquote__citation,
-		.wp-block-pullquote cite,
-		.wp-block-pullquote footer {
-			color: currentColor;
-			text-transform: uppercase;
-			font-size: .8125em;
-			font-style: normal
-		}
-
-		.wp-block-quote {
-			border-left: .25em solid;
-			margin: 0 0 1.75em;
-			padding-left: 1em
-		}
-
-		.wp-block-quote cite,
-		.wp-block-quote footer {
-			color: currentColor;
-			font-size: .8125em;
-			position: relative;
-			font-style: normal
-		}
-
-		.wp-block-quote.has-text-align-right {
-			border-left: none;
-			border-right: .25em solid;
-			padding-left: 0;
-			padding-right: 1em
-		}
-
-		.wp-block-quote.has-text-align-center {
-			border: none;
-			padding-left: 0
-		}
-
-		.wp-block-quote.is-large,
-		.wp-block-quote.is-style-large {
-			border: none
-		}
-
-		.wp-block-search .wp-block-search__label {
-			font-weight: 700
-		}
-
-		.wp-block-group.has-background {
-			padding: 1.25em 2.375em;
-			margin-top: 0;
-			margin-bottom: 0
-		}
-
-		.wp-block-separator {
-			border: none;
-			border-bottom: 2px solid;
-			margin-left: auto;
-			margin-right: auto;
-			opacity: .4
-		}
-
-		.wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
-			width: 100px
-		}
-
-		.wp-block-separator.has-background:not(.is-style-dots) {
-			border-bottom: none;
-			height: 1px
-		}
-
-		.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
-			height: 2px
-		}
-
-		.wp-block-table thead {
-			border-bottom: 3px solid
-		}
-
-		.wp-block-table tfoot {
-			border-top: 3px solid
-		}
-
-		.wp-block-table td,
-		.wp-block-table th {
-			padding: .5em;
-			border: 1px solid;
-			word-break: normal
-		}
-
-		.wp-block-table figcaption {
-			color: #555;
-			font-size: 13px;
-			text-align: center
-		}
-
-		.is-dark-theme .wp-block-table figcaption {
-			color: hsla(0, 0%, 100%, .65)
-		}
-
-		.wp-block-video figcaption {
-			color: #555;
-			font-size: 13px;
-			text-align: center
-		}
-
-		.is-dark-theme .wp-block-video figcaption {
-			color: hsla(0, 0%, 100%, .65)
-		}
-
-		.wp-block-template-part.has-background {
-			padding: 1.25em 2.375em;
-			margin-top: 0;
-			margin-bottom: 0
-		}
-
-		#end-resizable-editor-section {
-			display: none
-		}
-	
