@@ -9,9 +9,9 @@ const Header = () => {
             <div className="header-content-inner">
               <div className="branding">
                 <div className="branding-logo-wrap">
-                  <a href="https://edumall.thememove.com/main/" rel="home">
+                  <a href="/" rel="home">
                     <img
-                      src="../wp-content/themes/edumall/assets/images/logo/dark-logo-3.png"
+                      src="../assets/images/logo/dark-logo-3.png"
                       alt="Main"
                       className="branding-logo dark-logo"
                     />

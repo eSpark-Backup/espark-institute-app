@@ -374,7 +374,7 @@ input[type=checkbox]:after {
 .mfp-inline-holder .mfp-content,
 .mfp-wrap,
 .page-mobile-main-menu {
-    cursor: url(assets/images/cursor/light-close.png) 16 16, pointer
+    cursor: url(../images/cursor/light-close.png) 16 16, pointer
 }
 
 *,
@@ -12176,7 +12176,7 @@ body.loaded .page-loading {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    cursor: url(assets/images/cursor/light-close.png) 16 16, pointer
+    cursor: url(../images/cursor/light-close.png) 16 16, pointer
 }
 
 .edumall-popup.open,
@@ -14478,8 +14478,8 @@ body.elementor-page.page-has-no-sidebar .page-content {
     mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     mask-size: contain;
-    -webkit-mask-image: url(assets/svg/headline-curve.svg);
-    mask-image: url(assets/svg/headline-curve.svg)
+    -webkit-mask-image: url(../svg/headline-curve.svg);
+    mask-image: url(../svg/headline-curve.svg)
 }
 
 .archive-tabs-section.edumall-tabpanel {
@@ -21200,8 +21200,8 @@ a.tm-button.style-thick-border:hover:after {
     mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     mask-size: contain;
-    -webkit-mask-image: url(assets/svg/headline-curve.svg);
-    mask-image: url(assets/svg/headline-curve.svg)
+    -webkit-mask-image: url(../svg/headline-curve.svg);
+    mask-image: url(../svg/headline-curve.svg)
 }
 
 .edumall-modern-heading-style-02 .heading-primary mark {
@@ -21232,8 +21232,8 @@ a.tm-button.style-thick-border:hover:after {
     mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     mask-size: contain;
-    -webkit-mask-image: url(assets/svg/headline-underline-zigzag.svg);
-    mask-image: url(assets/svg/headline-underline-zigzag.svg)
+    -webkit-mask-image: url(../svg/headline-curve.svg);
+    mask-image: url(../svg/headline-curve.svg)
 }
 
 .edumall-link-animate-border .heading-primary a:hover mark:before {
