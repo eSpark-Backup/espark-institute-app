@@ -15,6 +15,8 @@ const AppRoutes = () => {
 };
 
 const AppWraper = () => {
+
+  console.log("new changes from moin")
   return (
     <Router>
       <LayoutOne>
