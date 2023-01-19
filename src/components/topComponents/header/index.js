@@ -1,6 +1,9 @@
 import React from "react";
+import Footer from "../../bottomComponets/footer";
 import Header from "./header";
 import TopBar from "./topBar";
+
+import { topBarJson } from "../../../helper/top-bar";
 
 const HeaderSection = () => {
   return (
@@ -15,7 +18,7 @@ const HeaderSection = () => {
           className="page-header-inner"
           data-sticky="1"
         >
-          <TopBar />
+          <TopBar data={topBarJson} />
           <Header />
         </div>
       </header>

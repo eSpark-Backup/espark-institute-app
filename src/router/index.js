@@ -3,20 +3,22 @@ import { BrowserRouter as Router, useRoutes } from "react-router-dom";
 
 import LayoutOne from "../layout/layoutOne";
 import Home from "../screens/home";
+import ContactUs from "../screens/home/contact/contact-us";
 
 const AppRoutes = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  let routes = useRoutes([{ path: "/", element: <Home /> }]);
+  let routes = useRoutes([{
+               path: "/", element: <Home />,
+               path: "/contact-us", element: <ContactUs />,         
+               }]);
 
   return routes;
 };
 
 const AppWraper = () => {
-
-  console.log("new changes from moin")
   return (
     <Router>
       <LayoutOne>
