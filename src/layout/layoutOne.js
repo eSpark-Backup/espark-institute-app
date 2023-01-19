@@ -6,6 +6,7 @@ const LayoutOne = ({ children }) => {
   return (
     <>
       <div id="page">
+        my name is ali 
         <div className="content-wrapper">
           <HeaderSection />
         </div>
