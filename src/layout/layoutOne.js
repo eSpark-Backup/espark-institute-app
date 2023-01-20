@@ -2,11 +2,10 @@ import React from "react";
 import HeaderSection from "../components/topComponents/header";
 import Footer from "./../components/bottomComponets/footer";
 
-const LayoutOne = ({ children }) => {
+const   LayoutOne = ({ children }) => {
   return (
     <>
       <div id="page">
-        my name is ali 
         <div className="content-wrapper">
           <HeaderSection />
         </div>
@@ -19,8 +18,10 @@ const LayoutOne = ({ children }) => {
             </div>
           </div>
         </div>
-        <div id="page-footer-wrapper" className="page-footer-wrapper">
+        <div id="page-footer-wrapper" className="page-footer-wrapper ">
+          <div className="footer-margin-150">
           <Footer />
+          </div>
         </div>
       </div>
     </>
