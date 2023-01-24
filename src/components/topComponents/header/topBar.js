@@ -2,7 +2,7 @@ import React from "react";
 
 const TopBar = ({data}) => {
   return (<>
-  {data.map(item =>  <div className="page-top-bar top-bar-03">
+  {data.map(item =>  <div className="page-top-bar top-bar-01">
     <div className="container">
       <div className="row row-eq-height">
         <div className="col-md-6 top-bar-left">

@@ -5,21 +5,21 @@ import TopBar from "./topBar";
 
 import { topBarJson } from "../../../helper/top-bar";
 
-const HeaderSection = () => {
+const HeaderSection = ({setOpen, open}) => {
   return (
     <div>
       <header
         id="page-header"
-        className="page-header header-03 header-dark header-layout-fixed nav-links-hover-style-01 header-sticky-dark-logo"
+        className="header-03 header-dark header-layout-fixed nav-links-hover-style-01 header-sticky-dark-logo"
       >
-        <div className="page-header-place-holder"></div>
+        <div className="page-header-place-holder held"></div>
         <div
           id="page-header-inner"
           className="page-header-inner"
           data-sticky="1"
         >
           <TopBar data={topBarJson} />
-          <Header />
+          <Header setOpen ={setOpen} open ={open}  />
         </div>
       </header>
     </div>

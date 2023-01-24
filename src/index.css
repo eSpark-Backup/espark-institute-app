@@ -46,6 +46,17 @@
 
 
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+.display-Block-DropDown{
+    display: block;
+}
+
+
 button,
 input[type="button"],
 input[type="reset"],
@@ -2517,6 +2528,14 @@ a.tutor-btn:hover,
 .page-mobile-main-menu .menu__container>li.opened>a {
     border-color: rgba(255, 255, 255, 0.15);
 }
+.dropDown{
+    display: none;
+}
+
+.menu--primary ul .menu-item:hover .dropDown{
+        display: block;
+}
+
 
 .page-mobile-main-menu .children>li>a,
 .page-mobile-main-menu .simple-menu>li>a {
