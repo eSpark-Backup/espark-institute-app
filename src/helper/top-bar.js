@@ -14,7 +14,7 @@ export const topBarJson = [
         path: "https://www.instagram.com/esparkconsultantsgroup/",
       },
       {iconClass:"fa-linkedin-in",
-      path: "https://www.instagram.com/esparkconsultantsgroup/",
+      path: "https://pk.linkedin.com/in/espark-consulting-group-440b3a168",
     }
     ],
   },

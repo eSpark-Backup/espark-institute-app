@@ -1,17 +1,15 @@
 import React, { useEffect, useState } from "react";
 import HeaderSection from "../components/topComponents/header";
-import Footer from "./../components/bottomComponets/footer";
+import Footer from "../components/bottomComponets/footer";
 
 const   LayoutOne = ({ children }) => {
-
-
-  const [fullWidth, setFullWidth] = useState("page-template-default page page-id-1326 wp-embed-responsive theme-edumall woocommerce-js desktop edumall-light-scheme mobile-menu-push-to-left woocommerce header-sticky-both wide page-has-no-sidebar title-bar-05 elementor-default elementor-kit-47 elementor-page elementor-page-1326 e--ua-blink e--ua-chrome e--ua-webkit loaded desktop-menu dashboard-nav-fixed")
-  const [medium, setMedium] = useState("page-template-default page page-id-1326 wp-embed-responsive theme-edumall woocommerce-js desktop edumall-light-scheme mobile-menu-push-to-left woocommerce header-sticky-both wide page-has-no-sidebar title-bar-05 elementor-default elementor-kit-47 elementor-page elementor-page-1326 e--ua-blink e--ua-chrome e--ua-webkit loaded mobile-menu")
-  const [mobileView,setMobileView] = useState("page-template-default page page-id-1326 wp-embed-responsive theme-edumall woocommerce-js desktop edumall-light-scheme mobile-menu-push-to-left woocommerce header-sticky-both wide page-has-no-sidebar title-bar-05 elementor-default elementor-kit-47 elementor-page elementor-page-1326 e--ua-blink e--ua-chrome e--ua-webkit loaded mobile-menu")
-  const [windowSize, setWindowSize] = useState(getWindowSize());
-  const [openWindow,setOpenWindow] = useState("page-template-default page page-id-706 wp-embed-responsive theme-edumall woocommerce-js desktop edumall-light-scheme mobile-menu-push-to-left woocommerce header-sticky-both wide page-has-no-sidebar title-bar-none elementor-default elementor-kit-47 elementor-page elementor-page-706 e--ua-blink e--ua-chrome e--ua-webkit loaded mobile-menu page-mobile-menu-opened")
-
   const [open, setOpen] = useState(true)
+
+  const fullWidth = "page-template-default page page-id-1326 wp-embed-responsive theme-edumall woocommerce-js desktop edumall-light-scheme mobile-menu-push-to-left woocommerce header-sticky-both wide page-has-no-sidebar title-bar-05 elementor-default elementor-kit-47 elementor-page elementor-page-1326 e--ua-blink e--ua-chrome e--ua-webkit loaded desktop-menu dashboard-nav-fixed"
+  const medium =  "page-template-default page page-id-1326 wp-embed-responsive theme-edumall woocommerce-js desktop edumall-light-scheme mobile-menu-push-to-left woocommerce header-sticky-both wide page-has-no-sidebar title-bar-05 elementor-default elementor-kit-47 elementor-page elementor-page-1326 e--ua-blink e--ua-chrome e--ua-webkit loaded mobile-menu"
+  const mobileView = "page-template-default page page-id-1326 wp-embed-responsive theme-edumall woocommerce-js desktop edumall-light-scheme mobile-menu-push-to-left woocommerce header-sticky-both wide page-has-no-sidebar title-bar-05 elementor-default elementor-kit-47 elementor-page elementor-page-1326 e--ua-blink e--ua-chrome e--ua-webkit loaded mobile-menu"
+  const [windowSize, setWindowSize] = useState(getWindowSize());
+  const openWindow = "page-template-default page page-id-706 wp-embed-responsive theme-edumall woocommerce-js desktop edumall-light-scheme mobile-menu-push-to-left woocommerce header-sticky-both wide page-has-no-sidebar title-bar-none elementor-default elementor-kit-47 elementor-page elementor-page-706 e--ua-blink e--ua-chrome e--ua-webkit loaded mobile-menu page-mobile-menu-opened"
 
   function getWindowSize() {
     const {innerWidth, innerHeight} = window;
