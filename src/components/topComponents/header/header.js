@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { DISPLAY_NONE,DISPLAY_BLOCK } from "../../../constants";
 import { headerData } from "../../../helper/header";
 
 
 const Header = ({ open, setOpen }) => {
   const [menuMobile, setMenuMobile] = useState(true);
-  const displayBlock = "sub-menu children simple-menu display-Block-DropDown";
-  const displayNone = "children simple-menu";
+  // const displayBlock = "sub-menu children simple-menu display-Block-DropDown";
+  // const displayNone = "children simple-menu";
   
   return (
     <>
@@ -16,20 +17,21 @@ const Header = ({ open, setOpen }) => {
             <div class="header-content-inner">
               <div class="branding">
                 <div class="branding-logo-wrap">
-                <Link to={'/'}>
-                  <a  >
-                    <img
-                      src="https://edumall.thememove.com/main/wp-content/themes/edumall/assets/images/logo/dark-logo.png"
-                      alt="Main"
-                      class="branding-logo dark-logo"
-                    />
-                  </a>
-                    </Link>
+                  <Link to={'/'}>
+                    <a  >
+                      <img
+                        src="https://edumall.thememove.com/main/wp-content/themes/edumall/assets/images/logo/dark-logo.png"
+                        alt="Main"
+                        class="branding-logo dark-logo"
+                      />
+                    </a>
+                      </Link>
                 </div>
               </div>
             </div>
           </div>
 
+          {/* 
           <div class="header-category-menu">
            <a  class="header-icon category-menu-toggle">
               <div class="category-toggle-icon">
@@ -52,12 +54,11 @@ const Header = ({ open, setOpen }) => {
               </div>
               <div class="category-toggle-text">{headerData.name}</div>
             </a>
-
             <nav class="header-category-dropdown-wrap">
               <ul class="header-category-dropdown">
                 {headerData.categoryItems.map(item => <li class="cat-item">
                   <a>
-                   {item.category}<span class="toggle-sub-menu"></span>
+                    {item.category}<span class="toggle-sub-menu"></span>
                   </a>
                   <ul class="children sub-categories">
                   {item.subCategory.map(item =>  <li class="cat-item">
@@ -69,7 +70,7 @@ const Header = ({ open, setOpen }) => {
                 </li> )}
               </ul>
             </nav>
-          </div>
+          </div> */}
 
           <div class="header-right">
             <div class="header-content-inner">
@@ -208,7 +209,7 @@ const Header = ({ open, setOpen }) => {
                     <span class="toggle-sub-menu"> </span>
                   </div>
                 </a></Link>
-                <ul className={menuMobile == true ? displayBlock : displayNone}>
+                <ul className={menuMobile == true ? DISPLAY_BLOCK : DISPLAY_NONE}>
                   {item.subMenu.map(sub =>   <li onClick={() => {setOpen(!open)}} class="menu-item menu-item-type-custom menu-item-object-custom menu-item-313">
                     <Link to={sub.path}> <a >
                       <div class="menu-item-wrap">
