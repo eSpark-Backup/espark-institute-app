@@ -7,14 +7,17 @@ export const topBarJson = [
     iconsPath: [
       {
         iconClass:"fa-facebook-f",
-        path: "https://www.facebook.com/eSparkConsGroup",
+        // path: "https://www.facebook.com/eSparkConsGroup",
+        path: "",
       },
       {
         iconClass:"fa-instagram",
-        path: "https://www.instagram.com/esparkconsultantsgroup/",
+        // path: "https://www.instagram.com/esparkconsultantsgroup/",
+        path: "",
       },
       {iconClass:"fa-linkedin-in",
-      path: "https://www.instagram.com/esparkconsultantsgroup/",
+      // path: "https://pk.linkedin.com/in/espark-consulting-group-440b3a168",
+      path: "",
     }
     ],
   },

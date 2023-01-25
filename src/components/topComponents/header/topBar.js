@@ -10,14 +10,13 @@ const TopBar = ({data}) => {
             <div className="top-bar-info">
               <ul className="info-list">
                 <li className="info-item">
-                  {/* <a href="tel:+8819906886" className="info-link"> */}
-                  <a href="javascript:;" className="info-link">
+                  <a href= {`tel:${item.phone}`} className="info-link">
                     <i className="info-icon fas fa-phone"></i>
                     <span className="info-text">{item.phone}</span>
                   </a>
                 </li>
                 <li className="info-item">
-                  <a href="javascript:;" className="info-link">
+                  <a href={`mailto:${item.email}`} className="info-link">
                     <i className="info-icon far fa-envelope"></i>
                     <span className="info-text">{item.email}</span>
                   </a>
