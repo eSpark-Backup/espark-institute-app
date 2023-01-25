@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { DISPLAY_NONE,DISPLAY_BLOCK } from "../../../constants";
-import { headerData } from "../../../helper/header";
+import { headerData } from "../../../helpers/header";
+
 
 
 const Header = ({ open, setOpen }) => {

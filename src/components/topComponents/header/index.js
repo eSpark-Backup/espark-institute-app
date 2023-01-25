@@ -1,11 +1,11 @@
 import React from "react";
-import Footer from "../../bottomComponets/footer";
+// import Footer from "../../bottomComponets/footer";
 import Header from "./header";
 import TopBar from "./topBar";
 
-import { topBarJson } from "../../../helper/top-bar";
+import { topBarJson } from "./../../../helpers/top-bar";
 
-const HeaderSection = ({setOpen, open}) => {
+const HeaderSection = ({ setOpen, open }) => {
   return (
     <div>
       <header
@@ -19,7 +19,7 @@ const HeaderSection = ({setOpen, open}) => {
           data-sticky="1"
         >
           <TopBar data={topBarJson} />
-          <Header setOpen ={setOpen} open ={open}  />
+          <Header setOpen={setOpen} open={open} />
         </div>
       </header>
     </div>

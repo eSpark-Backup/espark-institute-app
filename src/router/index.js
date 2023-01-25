@@ -10,10 +10,14 @@ const AppRoutes = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  let routes = useRoutes([{
-               path: "/", element: <Home />,
-               path: "/contact-us", element: <ContactUs />,         
-               }]);
+  let routes = useRoutes([
+    {
+      path: "/",
+      element: <Home />,
+      path: "/contact-us",
+      element: <ContactUs />,
+    },
+  ]);
 
   return routes;
 };
