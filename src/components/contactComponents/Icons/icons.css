@@ -1,0 +1,40 @@
+.marginLeft{
+    margin-left: 25px!important;
+}
+.icons-style{
+    animation-name: edumallAnimationFadeInUp;
+    box-sizing: border-box;
+    position: relative;
+    animation-duration: 1s;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.icon-wrapper{
+    box-sizing: border-box !important;
+    transition:background-color 0.3s ease 0s, border 0.3s ease 0s, border-radius 0.3s ease 0s, box-shadow 0.3s ease 0s, -webkit-border-radius 0.3s ease 0s, -webkit-box-shadow 0.3s ease 0s;
+    display: flex!important;
+    justify-content: flex-start!important;
+    margin: 0px 0px 24px!important;
+}
+
+.icons-box-wrapper-1{
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    text-align: left;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.icons-contacts{
+    display: inline-block!important;
+    text-align: center!important;
+    line-height: 1!important;
+    box-sizing: border-box!important;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s!important;
+    color: #0071DC!important;
+    font-size: 32px!important;
+}

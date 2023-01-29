@@ -1,0 +1,53 @@
+.marginTop{
+    margin-top: 55px;
+}
+
+.col-4-md-wrapper{
+    width: 70%;
+    margin: auto;
+}
+.icon-wrapper{
+    padding: 1px;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    flex-direction: column;
+}
+
+.icon-style{
+    font-size: 32px ;
+    color: #0071DC;
+}
+.icon-txt{
+    color: black;
+    margin-left: 15px;
+}
+.icon-para{
+    color: #696969;
+}
+.horizontal-Line{
+    margin-top: 25px;
+}
+.display-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ababab;
+    padding: 15px;
+}
+.send-message-section{
+    margin-top: 35px;
+}
+.contact-wrapper-align{
+    box-sizing: border-box!important;
+    display: flex!important;
+    margin-right: auto!important;
+    margin-left: auto!important;
+    position: relative!important;
+    padding-left: 35px!important;
+    padding-right: 35px!important;
+    max-width: 1270px!important;
+}

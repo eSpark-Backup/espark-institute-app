@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import { BrowserRouter as Router, useRoutes } from "react-router-dom";
 
 import LayoutOne from "../layout/layoutOne";
-import Home from "../screens/home";
-import ContactUs from "../screens/home/contact/contact-us";
+import About from "../screens/about/about";
+import ContactUs from "../screens/contact";
 
 const AppRoutes = () => {
   useEffect(() => {
@@ -12,10 +12,12 @@ const AppRoutes = () => {
 
   let routes = useRoutes([
     {
-      path: "/",
-      element: <Home />,
       path: "/contact-us",
-      element: <ContactUs />,
+      element:  <ContactUs />,
+    },
+    {
+      path: "/about-us",
+      element:  <About />,
     },
   ]);
 

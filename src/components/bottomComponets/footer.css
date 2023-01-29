@@ -1,3 +1,23 @@
 .marginTop{
-    margin-top: 550px;
+    margin-top: 10px;
 }
+.displayFlexFooter{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+}
+.footerDivs{
+    width: 100%!important;
+}
+
+
+@media screen and (max-width: 800px) {
+    .displayFlexFooter {
+        display: flex!important;
+        align-items: right!important;
+        justify-content: right!important;
+        padding: 35px;
+    
+    }
+  }
