@@ -3,6 +3,8 @@ import HeaderSection from "../components/topComponents/header";
 import Footer from "../components/bottomComponets/footer";
 import { FULL_WIDTH, MEDIUM,MOBILE_VIEW,OPEN_WINDOW } from "../constants";
 import { getWindowSize } from "../utils/utils";
+import { footerJson } from "../helpers/footer";
+
 
 const LayoutOne = ({ children }) => {
   const [open, setOpen] = useState(true);
@@ -35,7 +37,8 @@ const LayoutOne = ({ children }) => {
           <HeaderSection setOpen={setOpen} open={open} />
         </div>
         <div className="page-content">
-          <div className="container">
+          {/* <div className="container"> */}
+          <div className="">
             <div className="row">
               <div id="page-main-content" className="page-main-content">
                 {children}
@@ -45,7 +48,7 @@ const LayoutOne = ({ children }) => {
         </div>
         <div id="page-footer-wrapper" className="page-footer-wrapper ">
           <div className="footer-margin-150">
-            <Footer />
+            <Footer  footerJson ={footerJson}/>
           </div>
         </div>
       </div>

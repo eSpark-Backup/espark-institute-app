@@ -1,17 +1,3 @@
-/* @import url(./../fonts/awesome/css/fontawesome-all.min.css);
-@import url(./assets/css/style.css);
-@import url(./assets/css/topbar.css);
-@import url(./assets/css/animations.min.css);
-@import url(./assets/css/elementor-icons.min.css);
-@import url(./assets/css/events-manager.css);
-@import url(./assets/css/frontend-legacy.min.css);
-@import url(./assets/css/frontend.min.css);
-@import url(./../fonts/gordita/font-gordita.min.css);
-@import url(./assets/libs/growl/css/jquery.growl.min.css);
-@import url(./assets/libs/swiper/css/swiper.min.css);
-@import url(./assets/dist/block-library/style.min.css); */
-
-
 @import url(./assets/css/edumall-events-manager-css.css);
 @import url(./assets/css/edumall-style-css.css);
 @import url(./assets/css/edumall-tutor-css.css);
@@ -51,6 +37,27 @@
     padding: 0;
     box-sizing: border-box;
    }
+
+
+   html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  body {
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+    margin: 0px;
+    color: #696969;
+    background: center center / cover no-repeat fixed rgb(255, 255, 255);
+    font-family: Gordita;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 1.86;
+  }  
 
 .display-Block-DropDown{
     display: block;
@@ -3206,7 +3213,7 @@ a.tutor-btn:hover,
     background-size: cover;
 }
 
-body {
+/* body {
     background: #ffffff;
     background-color: #ffffff;
     background-repeat: no-repeat;
@@ -3217,7 +3224,7 @@ body {
     -ms-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+} */
 
 body.edumall-dark-scheme {
     background: #020D1B;
@@ -3455,3 +3462,4 @@ textarea,
         font-size: 24px;
     }
 }
+
