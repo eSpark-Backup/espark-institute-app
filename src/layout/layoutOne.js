@@ -6,7 +6,6 @@ import { getWindowSize } from "../utils/utils";
 import { footerJson } from "../helpers/footer";
 
 
-
 const LayoutOne = ({ children }) => {
   const [open, setOpen] = useState(true);
   const [windowSize, setWindowSize] = useState(getWindowSize());

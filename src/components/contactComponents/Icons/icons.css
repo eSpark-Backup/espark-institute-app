@@ -10,11 +10,11 @@
     margin-bottom: 0px;
 }
 .icon-wrapper{
-    box-sizing: border-box !important;
+    box-sizing: border-box;
     transition:background-color 0.3s ease 0s, border 0.3s ease 0s, border-radius 0.3s ease 0s, box-shadow 0.3s ease 0s, -webkit-border-radius 0.3s ease 0s, -webkit-box-shadow 0.3s ease 0s;
-    display: flex!important;
-    justify-content: flex-start!important;
-    margin: 0px 0px 24px!important;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 0px 24px;
 }
 
 .icons-box-wrapper-1{
@@ -30,11 +30,11 @@
     align-items: center;
 }
 .icons-contacts{
-    display: inline-block!important;
-    text-align: center!important;
-    line-height: 1!important;
-    box-sizing: border-box!important;
-    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s!important;
-    color: #0071DC!important;
-    font-size: 32px!important;
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+    box-sizing: border-box;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    color: #0071DC;
+    font-size: 32px;
 }

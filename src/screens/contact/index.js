@@ -36,31 +36,6 @@ function ContactUs() {
             </div>
           </div>
         </section>
-        <style
-          dangerouslySetInnerHTML={{
-            __html: `
-html {
-  box-sizing: border-box;
-  font-family: sans-serif;
-  text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-}
-
-body {
-  box-sizing: inherit;
-  -webkit-font-smoothing: antialiased;
-  margin: 0px;
-  color: #696969;
-  background: center center / cover no-repeat fixed rgb(255, 255, 255);
-  font-family: Gordita;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 1.86;
-}
-`,
-          }}
-        />
       </div>
     </div>
   );

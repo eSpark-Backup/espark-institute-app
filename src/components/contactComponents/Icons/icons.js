@@ -56,7 +56,8 @@ export default function IconsContact({iconClass, heading, paragraph}) {
       <div className="elementor-element  icons-style-txt elementor-element-276fc95 elementor-align-center elementor-widget elementor-widget-tm-separator animated edumallFadeInUp">
         <div className="elementor-widget-container icons-style-txt-2">
           <div className="tm-separator horizontal-line">
-            <div className="inner inner-line" />
+            {/* <div className="inner inner-line" /> */}
+            <hr className="inner-line"></hr>
           </div>
         </div>
       </div>

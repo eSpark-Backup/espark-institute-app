@@ -88,7 +88,7 @@ const Footer = ({footerJson}) => {
                      </div>
                      <div className=" col-sm-6 col-md-3 displayFlexFooter" >
 
-                            <div   class=" footerDivs elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-172fcf4" data-id="172fcf4" data-element_type="column">
+                            <div   class=" footerDivs " data-id="172fcf4" data-element_type="column">
                           <div class="elementor-column-wrap elementor-element-populated">
                                   <div class="elementor-widget-wrap">
                                 <div class="elementor-element elementor-element-729c27f elementor-widget elementor-widget-tm-heading" data-id="729c27f" data-element_type="widget" data-widget_type="tm-heading.default">
@@ -180,7 +180,7 @@ const Footer = ({footerJson}) => {
                             </div>
                      </div>
                      <div className=" col-sm-6 col-md-3 displayFlexFooter"  >
-                <div  class=" footerDivs elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-a6f4785" data-id="a6f4785" data-element_type="column">
+                <div  class=" footerDivs " data-id="a6f4785" data-element_type="column">
                 <div class=" elementor-column-wrap elementor-element-populated">
                         <div class="elementor-widget-wrap">
                       <div class="elementor-element elementor-element-f1351fa elementor-widget elementor-widget-tm-heading" data-id="f1351fa" data-element_type="widget" data-widget_type="tm-heading.default">
@@ -273,7 +273,7 @@ const Footer = ({footerJson}) => {
                      </div>
                      
                       <div className=" col-sm-6 col-md-3 displayFlexFooter" >
-                              <div class="footerDivs elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-2fe0155" data-id="2fe0155" data-element_type="column">
+                              <div class="footerDivs " data-id="2fe0155" data-element_type="column">
                                 <div class="elementor-column-wrap elementor-element-populated">
                                         <div class="elementor-widget-wrap">
                                       <div class="elementor-element elementor-element-7fe82fa elementor-widget elementor-widget-tm-heading" data-id="7fe82fa" data-element_type="widget" data-widget_type="tm-heading.default">

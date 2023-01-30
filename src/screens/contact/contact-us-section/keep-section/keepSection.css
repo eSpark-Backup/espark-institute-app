@@ -1,5 +1,5 @@
 .colDivWrappr{
-    width: 100% !important; 
+    width: 100%; 
     padding: 15px;
 }
 .eitt-widget-wrap{
@@ -16,9 +16,9 @@
     margin: 0px 0px 44px;
 }
 .eitt-modern-heading{
-    max-width: 100% !important;
-    box-sizing :border-box !important;
-    width :300px !important;
+    max-width: 100%  ;
+    box-sizing :border-box ;
+    width :300px ;
 }
 .keep-haeding{
     clear: both;
@@ -45,19 +45,19 @@
     /* font-family:Font Awesome 5 Pro'; */
 }
 .addr-heading{
-    margin: 0px 0px 18px !important;
-    clear: both!important;
-    color: #252525!important;
-    box-sizing: border-box!important;
-    font-weight: 500!important;
-    letter-spacing: 0em!important;
+    margin: 0px 0px 18px ;
+    clear: both;
+    color: #252525;
+    box-sizing: border-box;
+    font-weight: 500;
+    letter-spacing: 0em;
     transition:
-      all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s!important;
-    display: inline-block!important;
-    margin-bottom: 0px!important;
-    font-size: 18px!important;
-    line-height: 30px!important;
-    margin-left:15px!important;
+      all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    display: inline-block;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left:15px;
 }
 .icons-style-2{
     box-sizing: border-box;
@@ -77,38 +77,38 @@
     margin-bottom: 0px;
 }
 .icons-style-txt-2{
+    width: 100%;
     box-sizing: border-box;
     transition: background-color 0.3s ease 0s, border 0.3s ease 0s, border-radius 0.3s ease 0s, box-shadow 0.3s ease 0s, -webkit-border-radius 0.3s ease 0s, -webkit-box-shadow 0.3s ease 0s;
     margin: 28px 0px 30px;
 }
 .inner-line{
-    box-sizing: border-box!important;
-    background: currentcolor!important;
-    display: inline-block!important;
-    max-width: 100%!important;
-    color: rgb(238, 238, 238)!important;
-    width: 100%!important;
-    height: 1px!important;
+    width: 100%;
+    color: rgb(238, 238, 238);
+    height: 1px;
 }
 
 .eitt-map{
-    box-sizing: border-box!important;
-    width: 100%!important;
-    background-color: rgb(226, 226, 226)!important;
-    height: 720px!important;
-    overflow: hidden!important;
-    position: relative!important;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    height: 720px;
+    overflow: hidden;
+    position: relative;
 }
 .displayFlex{
     display: flex;
     align-items: left;
     justify-content: left;
 }
+.borderNone{
+    border: none;
+}
 
 
 @media screen and (max-width: 700px) {
     .displayFlex {
-        display: flex!important;
-        align-items: center!important;
-        justify-content: center!important;    }
+        display: flex;
+        align-items: center;
+        justify-content: center;    }
   }

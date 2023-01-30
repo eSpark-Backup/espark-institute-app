@@ -8,15 +8,15 @@
 
 }
 .footerDivs{
-    width: 100%!important;
+    width: 100%;
 }
 
 
 @media screen and (max-width: 800px) {
     .displayFlexFooter {
-        display: flex!important;
-        align-items: right!important;
-        justify-content: right!important;
+        display: flex;
+        align-items: right;
+        justify-content: right;
         padding: 35px;
     
     }
