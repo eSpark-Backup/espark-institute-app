@@ -631,8 +631,8 @@ input[type=search] {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-left: -.9375rem;
-    margin-right: -.9375rem
+    /* margin-left: -.9375rem;
+    margin-right: -.9375rem */
 }
 
 .col-lg-1,
@@ -6062,7 +6062,8 @@ article.hentry p:last-child img.alignright {
     border: 0;
     border-radius: 0 5px 5px 0;
     background: none;
-    color: var(--edumall-color-primary)
+    /* color: var(--edumall-color-primary) */
+    color: #0071dc
 }
 
 .header-search-form .search-submit:hover {
@@ -6127,6 +6128,10 @@ article.hentry p:last-child img.alignright {
 .nav-links-hover-style-01 .menu--primary .menu__container>li>a>.menu-item-wrap {
     position: relative;
     padding: 4px 0
+}
+
+.nav-links-hover-style-01 .menu--primary .menu__container>li>a>.menu-item-wrap:hover .dropDown {
+    display: block!important;
 }
 
 .nav-links-hover-style-01 .menu--primary .menu__container>li>a>.menu-item-wrap:after {
@@ -9581,8 +9586,8 @@ body:not(.header-more-tools-opened) .header-light.headroom--top .header-search-f
 .page-sidebar {
     position: relative;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
     width: 100%
 }
 

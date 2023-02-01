@@ -1,19 +1,57 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import HeaderSection from "../components/topComponents/header";
-import Footer from "./../components/bottomComponets/footer";
+import Footer from "../components/bottomComponets/footer";
+import { FULL_WIDTH, MEDIUM,MOBILE_VIEW,OPEN_WINDOW } from "../constants";
+import { getWindowSize } from "../utils/utils";
+import { footerJson } from "../helpers/footer";
+
 
 const LayoutOne = ({ children }) => {
+  const [open, setOpen] = useState(true);
+  const [windowSize, setWindowSize] = useState(getWindowSize());
+
+  useEffect(() => {
+   const handleWindowResize = () => {
+      setWindowSize(getWindowSize());
+    }
+    window.addEventListener("resize", handleWindowResize);
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  }, []);
+
   return (
     <>
-      <div class="home page-template-default page page-id-437 wp-embed-responsive theme-edumall woocommerce-no-js desktop desktop-menu edumall-light-scheme mobile-menu-push-to-left woocommerce header-sticky-both wide page-has-no-sidebar title-bar-none elementor-default elementor-kit-47 elementor-page elementor-page-437">
-        <div class="content-wrapper"></div>
-        <HeaderSection />
-        <div id="page-content" class="page-content">
-          <div class="container"> {children}</div>
+      <div id="page">
+        <div
+          className={
+            open
+                ? windowSize.innerWidth < 600
+                ? MOBILE_VIEW
+                : windowSize.innerWidth > 600 && windowSize.innerWidth < 900
+                ? MEDIUM
+                : FULL_WIDTH
+                : OPEN_WINDOW
+          }
+        >
+          <HeaderSection setOpen={setOpen} open={open} />
+        </div>
+        <div className="page-content">
+          {/* <div className="container"> */}
+          <div className="">
+            <div className="row">
+              <div id="page-main-content" className="page-main-content">
+                {children}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="page-footer-wrapper" className="page-footer-wrapper ">
+          <div className="footer-margin-150">
+            <Footer  footerJson ={footerJson}/>
+          </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 };

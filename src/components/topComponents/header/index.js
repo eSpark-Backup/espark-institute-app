@@ -1,19 +1,25 @@
 import React from "react";
+// import Footer from "../../bottomComponets/footer";
 import Header from "./header";
 import TopBar from "./topBar";
 
-const HeaderSection = () => {
+import { topBarJson } from "./../../../helpers/top-bar";
+
+const HeaderSection = ({ setOpen, open }) => {
   return (
     <div>
-      <header className="page-header header-03 header-dark header-layout-fixed nav-links-hover-style-01 header-sticky-dark-logo">
-        <div className="page-header-place-holder"></div>
+      <header
+        id="page-header"
+        className="header-03 header-dark header-layout-fixed nav-links-hover-style-01 header-sticky-dark-logo"
+      >
+        <div className="page-header-place-holder held"></div>
         <div
           id="page-header-inner"
           className="page-header-inner"
           data-sticky="1"
         >
-          <TopBar />
-          <Header />
+          <TopBar data={topBarJson} />
+          <Header setOpen={setOpen} open={open} />
         </div>
       </header>
     </div>

@@ -1,0 +1,20 @@
+.input-field-style{
+    margin: 0px;
+    font: inherit;
+    line-height: normal;
+    box-sizing: border-box;
+    transition:all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    outline: none;
+    border:1px solid rgb(245, 245, 245);
+    border-radius: 5px;
+    padding: 3px 20px;
+    width: 100%;
+    min-height: 52px;
+    appearance: none;
+    border-color: #f8f8f8;
+    color: #252525;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0em;
+}
