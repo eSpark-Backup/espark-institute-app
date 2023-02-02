@@ -1,19 +1,18 @@
 import React, { useEffect, useState } from "react";
 import HeaderSection from "../components/topComponents/header";
 import Footer from "../components/bottomComponets/footer";
-import { FULL_WIDTH, MEDIUM,MOBILE_VIEW,OPEN_WINDOW } from "../constants";
+import { FULL_WIDTH, MEDIUM, MOBILE_VIEW, OPEN_WINDOW } from "../constants";
 import { getWindowSize } from "../utils/utils";
 import { footerJson } from "../helpers/footer";
-
 
 const LayoutOne = ({ children }) => {
   const [open, setOpen] = useState(true);
   const [windowSize, setWindowSize] = useState(getWindowSize());
 
   useEffect(() => {
-   const handleWindowResize = () => {
+    const handleWindowResize = () => {
       setWindowSize(getWindowSize());
-    }
+    };
     window.addEventListener("resize", handleWindowResize);
     return () => {
       window.removeEventListener("resize", handleWindowResize);
@@ -26,12 +25,12 @@ const LayoutOne = ({ children }) => {
         <div
           className={
             open
-                ? windowSize.innerWidth < 600
+              ? windowSize.innerWidth < 600
                 ? MOBILE_VIEW
                 : windowSize.innerWidth > 600 && windowSize.innerWidth < 900
                 ? MEDIUM
                 : FULL_WIDTH
-                : OPEN_WINDOW
+              : OPEN_WINDOW
           }
         >
           <HeaderSection setOpen={setOpen} open={open} />
@@ -48,7 +47,7 @@ const LayoutOne = ({ children }) => {
         </div>
         <div id="page-footer-wrapper" className="page-footer-wrapper ">
           <div className="footer-margin-150">
-            <Footer  footerJson ={footerJson}/>
+            <Footer footerJson={footerJson} />
           </div>
         </div>
       </div>
