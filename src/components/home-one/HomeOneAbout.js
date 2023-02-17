@@ -6,13 +6,13 @@ import SectionTitle from '../sectionTitle/SectionTitle';
 
 const items = [
     {
-        title: 'Flexible Classes',
-        info: 'It is a long established fact that a reader will be distracted by this on readable content of when looking at its layout.',
+        title: 'Expert-Led Learning',
+        info: 'Gain knowledge and skills from eSpark’s exceptional panel of Tech experts.',
         icon: 'icon-Hand---Book'
     },
     {
-        title: 'Learn From Anywhere',
-        info: 'It is a long established fact that a reader will be distracted by this on readable content of when looking at its layout.',
+        title: 'Creative Progress',
+        info: 'It is a long established fact that a reader will be distracted by this on readable content of when looking at its layouteSpark offers amazing eye visuals and UX that are found in modern online learning websites , including progress tracking  & interactive educational resources.',
         icon: 'icon-Campus'
     }
 ];
@@ -42,47 +42,46 @@ const HomeOneAbout = () => {
                     <div className="col-lg-6">
                         <div className="inner">
                             <SectionTitle
-                                slogan = "About Us"
-                                title = "Creating A Community Of Life Long Learners"
+                                slogan="About Us"
+                                title="Building A Community of Future Tech Leaders​"
                             />
-                            <ScrollAnimation 
+                            <ScrollAnimation
                                 animateIn="fadeInUp"
                                 animateOut="fadeInOut"
-                                animateOnce={ true }
+                                animateOnce={true}
                             >
-                                <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc
-                                null liobortis nibh porttitor. Facilisi arcu, nibh vel risus, morbi pharetra.</p>
+                                <p className="description">Transform your tech passion into a profession with eSpark. Enroll now to lead the future of tech.</p>
                             </ScrollAnimation>
-                            { items && items.length > 0 &&
+                            {items && items.length > 0 &&
                                 <div className="about-feature-list">
-                                    { items.map( ( data , i ) => (
-                                        <ScrollAnimation 
+                                    {items.map((data, i) => (
+                                        <ScrollAnimation
                                             animateIn="fadeInUp"
                                             animateOut="fadeInOut"
                                             className="our-feature"
-                                            animateOnce={ true }
+                                            animateOnce={true}
                                             key={i}
                                         >
                                             <div className="our-feature">
                                                 <div className="icon">
-                                                    <i className={ data.icon }></i>
+                                                    <i className={data.icon}></i>
                                                 </div>
                                                 <div className="feature-content">
-                                                    <h6 className="feature-title">{ data.title }</h6>
-                                                    <p className="feature-description">{ data.info }</p>
+                                                    <h6 className="feature-title">{data.title}</h6>
+                                                    <p className="feature-description">{data.info}</p>
                                                 </div>
                                             </div>
                                         </ScrollAnimation>
-                                    ) ) }
+                                    ))}
                                 </div>
                             }
-                            <ScrollAnimation 
+                            <ScrollAnimation
                                 animateIn="fadeInUp"
                                 animateOut="fadeInOut"
                                 className="read-more-btn"
-                                animateOnce={ true }
+                                animateOnce={true}
                             >
-                                <Link className="edu-btn" to="/about-us-1">Know About Us<i className="icon-arrow-right-line-right"></i></Link>
+                                <Link className="edu-btn" to="/about-us-1">Learn More<i className="icon-arrow-right-line-right"></i></Link>
                             </ScrollAnimation>
                             <div className="shape shape-6 about-parallax-2 d-xl-block d-none">
                                 <img src="/images/shapes/shape-07.png" alt="Shape Thumb" />
