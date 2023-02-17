@@ -11,7 +11,8 @@ const NewsLettterOne = () => {
                             <SectionTitle
                                 classes = "text-white text-center"
                                 slogan = "Sign up for our newsletter​"
-                                titles = "Get the Latest Updates"
+                                title = "Get the Latest Updates"
+                                color="white"
                             />
                             <div className="newsletter-form newsletter-form-style-1 mt--60">
                                 <div className="input-box">
