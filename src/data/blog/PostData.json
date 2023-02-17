@@ -1,23 +1,23 @@
 [
     {
         "id": 1,
-        "title": "Introduction to Javascript for the Beginners",
+        "title": "The Benefits of Building Native iOS Apps with Swift and Xcode",
         "image": "post-01.jpg",
-        "date": "06 Nov, 2022",
+        "date": "06 Nov, 2023",
         "shortDate": "06 Nov",
         "author": ["John Kite"],
         "readingTime": "3 Min Read",
         "view": "232 View",
         "comment": "02 Comments",
-        "categories": ["Business", "Education"],
+        "categories": ["Technology", "Education"],
         "tags": ["Design", "Course", "UI/UX Design"],
         "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
         "id": 2,
-        "title": "Identity Design for a New Courses Crusader Work",
+        "title": "5 SEO Techniques to Boost Your Website's Visibility",
         "image": "post-02.jpg",
-        "date": "10 Nov, 2022",
+        "date": "10 Nov, 2023",
         "shortDate": "10 Nov",
         "author": ["Hazel Thomas"],
         "readingTime": "4 Min Read",

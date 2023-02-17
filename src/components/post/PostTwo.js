@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { slugify } from '../../utils';
+import './postTwo.css'
 
 const PostTwo = ( { data, classes, bgWhite } ) => {
     return (
@@ -11,7 +12,7 @@ const PostTwo = ( { data, classes, bgWhite } ) => {
                         <Link className="eduvibe-status status-05 color-primary w-800" to={process.env.PUBLIC_URL + `/category/${ slugify( data.categories.slice( 0, 1 ) ) }`}>{data.categories.slice(0, 1)}</Link>
                     </div>
                     <h4 className="title">
-                        <Link to={process.env.PUBLIC_URL + `/blog-details/${data.id}`}>{data.title}</Link>
+                        <Link to={process.env.PUBLIC_URL + `/blog-details/${data.id}`} className ="titleColor">{data.title}</Link>
                     </h4>
                     <div className="blog-card-bottom">
                         <ul className="blog-meta">
