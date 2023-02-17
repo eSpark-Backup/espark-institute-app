@@ -25,7 +25,7 @@ const HomeOne = () => {
 
             <HomeOneCategory />
 
-            <HomeOneCourses />
+            {/* <HomeOneCourses /> */}
 
             <TestimonialSectionFour />
 
