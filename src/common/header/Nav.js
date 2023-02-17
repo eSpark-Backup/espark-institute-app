@@ -4,25 +4,25 @@ import { Link } from 'react-router-dom';
 const Nav = () => {
     return (
         <ul className="mainmenu">
-            <li className="has-droupdown">
+            <li >
                 <Link to="#">Home</Link>
-                <ul className="submenu">
+                {/* <ul className="submenu">
                     <li><Link to="/home-1">Home 1</Link></li>
                     <li><Link to="/home-2">Home 2</Link></li>
                     <li><Link to="/home-3">Home 3</Link></li>
                     <li><Link to="/home-4">Home 4</Link></li>
                     <li><Link to="/home-5">Home 5</Link></li>
                     <li><Link to="/">Landing Demo</Link></li>
-                </ul>
+                </ul> */}
             </li>
 
-            <li className="has-droupdown">
-                <Link to="#">About</Link>
-                <ul className="submenu">
+            <li >
+                <Link to="#">About Us</Link>
+                {/* <ul className="submenu">
                     <li><Link to="/about-us-1">About Us 1</Link></li>
                     <li><Link to="/about-us-2">About Us 2</Link></li>
                     <li><Link to="/about-us-3">About Us 3</Link></li>
-                </ul>
+                </ul> */}
             </li>
             
             <li className="has-droupdown">
@@ -44,9 +44,9 @@ const Nav = () => {
                 </ul>
             </li>
             
-            <li className="has-droupdown">
-                <Link to="#">Pages</Link>
-                <ul className="submenu">
+            <li >
+                <Link to="#">Events</Link>
+                {/* <ul className="submenu">
                     <li className="has-droupdown">
                         <Link to="#">Event</Link>
                         <ul className="submenu">
@@ -82,11 +82,11 @@ const Nav = () => {
                     <li><Link to="/coming-soon">Coming Soon</Link></li>
                     <li><Link to="/login-register">Login/Register</Link></li>
                     <li><Link to="/404">404</Link></li>
-                </ul>
+                </ul> */}
             </li>
             
-            <li className="has-droupdown"><Link to="#">Blog</Link>
-                <ul className="submenu">
+            <li><Link to="#">Blog</Link>
+                {/* <ul className="submenu">
                     <li><Link to="/blog-grid-1">Blog Grid 1</Link></li>
                     <li><Link to="/blog-grid-2">Blog Grid 2</Link></li>
                     <li><Link to="/blog-grid-3">Blog Grid 3</Link></li>
@@ -101,15 +101,15 @@ const Nav = () => {
                     <li><Link to="/category/education">Category Archive</Link></li>
                     <li><Link to="/tag/finance">Tag Archive</Link></li>
                     <li><Link to="/author/hazel-thomas">Author Archive</Link></li>
-                </ul>
+                </ul> */}
             </li>
 
-            <li className="has-droupdown">
+            <li >
                 <Link to="/">Contact</Link>
-                <ul className="submenu">
+                {/* <ul className="submenu">
                     <li><Link to="/contact-me">Contact Me</Link></li>
                     <li><Link to="/contact-us">Contact Us</Link></li>
-                </ul>
+                </ul> */}
             </li>
         </ul>
     )

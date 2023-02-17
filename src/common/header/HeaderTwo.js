@@ -31,7 +31,7 @@ const HeaderTwo = ( { styles, disableSticky, searchDisable, buttonStyle } ) => {
                     <div className="col-lg-4 col-xl-3 col-md-6 col-6">
                         <div className="logo">
                             <Link to={process.env.PUBLIC_URL + "/"}>
-                                <img className="logo-light" src="/images/logo/logo.png" alt="Main Logo" />
+                                <img className="logo-light" style={{width: '100px', height: '150px'}} src="/images/logo/03.png" alt="Main Logo" />
                             </Link>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const HeaderTwo = ( { styles, disableSticky, searchDisable, buttonStyle } ) => {
                                 }
                                 <div className="quote-icon quote-user d-none d-md-block ml--15 ml_sm--5">
                                     <Link className={`edu-btn btn-medium left-icon header-button ${ buttonStyle || '' }`} to={process.env.PUBLIC_URL + "/login-register"}>
-                                        <i className="ri-user-line"></i>Login / Register
+                                        <i className="ri-user-line"></i>Register
                                     </Link>
                                 </div>
                                 <div className="quote-icon quote-user d-block d-md-none ml--15 ml_sm--5">
