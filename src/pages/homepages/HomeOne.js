@@ -20,7 +20,7 @@ const HomeOne = () => {
             <HeaderTwo styles="header-transparent header-style-2" />
 
             <BannerOne />
-            
+
             <HomeOneAbout />
 
             <HomeOneCategory />
@@ -35,9 +35,9 @@ const HomeOne = () => {
 
             <NewsLettterOne />
 
-            <HomeOneBlog />     
+            <HomeOneBlog />
 
-            <FooterOne />   
+            <FooterOne />
         </>
     )
 }
