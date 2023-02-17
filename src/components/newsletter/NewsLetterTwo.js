@@ -11,7 +11,7 @@ const NewsLetterTwo = () => {
                             <SectionTitle
                                 classes = "text-center"
                                 slogan = "Subscribe Newsletter"
-                                title = "Get Every Latest News"
+                                title = "Get the Latest Updates"
                             />
                             <div className="newsletter-form newsletter-form-style-1 mt--60 mt_md--30 mt_sm--30 position-relative">
                                 <div className="input-box text-start">

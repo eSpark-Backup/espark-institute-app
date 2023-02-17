@@ -6,23 +6,23 @@ import { FaPlay } from 'react-icons/fa';
 
 const items = [
     {
-        title: 'Flexible Classes',
-        info: 'Fusce tempor, tortor vehicula posuere, mi est iaculis quam, nec luctus enim',
+        title: 'Current Curriculum',
+        info: 'Cutting-edge courses that reflect the latest industry trends and technologies.​',
         icon: 'icon-student'
     },
     {
-        title: 'Offline Mode',
-        info: 'Fusce tempor, tortor vehicula posuere, mi est iaculis quam, nec luctus enim',
+        title: 'Expert Instructors',
+        info: 'Skilled instructors who are dedicated in providing effective and engaging learning experiences.​',
         icon: 'icon-square'
     },
     {
-        title: 'Flexible Learning',
-        info: 'Fusce tempor, tortor vehicula posuere, mi est iaculis quam, nec luctus enim',
+        title: 'Industry Connections',
+        info: 'Strong relationships with leading technology professionals, offering chances of networking and job placement opportunities.​',
         icon: 'icon-research'
     },
     {
-        title: 'Educator Support',
-        info: 'Fusce tempor, tortor vehicula posuere, mi est iaculis quam, nec luctus enim',
+        title: 'Hands-on Learning',
+        info: 'Practical education to reinforce learning through hands-on practice and application.​',
         icon: 'icon-clock'
     }
 ];

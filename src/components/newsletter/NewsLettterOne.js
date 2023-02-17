@@ -3,15 +3,15 @@ import SectionTitle from '../sectionTitle/SectionTitle';
 
 const NewsLettterOne = () => {
     return (
-        <div className="edu-newsletter-area newsletter-style-1 edu-section-gap bg-color-primary">
+        <div className="edu-newsletter-area newsletter-style-1 edu-section-gap bg-color-primary" style={{backgroundColor:"#FFBA49"}}>
             <div className="container eduvibe-animated-shape">
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="inner text-center">
                             <SectionTitle
                                 classes = "text-white text-center"
-                                slogan = "Subscribe Newsletter"
-                                title = "Get Every Latest News"
+                                slogan = "Sign up for our newsletter​"
+                                titles = "Get the Latest Updates"
                             />
                             <div className="newsletter-form newsletter-form-style-1 mt--60">
                                 <div className="input-box">
