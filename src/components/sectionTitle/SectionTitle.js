@@ -1,7 +1,7 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-const SectionTitle = ( { slogan, title, titles, classes } ) => {
+const SectionTitle = ( { slogan, title, titles, classes, color } ) => {
     return (
         <div className={`section-title ${ classes ? classes: '' }`}>
             <ScrollAnimation 
@@ -17,8 +17,7 @@ const SectionTitle = ( { slogan, title, titles, classes } ) => {
                 animateOut="fadeInOut"
                 animateOnce={true}
             >
-                <h3 className="title" style={{color : "gray"}} dangerouslySetInnerHTML={{__html: title}}></h3>
-                <h3 className="titles" style={{color : "white"}} dangerouslySetInnerHTML={{__html: titles}}></h3>
+                <h3 className="title" style={{color :color ?? "gray"}} dangerouslySetInnerHTML={{__html: title}}></h3>
             </ScrollAnimation>
         </div>
     )
