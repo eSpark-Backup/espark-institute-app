@@ -12,7 +12,7 @@ const items = [
     },
     {
         title: "Creative Progress",
-        info: "Spark offers amazing eye visuals and UX that are found in modern online learning websites , including progress tracking  & interactive educational resources.",
+        info: "eSpark offers amazing eye visuals and UX that are found in modern online learning websites , including progress tracking  & interactive educational resources.",
         icon: "icon-Campus",
     },
 ];
