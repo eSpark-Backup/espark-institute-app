@@ -4,7 +4,7 @@ import { TestimonialOneParams } from '../../utils/script';
 
 let data = [
     {
-        name: "Ahsan Khan",
+        name: "Ayesha Khan",
         details: "I have had the opportunity to enroll in the iOS Application Development course, and I must say it was an excellent experience. The course had a strong emphasis on practical, real-world applications, which I found to be particularly valuable. The focus was not just on theory but on building functional iOS apps that could be used on the App Store. The instructor was knowledgeable, the learning materials were well-organized, and there were plenty of hands-on exercises. I would definitely recommend this course to anyone who is interested in iOS app development.​",
         designation: "SEO Expert",
         image: "client-01.png"
