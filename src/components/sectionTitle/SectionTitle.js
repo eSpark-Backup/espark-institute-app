@@ -17,7 +17,7 @@ const SectionTitle = ( { slogan, title, classes } ) => {
                 animateOut="fadeInOut"
                 animateOnce={true}
             >
-                <h3 className="title" dangerouslySetInnerHTML={{__html: title}}></h3>
+                <h3 className="title" style={{color : "gray"}} dangerouslySetInnerHTML={{__html: title}}></h3>
             </ScrollAnimation>
         </div>
     )

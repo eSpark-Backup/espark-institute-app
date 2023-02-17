@@ -10,8 +10,8 @@ const TestimonialSectionFour = () => {
                     <div className="col-lg-12">
                         <SectionTitle
                             classes = "text-center"
-                            slogan = "Testimonial"
-                            title = "What Our Student Says"
+                            slogan = "STUDENT TESTIMONIAL"
+                            title = "Hear from Our Students"
                         />
                     </div>
                 </div>

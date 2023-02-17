@@ -4,8 +4,8 @@ import { TestimonialOneParams } from '../../utils/script';
 
 let data = [
     {
-        name: "Geraldine D. Anspach",
-        details: "It is distracted by the readable content of page when looking at its layout. The point of using Ipsum is that it normal make for distribution of letters, as opposed to using content here it look like readable English Gravida orci vitae at aliquam.",
+        name: "Ayesha Khan",
+        details: "I have had the opportunity to enroll in the iOS Application Development course, and I must say it was an excellent experience. The course had a strong emphasis on practical, real-world applications, which I found to be particularly valuable. The focus was not just on theory but on building functional iOS apps that could be used on the App Store. The instructor was knowledgeable, the learning materials were well-organized, and there were plenty of hands-on exercises. I would definitely recommend this course to anyone who is interested in iOS app development.​",
         designation: "SEO Expert",
         image: "client-01.png"
     },
@@ -45,13 +45,13 @@ const TestimonialOne = ( props ) => {
                                 <img src="/images/testimonial/testimonial-01/quote.png" alt="Quote Images" />
                             </div>
                         }
-                        <p className="description">“ { item.details }”</p>
+                        <p className="description" style={{fontSize: "20px"}}>“ { item.details }”</p>
                         <div className="client-information">
                             <div className="thumb">
                                 <img src={`${process.env.PUBLIC_URL}/images/testimonial/testimonial-01/${item.image}`} alt="Client Thumb" />
                             </div>
                             <div className="info">
-                                <h5 className="title">{ item.name }</h5>
+                                <h5 className="title " style={{color : 'gray' }}>{ item.name }</h5>
                                 <span className="designation">{ item.designation }</span>
                             </div>
                         </div>
