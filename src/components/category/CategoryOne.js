@@ -4,80 +4,80 @@ import { Link } from 'react-router-dom';
 
 const items = [
     {
-        title: 'Graphics Design',
-        info: 'Lorem Ipsum is simply for this dummy text of the printing.',
+        title: 'iOS Application Development',
+        info: 'Learn how to create engaging and functional iOS apps for mobile devices.',
         numberOfCourses: '23 Courses',
         image: 'category-01.jpg',
         link: '#'
     },
     {
-        title: 'Business Analysis',
-        info: 'Lorem Ipsum is simply for this dummy text of the printing.',
+        title: 'Search Engine Optimization (SEO)',
+        info: 'Maximize your reach and impact with powerful SEO tactics​.',
         numberOfCourses: '18 Courses',
         image: 'category-02.jpg',
         link: '#'
     },
     {
-        title: 'Data Science',
-        info: 'Lorem Ipsum is simply for this dummy text of the printing.',
+        title: 'WordPress Development',
+        info: 'Design and develop websites using the popular CMS.​.',
         numberOfCourses: '15 Courses',
         image: 'category-03.jpg',
         link: '#'
     },
     {
-        title: 'Architecture',
-        info: 'Lorem Ipsum is simply for this dummy text of the printing.',
+        title: 'Node JS​',
+        info: 'Create scalable, high-performance web applications with Node JS​.',
         numberOfCourses: '20 Courses',
         image: 'category-04.jpg',
         link: '#'
     }
 ];
 
-const CategoryOne = ( { wrapperClass, styleClass, buttonStatus } ) => {
+const CategoryOne = ({ wrapperClass, styleClass, buttonStatus }) => {
     return (
         <>
-            <div className={ `row ${ wrapperClass || 'g-5 mt--25' }` }>
-                { items.map( ( data , i ) => (
-                    <ScrollAnimation 
+            <div className={`row ${wrapperClass || 'g-5 mt--25'}`}>
+                {items.map((data, i) => (
+                    <ScrollAnimation
                         animateIn="fadeInUp"
                         animateOut="fadeInOut"
-                        className={ `col-lg-3 col-md-6 col-sm-6 col-12 ${ styleClass ? styleClass : '' }` }
-                        animateOnce={ true }
-                        key={ i }
+                        className={`col-lg-3 col-md-6 col-sm-6 col-12 ${styleClass ? styleClass : ''}`}
+                        animateOnce={true}
+                        key={i}
                     >
                         <div className="service-card service-card-1 radius-small">
                             <div className="inner">
                                 <div className="thumbnail">
-                                    <a href={ data.link }>
-                                        <img src={`${process.env.PUBLIC_URL}./images/category/category-01/${ data.image }`} alt="Category Thumb" />
+                                    <a href={data.link}>
+                                        <img src={`${process.env.PUBLIC_URL}./images/category/category-01/${data.image}`} alt="Category Thumb" />
                                     </a>
                                 </div>
                                 <div className="content">
-                                    <span className="course-total">{ data.numberOfCourses }</span>
-                                    <h6 className="title"><a href={ data.link }>{ data.title }</a></h6>
-                                    <p className="description">{ data.info }</p>
+                                    <span className="course-total">{data.numberOfCourses}</span>
+                                    <h6 className="title"><a href={data.link}>{data.title}</a></h6>
+                                    <p className="description">{data.info}</p>
                                 </div>
                             </div>
                         </div>
                     </ScrollAnimation>
-                ) ) }
+                ))}
             </div>
-            { buttonStatus !== 'disable' &&
+            {buttonStatus !== 'disable' &&
                 <div className="row text-center mt--60">
                     <div className="col-lg-12">
-                        <ScrollAnimation 
+                        <ScrollAnimation
                             animateIn="fadeInUp"
                             animateOut="fadeInOut"
                             className="load-more-btn"
-                            animateOnce={ true }
+                            animateOnce={true}
                         >
                             <Link className="edu-btn" to="/">All Categories<i
-                            className="icon-arrow-right-line-right"></i></Link>
+                                className="icon-arrow-right-line-right"></i></Link>
                         </ScrollAnimation>
                     </div>
                 </div>
             }
-    
+
         </>
     )
 }
