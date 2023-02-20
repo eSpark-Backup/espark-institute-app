@@ -13,7 +13,7 @@ const FooterOne = () => {
                                 <div className="edu-footer-widget">
                                     <div className="logo">
                                         <Link to={process.env.PUBLIC_URL + "/"}>
-                                            <img className="logo-light" style={{width:80 , height: 75}} src="/images/logo/logo-white-01.png" alt="Footer Logo" />
+                                            <img className="logo-light" style={{width: 190 , height: 'auto' , marginTop: -25}} src="/images/logo/institue-FLAT-WHITE.png" alt="Footer Logo" />
                                         </Link>
                                     </div>
                                     <p className="description"><span className="strong">At eSpark Institute, we're dedicated to</span> deliver hands-on and practical education to students, aimed at preparing them for a <span className="strong">successful career in the tech industry. Join us today</span> to take the first step towards a successful career!​</p>
@@ -66,9 +66,9 @@ const FooterOne = () => {
                                             <ul className="information-list">
                                                 <li><i className="icon-map-pin-line"></i>301/B 3rd Floor & 401/A 4th Floor, Blossom Trade Centre,Block 1 Gulistan-e-Johar, Karachi, 74300
                                                 </li>
-                                                <li><i className="icon-phone-fill"></i><a href="tel: + 1 (237) 382-2839">+92 333 600 6055</a></li>
+                                                <li><i className="icon-phone-fill"></i><a href="tel: +92 (333) 600-6055">+92 333 600 6055</a></li>
                                                 {/* <li><i className="icon-phone-fill"></i><a href="tel: + 1 (237) 382-2840">+ 1 (237) 382-2840</a></li> */}
-                                                <li><i className="icon-mail-line-2"></i><a target="_blank" href="mailto:yourmailaddress@example.com">info@esparkconsultants.com</a></li>
+                                                <li><i className="icon-mail-line-2"></i><a target="_blank" href="mailto:Info@espark-institute.com">Info@espark-institute.com</a></li>
                                             </ul>
                                         </div>
                                     </div>
