@@ -4,7 +4,7 @@ import { slugify } from "../../utils";
 import SectionTitle from "../sectionTitle/SectionTitle";
 
 const HomeOneInstructor = () => {
-  const [visible, setVisible] = useState("team3");
+  const [visible, setVisible] = useState("");
   return (
     <div
       className="edu-instructor-area eduvibe-home-one-instructor edu-section-gap">
@@ -26,6 +26,7 @@ const HomeOneInstructor = () => {
                 visible === "team1" ? " eduvibe-hover-active" : ""
               }`}
               onMouseOver={() => setVisible("team1")}
+              onMouseOut ={()=> setVisible("")}
             >
               <div className="edu-instructor">
                 <div className="inner">
@@ -80,6 +81,8 @@ const HomeOneInstructor = () => {
                 visible === "team2" ? " eduvibe-hover-active" : ""
               }`}
               onMouseOver={() => setVisible("team2")}
+              onMouseOut ={()=> setVisible("")}
+
             >
               <div className="edu-instructor">
                 <div className="inner">
@@ -134,6 +137,7 @@ const HomeOneInstructor = () => {
                 visible === "team3" ? " eduvibe-hover-active" : ""
               }`}
               onMouseOver={() => setVisible("team3")}
+              onMouseOut ={()=> setVisible("")}
             >
               <div className="edu-instructor">
                 <div className="inner">
@@ -188,6 +192,8 @@ const HomeOneInstructor = () => {
                 visible === "team4" ? " eduvibe-hover-active" : ""
               }`}
               onMouseOver={() => setVisible("team4")}
+              onMouseOut ={()=> setVisible("")}
+
             >
               <div className="edu-instructor">
                 <div className="inner">
