@@ -13,7 +13,7 @@ const FooterOne = () => {
                                 <div className="edu-footer-widget">
                                     <div className="logo">
                                         <Link to={process.env.PUBLIC_URL + "/"}>
-                                            <img className="logo-light" style={{width: 190 , height: 'auto' , marginTop: -25}} src="/images/logo/institue-FLAT-WHITE.png" alt="Footer Logo" />
+                                            <img className="logo-light" src="/images/logo/institue-FLAT-WHITE.png" alt="Footer Logo" />
                                         </Link>
                                     </div>
                                     <p className="description"><span className="strong">At eSpark Institute,</span> we're dedicated to deliver hands-on and practical education to students, aimed at preparing them for a successful career in the tech industry. Join us today to take the first step towards a successful career!​</p>
