@@ -14,7 +14,7 @@ const HomeOneInstructor = () => {
             <SectionTitle
               classes="text-white text-center"
               slogan="Team Member"
-              title="Meet Our Instructor"
+              title="Meet Our Instructors"
               color="white"
             />
           </div>

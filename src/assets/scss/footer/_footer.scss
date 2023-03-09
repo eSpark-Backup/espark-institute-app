@@ -1,4 +1,4 @@
-/*===========================
+/*===========================go
     Start Footer Area 
 =============================*/
 .footer-style-default {
@@ -30,6 +30,11 @@
         font-weight: bold;
         font-size : 20px;
     }
+    .logo-light{
+      width: 190px ;
+      height: auto ;
+      margin-top: -23px ;
+ }
 
     .information-list {
         @extend %liststyle;

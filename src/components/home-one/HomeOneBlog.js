@@ -14,7 +14,7 @@ const HomeOneBlog = () => {
                         <SectionTitle
                             classes = "text-start"
                             slogan = "BLog & News"
-                            title = "Trending on Our Blogs"
+                            title = "Trending News & Articles"
                         />
                     </div>
                     <div className="col-lg-6">
