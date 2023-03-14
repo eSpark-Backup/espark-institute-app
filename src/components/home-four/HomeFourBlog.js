@@ -7,7 +7,7 @@ import PostData from '../../data/blog/PostData.json';
 
 const HomeFourBlog = () => {
     return (
-        <div className="eduvibe-home-four-blog bg-image edu-blog-area edu-section-gap">
+        <div className="eduvibe-home-four-blog bg-image edu-blog-area edu-section-gap ">
             <div className="container eduvibe-animated-shape">
                 <div className="row">
                     <div className="col-lg-6">

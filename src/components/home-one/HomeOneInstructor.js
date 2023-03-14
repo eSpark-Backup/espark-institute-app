@@ -6,16 +6,14 @@ import SectionTitle from "../sectionTitle/SectionTitle";
 const HomeOneInstructor = () => {
   const [visible, setVisible] = useState("");
   return (
-    <div
-      className="edu-instructor-area eduvibe-home-one-instructor edu-section-gap">
+    <div className="edu-instructor-area eduvibe-home-one-instructor edu-section-gap">
       <div className="container eduvibe-animated-shape">
         <div className="row">
           <div className="col-lg-12">
             <SectionTitle
-              classes="text-white text-center"
+              classes="text-center"
               slogan="Team Member"
               title="Meet Our Instructors"
-              color="white"
             />
           </div>
         </div>
@@ -26,7 +24,7 @@ const HomeOneInstructor = () => {
                 visible === "team1" ? " eduvibe-hover-active" : ""
               }`}
               onMouseOver={() => setVisible("team1")}
-              onMouseOut ={()=> setVisible("")}
+              onMouseOut={() => setVisible("")}
             >
               <div className="edu-instructor">
                 <div className="inner">
@@ -81,8 +79,7 @@ const HomeOneInstructor = () => {
                 visible === "team2" ? " eduvibe-hover-active" : ""
               }`}
               onMouseOver={() => setVisible("team2")}
-              onMouseOut ={()=> setVisible("")}
-
+              onMouseOut={() => setVisible("")}
             >
               <div className="edu-instructor">
                 <div className="inner">
@@ -137,7 +134,7 @@ const HomeOneInstructor = () => {
                 visible === "team3" ? " eduvibe-hover-active" : ""
               }`}
               onMouseOver={() => setVisible("team3")}
-              onMouseOut ={()=> setVisible("")}
+              onMouseOut={() => setVisible("")}
             >
               <div className="edu-instructor">
                 <div className="inner">
@@ -192,8 +189,7 @@ const HomeOneInstructor = () => {
                 visible === "team4" ? " eduvibe-hover-active" : ""
               }`}
               onMouseOver={() => setVisible("team4")}
-              onMouseOut ={()=> setVisible("")}
-
+              onMouseOut={() => setVisible("")}
             >
               <div className="edu-instructor">
                 <div className="inner">
