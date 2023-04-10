@@ -26,7 +26,7 @@ const HeaderTwo = ( { styles, disableSticky, searchDisable, buttonStyle } ) => {
     const stickyStatus = disableSticky ? '' : ' header-sticky';
     return (
         <>
-            <header className={`edu-header ${ stickyStatus } ${ styles || '' } ${ classes || '' }`}>
+            <header className={`edu-header ${ stickyStatus } ${ styles || '' } ${ classes || '' } `}>
                 <div className="row align-items-center">
                     <div className="col-lg-4 col-xl-3 col-md-6 col-6">
                         <div className="logo">

@@ -7,15 +7,15 @@
     --color-tertiary: #FFA41B;
     --color-tertiary-2: #7152E9;
     --color-dark: #231F40;
-    --color-body: #6F6B80;
-    --color-heading: #231F40;
+    --color-body: #758B8E;
+    --color-heading: #13262F;
     --color-white: #ffffff;
     --color-shape: #EEEEEE;
     --color-shade: #F5F5F5;
     --color-border: #EEEEEE;
     --color-yellow: #FFBA49;
-   
-    
+
+
     // Typo Color 
     --color-black: #000000;
     --color-blackest: #0f0f11;
@@ -49,7 +49,7 @@
     --color-vimeo: #00ADEF;
     --color-twitch: #6441A3;
     --color-discord: #7289da;
-    
+
 
     //Border-radius
     --border-width: 2px;
@@ -70,20 +70,20 @@
 
     //Shadows
     --shadow-primary: 0px 8px 30px rgba(0, 0, 0, 0.04);
-    --shadow-light: 1px 1px 6px rgba(0,0,0,0.25);
-    --shadow-lighter: 4px 4px 20px 20px rgba(0,0,0,0.01);
+    --shadow-light: 1px 1px 6px rgba(0, 0, 0, 0.25);
+    --shadow-lighter: 4px 4px 20px 20px rgba(0, 0, 0, 0.01);
 
 
     //transition easing
     --transition: 0.3s;
-    --transition-transform: transform .65s cubic-bezier(.23,1,.32,1);
+    --transition-transform: transform .65s cubic-bezier(.23, 1, .32, 1);
 
 
     //Font Family
     --font-primary: 'Urbanist', sans-serif;
     --font-secondary: 'Urbanist', sans-serif;
     --font-awesome: 'Font Awesome 5 Pro';
-    
+
 
     //Fonts Size
     --font-size-b1: 18px;
@@ -135,4 +135,3 @@ $small-tablet: 'only screen and (max-width: 991px)';
 $sm-layout:'only screen and (max-width: 767px)';
 $large-mobile: 'only screen and (max-width: 575px)';
 $small-mobile: 'only screen and (max-width: 479px)';
-

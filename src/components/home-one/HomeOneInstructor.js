@@ -3,11 +3,14 @@ import { Link } from "react-router-dom";
 import { slugify } from "../../utils";
 import SectionTitle from "../sectionTitle/SectionTitle";
 
-const HomeOneInstructor = () => {
+const HomeOneInstructor = ({ background, color }) => {
   const [visible, setVisible] = useState("");
   return (
     <div
-      className="edu-instructor-area eduvibe-home-one-instructor edu-section-gap">
+      className={`edu-instructor-area edu-section-gap ${
+        background ? background : "eduvibe-home-one-instructor"
+      }`}
+    >
       <div className="container eduvibe-animated-shape">
         <div className="row">
           <div className="col-lg-12">
@@ -15,7 +18,7 @@ const HomeOneInstructor = () => {
               classes="text-white text-center"
               slogan="Team Member"
               title="Meet Our Instructors"
-              color="white"
+              color={color ? color : "white"}
             />
           </div>
         </div>
@@ -26,7 +29,7 @@ const HomeOneInstructor = () => {
                 visible === "team1" ? " eduvibe-hover-active" : ""
               }`}
               onMouseOver={() => setVisible("team1")}
-              onMouseOut ={()=> setVisible("")}
+              onMouseOut={() => setVisible("")}
             >
               <div className="edu-instructor">
                 <div className="inner">
@@ -81,8 +84,7 @@ const HomeOneInstructor = () => {
                 visible === "team2" ? " eduvibe-hover-active" : ""
               }`}
               onMouseOver={() => setVisible("team2")}
-              onMouseOut ={()=> setVisible("")}
-
+              onMouseOut={() => setVisible("")}
             >
               <div className="edu-instructor">
                 <div className="inner">
@@ -137,7 +139,7 @@ const HomeOneInstructor = () => {
                 visible === "team3" ? " eduvibe-hover-active" : ""
               }`}
               onMouseOver={() => setVisible("team3")}
-              onMouseOut ={()=> setVisible("")}
+              onMouseOut={() => setVisible("")}
             >
               <div className="edu-instructor">
                 <div className="inner">
@@ -192,8 +194,7 @@ const HomeOneInstructor = () => {
                 visible === "team4" ? " eduvibe-hover-active" : ""
               }`}
               onMouseOver={() => setVisible("team4")}
-              onMouseOut ={()=> setVisible("")}
-
+              onMouseOut={() => setVisible("")}
             >
               <div className="edu-instructor">
                 <div className="inner">

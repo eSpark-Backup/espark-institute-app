@@ -62,10 +62,12 @@ import Error from './pages/innerpages/Error';
 
 // Import Css Here 
 import './assets/scss/style.scss';
+import Layout from './common/Layout';
 
 function App() {
     return (
         <Router>
+            <Layout>
             <ScrollToTop>
                 <Routes>
                     <Route exact path='/' element={<HomeOne />} />
@@ -76,7 +78,7 @@ function App() {
                     <Route exact path={`${process.env.PUBLIC_URL + '/home-5'}`} element={<HomeFive />} />
                     <Route exact path={`${process.env.PUBLIC_URL + '/about-us-1'}`} element={<AboutUsOne />} />
                     <Route exact path={`${process.env.PUBLIC_URL + '/about-us-2'}`} element={<AboutUsTwo />} />
-                    <Route exact path={`${process.env.PUBLIC_URL + '/about-us-3'}`} element={<AboutUsThree />} />
+                    <Route exact path={`${process.env.PUBLIC_URL + '/about-us'}`} element={<AboutUsThree />} />
                     <Route exact path={`${process.env.PUBLIC_URL + '/coming-soon'}`} element={<ComingSoon />} />
                     <Route exact path={`${process.env.PUBLIC_URL + '/contact-me'}`} element={<ContactMe />} />
                     <Route exact path={`${process.env.PUBLIC_URL + '/contact-us'}`} element={<ContactUs />} />
@@ -129,6 +131,7 @@ function App() {
                     <Route path='*' element={<Error />} />
                 </Routes>
             </ScrollToTop>
+            </Layout>
         </Router>
     );
 }
