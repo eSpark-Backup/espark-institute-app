@@ -4,7 +4,7 @@ import PostFour from '../post/PostFour';
 
 const HomeFiveBlog = () => {
     return (
-        <div className="eduvibe-home-five-blog edu-blog-area edu-section-gap bg-image">
+        <div className="eduvibe-home-five-blog edu-blog-area edu-section-gap bg-image ">
             <div className="container eduvibe-animated-shape">
                 <div className="row">
                     <div className="col-lg-12">

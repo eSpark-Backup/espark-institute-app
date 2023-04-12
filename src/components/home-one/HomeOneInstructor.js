@@ -15,7 +15,7 @@ const HomeOneInstructor = ({ background, color }) => {
         <div className="row">
           <div className="col-lg-12">
             <SectionTitle
-              classes="text-white text-center"
+              classes="text-center"
               slogan="Team Member"
               title="Meet Our Instructors"
               color={color ? color : "white"}

@@ -66,7 +66,7 @@
         text-align: center;
         line-height: 46px;
         font-size: 24px;
-        color: var(--color-tertiary);
+        color: var(--color-primary);
         left: 0;
         top: 0;
         height: 46px;
@@ -80,7 +80,7 @@
 
     &:hover {
         &::after {
-            color: var(--color-tertiary);
+            color: var(--color-primary);
         }
     }
 
@@ -111,7 +111,7 @@
         }
         &.rn-back-circle {
             path {
-                stroke: var(--color-tertiary);
+                stroke: var(--color-primary);
                 stroke-width: 4;
                 box-sizing: border-box;
                 -webkit-transition: all 200ms linear;
