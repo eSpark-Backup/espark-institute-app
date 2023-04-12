@@ -13,10 +13,10 @@ import HomeOneInstructor from "../../components/home-one/HomeOneInstructor";
 const AboutUsThree = () => {
   return (
     <>
-      <SEO title="About Us 3" />
+      <SEO title="About Us" />
 
       <BreadcrumbOne
-        title="About Us-3"
+        title="About Us"
         rootUrl="/"
         parentUrl="Home"
         currentUrl="About Us"
