@@ -19,7 +19,7 @@ const HomeOneCategory = () => {
 
                 <CategoryOne />
 
-                <div className="shape-dot-wrapper shape-wrapper d-xl-block d-none">
+                {/* <div className="shape-dot-wrapper shape-wrapper d-xl-block d-none">
                     <div className="shape-image shape-image-1">
                         <img src="/images/shapes/shape-03-01.png" alt="Shape Thumb" />
                     </div>
@@ -32,7 +32,7 @@ const HomeOneCategory = () => {
                     <div className="shape-image shape-image-4">
                         <img src="/images/shapes/shape-03-02.png" alt="Shape Thumb" />
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
