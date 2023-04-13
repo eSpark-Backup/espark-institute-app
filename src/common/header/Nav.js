@@ -85,7 +85,7 @@ const Nav = () => {
                 </ul> */}
             </li>
             
-            <li><Link to="#">Blog</Link>
+            <li><Link to="/blogs">Blog</Link>
                 {/* <ul className="submenu">
                     <li><Link to="/blog-grid-1">Blog Grid 1</Link></li>
                     <li><Link to="/blog-grid-2">Blog Grid 2</Link></li>

@@ -9,13 +9,13 @@ import PostData from '../../data/blog/PostData.json';
 const BlogGridOne = () => {
     return (
         <>
-            <SEO title="Blog Grid 1" />
+            <SEO title="Our Blogs" />
             <Layout>
                 <BreadcrumbOne 
-                    title="Blog Grid 1"
+                    title="Our Blogs"
                     rootUrl="/"
                     parentUrl="Home"
-                    currentUrl="Blog Grid 1"
+                    currentUrl="Our Blogs"
                 />
                 <div className="edu-elements-area edu-section-gap bg-color-white">
                     <div className="container">
