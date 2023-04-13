@@ -26,7 +26,7 @@ const Nav = () => {
             </li>
             
             <li className="has-droupdown">
-                <Link to="#">Courses</Link>
+                <Link to="/courses">Courses</Link>
                 <ul className="submenu">
                     <li><Link to="/course-1">Course 1</Link></li>
                     <li><Link to="/course-2">Course 2</Link></li>
@@ -44,9 +44,9 @@ const Nav = () => {
                 </ul>
             </li>
             
-            <li >
+             {/* <li >
                 <Link to="#">Events</Link>
-                {/* <ul className="submenu">
+               <ul className="submenu">
                     <li className="has-droupdown">
                         <Link to="#">Event</Link>
                         <ul className="submenu">
@@ -82,10 +82,10 @@ const Nav = () => {
                     <li><Link to="/coming-soon">Coming Soon</Link></li>
                     <li><Link to="/login-register">Login/Register</Link></li>
                     <li><Link to="/404">404</Link></li>
-                </ul> */}
-            </li>
+                </ul> 
+            </li>*/}
             
-            <li><Link to="/blogs">Blog</Link>
+            <li><Link to="/blogs">Blogs</Link>
                 {/* <ul className="submenu">
                     <li><Link to="/blog-grid-1">Blog Grid 1</Link></li>
                     <li><Link to="/blog-grid-2">Blog Grid 2</Link></li>
@@ -105,7 +105,7 @@ const Nav = () => {
             </li>
 
             <li >
-                <Link to="/contact-us">Contact</Link>
+                <Link to="/contact-us">Contact Us</Link>
                 {/* <ul className="submenu">
                     <li><Link to="/contact-me">Contact Me</Link></li>
                     <li><Link to="/contact-us">Contact Us</Link></li>
