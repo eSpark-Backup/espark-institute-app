@@ -24,7 +24,7 @@ const AboutUsThree = () => {
 
       <AboutFive wrapperClass="edu-section-gapTop" />
 
-      <LogoOne separator="disable" />
+      {/* <LogoOne separator="disable" /> */}
 
       <HomeFiveProgress />
 
