@@ -19,7 +19,7 @@ const HomeOneBlog = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="read-more-btn text-end">
-                            <Link className="edu-btn" to="/blog-grid-1">Read More Blogs<i className="icon-arrow-right-line-right"></i></Link>
+                            <Link className="edu-btn" to="/blog-grid-1">Read More<i className="icon-arrow-right-line-right"></i></Link>
                         </div>
                     </div>
                 </div>
