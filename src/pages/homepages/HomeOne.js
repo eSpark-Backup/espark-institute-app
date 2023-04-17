@@ -13,7 +13,7 @@ import FooterOne from "../../common/footer/FooterOne";
 const HomeOne = () => {
   return (
     <>
-      <SEO title="Home 1" />
+      <SEO title="Home" />
 
       <BannerOne />
 
