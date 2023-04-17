@@ -23,7 +23,7 @@ const HomeOneInstructor = ({ background, color }) => {
           </div>
         </div>
         <div className="row g-5 mt--20">
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+          {/* <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <div
               className={`edu-instructor-grid edu-instructor-3 edu-instructor-3-visible${
                 visible === "team1" ? " eduvibe-hover-active" : ""
@@ -76,7 +76,7 @@ const HomeOneInstructor = ({ background, color }) => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <div
@@ -244,9 +244,9 @@ const HomeOneInstructor = ({ background, color }) => {
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <div
               className={`edu-instructor-grid edu-instructor-3 edu-instructor-3-visible${
-                visible === "team4" ? " eduvibe-hover-active" : ""
+                visible === "team5" ? " eduvibe-hover-active" : ""
               }`}
-              onMouseOver={() => setVisible("team4")}
+              onMouseOver={() => setVisible("team5")}
               onMouseOut={() => setVisible("")}
             >
               <div className="edu-instructor">
