@@ -10,7 +10,6 @@ const BlogGridOne = () => {
     return (
         <>
             <SEO title="Our Blogs" />
-            <Layout>
                 <BreadcrumbOne 
                     title="Our Blogs"
                     rootUrl="/"
@@ -39,7 +38,6 @@ const BlogGridOne = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
         </>
     )
 }

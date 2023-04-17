@@ -8,7 +8,6 @@ const ContactUs = () => {
   return (
     <>
       <SEO title="Contact Us" />
-      <Layout>
         <BreadcrumbOne
           title="Contact Us"
           rootUrl="/"
@@ -140,7 +139,6 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-      </Layout>
     </>
   );
 };
