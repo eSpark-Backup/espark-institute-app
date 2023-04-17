@@ -24,12 +24,12 @@ const AboutUsThree = () => {
 
       <AboutFive wrapperClass="edu-section-gapTop" />
 
-      <LogoOne separator="disable" />
+      {/* <LogoOne separator="disable" /> */}
 
       <HomeFiveProgress />
 
       <AboutUsThreeMission />
-      <HomeOneInstructor background={"bg-color-white"} color={"#20A39E"} />
+      <HomeOneInstructor background={"null"} color={"#20A39E"} />
       {/* <AboutUsThreeInstructor /> */}
 
       <CounterUpOne />
