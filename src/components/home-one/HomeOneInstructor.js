@@ -16,14 +16,14 @@ const HomeOneInstructor = ({ background, color }) => {
           <div className="col-lg-12">
             <SectionTitle
               classes="text-center"
-              slogan="Team Member"
-              title="Meet Our Instructors"
+              slogan="OUR TEAM"
+              title="Meet Our Instructors​"
               color={color ? color : "white"}
             />
           </div>
         </div>
         <div className="row g-5 mt--20">
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+          {/* <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <div
               className={`edu-instructor-grid edu-instructor-3 edu-instructor-3-visible${
                 visible === "team1" ? " eduvibe-hover-active" : ""
@@ -41,7 +41,7 @@ const HomeOneInstructor = ({ background, color }) => {
                       }
                     >
                       <img
-                        src="/images/instructor/instructor-03/Ahsan.png"
+                        src="/images/instructor/instructor-03/Shahmir.png"
                         alt="team images"
                       />
                     </Link>
@@ -54,10 +54,10 @@ const HomeOneInstructor = ({ background, color }) => {
                           `/instructor-details/${slugify("James Carlson")}`
                         }
                       >
-                        Ahsan Ebrahim Khatri{" "}
+                        Shah Meer Hashim Raza{" "}
                       </Link>
                     </h5>
-                    <span className="desc">Sr Software Engineer</span>
+                    <span className="desc">Sr .NET Developer</span>
                     <div className="team-share-info bg-transparent">
                       <a className="linkedin" href="#">
                         <i className="icon-linkedin"></i>
@@ -76,7 +76,7 @@ const HomeOneInstructor = ({ background, color }) => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <div
@@ -112,7 +112,7 @@ const HomeOneInstructor = ({ background, color }) => {
                         Ovais Rafique{" "}
                       </Link>
                     </h5>
-                    <span className="desc">NodeJS Expert</span>
+                    <span className="desc">Node JS Expert</span>
                     <div className="team-share-info bg-transparent">
                       <a className="linkedin" href="#">
                         <i className="icon-linkedin"></i>
@@ -187,13 +187,66 @@ const HomeOneInstructor = ({ background, color }) => {
               </div>
             </div>
           </div>
-
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <div
               className={`edu-instructor-grid edu-instructor-3 edu-instructor-3-visible${
                 visible === "team4" ? " eduvibe-hover-active" : ""
               }`}
               onMouseOver={() => setVisible("team4")}
+              onMouseOut={() => setVisible("")}
+            >
+              <div className="edu-instructor">
+                <div className="inner">
+                  <div className="thumbnail">
+                    <Link
+                      to={
+                        process.env.PUBLIC_URL +
+                        `/instructor-details/${slugify("Isabelle Bruner")}`
+                      }
+                    >
+                      <img
+                        src="/images/instructor/instructor-03/Hassan.png"
+                        alt="team images"
+                      />
+                    </Link>
+                  </div>
+                  <div className="edu-instructor-info">
+                    <h5 className="title">
+                      <Link
+                        to={
+                          process.env.PUBLIC_URL +
+                          `/instructor-details/${slugify("Isabelle Bruner")}`
+                        }
+                      >
+                        Hassan Ahmed Khan
+                      </Link>
+                    </h5>
+                    <span className="desc">SQA Engineer​</span>
+                    <div className="team-share-info bg-transparent">
+                      <a className="linkedin" href="#">
+                        <i className="icon-linkedin"></i>
+                      </a>
+                      <a className="facebook" href="#">
+                        <i className="icon-Fb"></i>
+                      </a>
+                      <a className="twitter" href="#">
+                        <i className="icon-Twitter"></i>
+                      </a>
+                      <a className="youtube" href="#">
+                        <i className="icon-youtube"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div
+              className={`edu-instructor-grid edu-instructor-3 edu-instructor-3-visible${
+                visible === "team5" ? " eduvibe-hover-active" : ""
+              }`}
+              onMouseOver={() => setVisible("team5")}
               onMouseOut={() => setVisible("")}
             >
               <div className="edu-instructor">
