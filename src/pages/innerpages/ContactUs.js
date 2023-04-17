@@ -8,12 +8,12 @@ const ContactUs = () => {
   return (
     <>
       <SEO title="Contact Us" />
-      <Layout>
+     
         <BreadcrumbOne
-          title="Contact Us"
+          title="Contact"
           rootUrl="/"
           parentUrl="Home"
-          currentUrl="Contact Us"
+          currentUrl="Contact"
         />
         <div className="eduvibe-contact-us edu-contact-us-area edu-section-gap bg-color-white">
           <div className="container eduvibe-animated-shape">
@@ -21,7 +21,7 @@ const ContactUs = () => {
               <div className="col-lg-12">
                 <div className="section-title text-center">
                   <span className="pre-title">Need Help?</span>
-                  <h3 className="title">Get In touch with us</h3>
+                  <h3 className="title">Get In Touch With us</h3>
                 </div>
               </div>
             </div>
@@ -38,9 +38,7 @@ const ContactUs = () => {
                           <div className="content">
                             <h6 className="title">Our Website</h6>
                             <p>
-                              <a href="https://themeforest.net/user/devsvibe/eduvibe">
-                              www.espark-institute.com
-                              </a>
+                              <a href="/">www.espark-institute.com</a>
                             </p>
                           </div>
                         </div>
@@ -56,7 +54,7 @@ const ContactUs = () => {
                             <h6 className="title">Call Us On</h6>
                             <p>
                               <a href="tel: +9232 (327) 8259">
-                              +9232 (327) 8259
+                                +9232 (327) 8259
                               </a>
                             </p>
                           </div>
@@ -73,12 +71,12 @@ const ContactUs = () => {
                             <h6 className="title">Email Us</h6>
                             <p>
                               <a href="mailto:info@espark-institute.com">
-                              info@espark-institute.com
+                                info@espark-institute.com
                               </a>
                             </p>
                             <p>
                               <a href="mailto:support@espark-institute.com">
-                              support@espark-institute.com
+                                support@espark-institute.com
                               </a>
                             </p>
                           </div>
@@ -93,7 +91,10 @@ const ContactUs = () => {
                           </div>
                           <div className="content">
                             <h6 className="title">Our Location</h6>
-                            <p>401/B, Blossom Trade Center, Block 1, Gulistan-e-Jauhar, Karachi</p>
+                            <p>
+                              401/B, Blossom Trade Center, Block 1,
+                              Gulistan-e-Jauhar, Karachi
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -120,7 +121,7 @@ const ContactUs = () => {
           </div>
         </div>
 
-        <div className="edu-contact-map-area edu-section-gapBottom">
+        <div className="edu-contact-map-area edu-section-gapTop ">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -140,7 +141,6 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-      </Layout>
     </>
   );
 };
