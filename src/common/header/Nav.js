@@ -1,13 +1,17 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
-const Nav = () => {
+const Nav = ({ onClose }) => {
   const { pathname } = useLocation();
 
   return (
     <ul className="mainmenu">
       <li>
-        <Link className={pathname === "/" && "active"} to="/">
+        <Link
+          className={pathname === "/" && "active"}
+          to="/"
+          onClick={() => onClose()}
+        >
           Home
         </Link>
         {/* <ul className="submenu">
@@ -21,7 +25,11 @@ const Nav = () => {
       </li>
 
       <li>
-        <Link className={pathname === "/about-us" && "active"} to="/about-us">
+        <Link
+          className={pathname === "/about-us" && "active"}
+          to="/about-us"
+          onClick={() => onClose()}
+        >
           About Us
         </Link>
         {/* <ul className="submenu">
@@ -34,7 +42,11 @@ const Nav = () => {
       <li
       // className="has-droupdown"
       >
-        <Link className={pathname === "/courses" && "active"} to="#">
+        <Link
+          className={pathname === "/courses" && "active"}
+          to="#"
+          onClick={() => onClose()}
+        >
           Courses
         </Link>
         {/* <ul className="submenu">
@@ -55,7 +67,11 @@ const Nav = () => {
       </li>
 
       <li>
-        <Link className={pathname === "/events" && "active"} to="#">
+        <Link
+          className={pathname === "/events" && "active"}
+          to="#"
+          onClick={() => onClose()}
+        >
           Events
         </Link>
         {/* <ul className="submenu">
@@ -98,7 +114,11 @@ const Nav = () => {
       </li>
 
       <li>
-        <Link className={pathname === "/blogs" && "active"} to="#">
+        <Link
+          className={pathname === "/blogs" && "active"}
+          to="#"
+          onClick={() => onClose()}
+        >
           Blogs
         </Link>
         {/* <ul className="submenu">
@@ -123,6 +143,7 @@ const Nav = () => {
         <Link
           className={pathname === "/contact-us" && "active"}
           to="/contact-us"
+          onClick={() => onClose()}
         >
           Contact
         </Link>

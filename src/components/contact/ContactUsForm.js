@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 const Result = () => {
   return (
@@ -14,14 +14,27 @@ function ContactUsForm({ formStyle }) {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm("service_mr9eoju", "template_w8prz8r", e.target).then(
-      (result) => {
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
+    const data = new FormData(e.target);
+
+    emailjs.init("nCNAvN3x_AzOlKyP7");
+
+    emailjs
+      .send("service_mr9eoju", "template_w8prz8r", {
+        to_name: "eSpark Institue Of Technical Training",
+        from_name: data.get("fullname").toString(),
+        message: data.get("message").toString(),
+        from_email: data.get("email").toString(),
+        phone: data.get("phone").toString(),
+        subject: data.get("subject").toString(),
+      })
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
     e.target.reset();
     setResult(true);
   };
@@ -63,6 +76,7 @@ function ContactUsForm({ formStyle }) {
             className="form-control form-control-lg"
             name="phone"
             placeholder="Phone"
+            maxLength={13}
           />
         </div>
       </div>

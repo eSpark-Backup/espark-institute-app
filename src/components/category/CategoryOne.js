@@ -19,7 +19,7 @@ const items = [
     },
     {
         title: 'WordPress Development',
-        info: 'Design and develop websites using the popular CMS.​.',
+        info: 'Design and develop websites using the popular CMS.​',
         numberOfCourses: '15 Courses',
         image: 'category-03.jpg',
         link: '#'
