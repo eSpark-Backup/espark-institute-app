@@ -58,32 +58,32 @@ const FooterOne = () => {
                   <div className="inner">
                     <ul className="footer-link link-hover">
                       <li>
-                        <Link to="/about-us-1">
+                        <Link to="/about-us">
                           <i className="icon-Double-arrow"></i>About Us
                         </Link>
                       </li>
                       <li>
-                        <Link to="/event-grid">
+                        <Link to="#">
                           <i className="icon-Double-arrow"></i>Upcoming Events
                         </Link>
                       </li>
                       <li>
-                        <Link to="/blog-standard">
+                        <Link to="#">
                           <i className="icon-Double-arrow"></i>Blog & News
                         </Link>
                       </li>
                       <li>
-                        <Link to="/faq">
+                        <Link to="#">
                           <i className="icon-Double-arrow"></i>FAQ Question
                         </Link>
                       </li>
                       <li>
-                        <Link to="/testimonial">
+                        <Link to="#">
                           <i className="icon-Double-arrow"></i>Testimonial
                         </Link>
                       </li>
                       <li>
-                        <Link to="/privacy-policy">
+                        <Link to="#">
                           <i className="icon-Double-arrow"></i>Privacy Policy
                         </Link>
                       </li>
@@ -103,28 +103,28 @@ const FooterOne = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/pricing">
+                        <Link to="#">
                           <i className="icon-Double-arrow"></i>Pricing Plan
                         </Link>
                       </li>
                       <li>
-                        <Link to="/instructor-details/james-carlson">
+                        <Link to="#">
                           <i className="icon-Double-arrow"></i>Instructor
                           Profile
                         </Link>
                       </li>
                       <li>
-                        <Link to="/purchase-guide">
+                        <Link to="#">
                           <i className="icon-Double-arrow"></i>Purchase Guide
                         </Link>
                       </li>
                       <li>
-                        <Link to="/course-1">
+                        <Link to="#">
                           <i className="icon-Double-arrow"></i>Popular Courses
                         </Link>
                       </li>
                       <li>
-                        <Link to="/event-details/1">
+                        <Link to="#">
                           <i className="icon-Double-arrow"></i>Event Details
                         </Link>
                       </li>
