@@ -24,7 +24,7 @@ function ContactUsForm({ formStyle }) {
         from_name: data.get("fullname").toString(),
         message: data.get("message").toString(),
         from_email: data.get("email").toString(),
-        phone: data.get("phone").toString(),
+        // phone: data.get("phone").toString(),
         subject: data.get("subject").toString(),
       })
       .then(
@@ -69,17 +69,22 @@ function ContactUsForm({ formStyle }) {
         </div>
       </div>
 
-      <div className="col-lg-12">
+      {/* <div className="col-lg-12">
         <div className="form-group">
           <input
-            type="text"
+            type="number"
             className="form-control form-control-lg"
             name="phone"
             placeholder="Phone"
-            maxLength={13}
+            value={phone}
+            onChange={(e) => {
+              if (e) {
+                setPhone(e.slice(0, 13));
+              }
+            }}
           />
         </div>
-      </div>
+      </div> */}
 
       <div className="col-lg-12">
         <div className="form-group">
