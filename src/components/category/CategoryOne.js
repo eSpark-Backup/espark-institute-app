@@ -71,7 +71,7 @@ const CategoryOne = ({ wrapperClass, styleClass, buttonStatus }) => {
                             className="load-more-btn"
                             animateOnce={true}
                         >
-                            <Link className="edu-btn" to="/">All Courses​<i
+                            <Link className="edu-btn" to="/courses">All Courses​<i
                                 className="icon-arrow-right-line-right"></i></Link>
                         </ScrollAnimation>
                     </div>

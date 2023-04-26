@@ -92,7 +92,8 @@ function ContactUsForm({ formStyle }) {
             type="text"
             className="form-control form-control-lg"
             name="subject"
-            placeholder="Subject"
+            placeholder="Subject*"
+            required
           />
         </div>
       </div>
@@ -101,7 +102,8 @@ function ContactUsForm({ formStyle }) {
           <textarea
             className="form-control"
             name="message"
-            placeholder="Your Message"
+            placeholder="Your Message*"
+            required
           ></textarea>
         </div>
       </div>
