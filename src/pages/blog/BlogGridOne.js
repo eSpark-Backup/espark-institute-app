@@ -32,7 +32,7 @@ const BlogGridOne = () => {
                                 </div>
                                 <div className="row">
                                     <div className="col-lg-12 mt--60">
-                                        <PaginationOne />
+                                        {/* <PaginationOne /> */}
                                     </div>
                                 </div>
                             </div>

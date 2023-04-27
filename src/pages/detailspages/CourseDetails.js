@@ -21,7 +21,7 @@ const CustomToggle = ({ children, eventKey }) => {
     return <button type="button" onClick={decoratedOnClick} aria-expanded={ isCurrentEventKey ? true : false } className="edu-accordion-button">{children}</button>
 }
 
-const CurriculumContent = () => {
+const CurriculumContent = ({id}) => {
     const [activeId, setActiveId] = useState( '0' );
 
     function toggleActive( id ) {
@@ -30,12 +30,18 @@ const CurriculumContent = () => {
         } else {
             setActiveId(id);
         }
-    }
+    };
 
+    const filterCurriculmData = () => {
+        const filterData = CurriculumTabContent.filter((item) => item?.id == id)
+        
+        return filterData;
+    };
+    
     return (
         <Accordion bsPrefix="edu-accordion-02" defaultActiveKey={activeId} flush>
             {
-                CurriculumTabContent.map( ( accordion, i ) => (
+                filterCurriculmData()[0]?.curriculum?.map( ( accordion, i ) => (
                     <Accordion.Item eventKey={i.toString()} key={i} onClick={() => toggleActive(i.toString())} bsPrefix={`edu-accordion-item ${activeId === i.toString() ? 'bg-active' : ''}`}>
                         <div className="edu-accordion-header">
                             <CustomToggle eventKey={i.toString()}>{accordion.title}</CustomToggle>
@@ -88,7 +94,6 @@ const CourseDetails = () => {
     return (
         <>
             <SEO title={ courseItem.title } />
-            <Layout>
                 <BreadcrumbOne 
                     title="Course Details"
                     rootUrl="/"
@@ -109,7 +114,7 @@ const CourseDetails = () => {
                             <div className="col-xl-8 col-lg-7">
                                 <div className="course-details-content">
 
-                                    <div className="content-top">
+                                    {/* <div className="content-top">
                                         <div className="author-meta">
                                             <div className="author-thumb">
                                                 <Link to={process.env.PUBLIC_URL + `/instructor-details/${slugify( courseItem.instructor ) }`}>
@@ -128,7 +133,7 @@ const CourseDetails = () => {
                                             </div>
                                             <span className="rating-count">({courseItem.review} Review)</span>
                                         </div>
-                                    </div>
+                                    </div> */}
 
                                     <h3 className="title">{ courseItem.title }</h3>
                                     <ul className="edu-course-tab nav nav-tabs" role="tablist">
@@ -162,7 +167,7 @@ const CourseDetails = () => {
                                                 Instructor
                                             </button>
                                         </li>
-                                        <li className="nav-item">
+                                        {/* <li className="nav-item">
                                             <button
                                                 className={contentTab === 'reviews' ? 'nav-link active' : 'nav-link'}
                                                 type="button"
@@ -171,7 +176,7 @@ const CourseDetails = () => {
                                             >
                                                 Reviews
                                             </button>
-                                        </li>
+                                        </li> */}
                                     </ul>
 
                                     <div className="tab-content">
@@ -184,7 +189,7 @@ const CourseDetails = () => {
                                         { contentTab === 'curriculum' && 
                                             <div className={`tab-pane fade show ${contentTab === 'curriculum' ? 'active' : '' } `}>
                                                 <div className="course-tab-content">
-                                                    <CurriculumContent />
+                                                    <CurriculumContent id={id} />
                                                 </div>
                                             </div>
                                         }
@@ -204,19 +209,19 @@ const CourseDetails = () => {
                                                             </h6>
                                                             <span className="subtitle">{instructor.designation}</span>
                                                             <p>{ instructorExcerpt }</p>
-                                                            <ul className="social-share border-style">
+                                                            {/* <ul className="social-share border-style">
                                                                 <li><a href={instructor.facebookUrl}><i className="icon-Fb"></i></a></li>
                                                                 <li><a href={instructor.linkedInUrl}><i className="icon-linkedin"></i></a></li>
                                                                 <li><a href={instructor.pinterest}><i className="icon-Pinterest"></i></a></li>
                                                                 <li><a href={instructor.twitterUrl}><i className="icon-Twitter"></i></a></li>
-                                                            </ul>
+                                                            </ul> */}
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         }
 
-                                        { contentTab === 'reviews' && 
+                                        {/* { contentTab === 'reviews' && 
                                             <div className={`tab-pane fade show ${contentTab === 'reviews' ? 'active' : '' } `}>
                                                 <div className="course-tab-content">
                                                     <div className="row row--30">
@@ -314,7 +319,7 @@ const CourseDetails = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                        }
+                                        } */}
                                     </div>
                                 </div>
                             </div>
@@ -329,7 +334,6 @@ const CourseDetails = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
         </>
     )
 }

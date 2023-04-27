@@ -3,7 +3,7 @@ import Slider from "react-slick";
 
 let data = [
   {
-    name: "Ali Noor",
+    name: "Alina Noor",
     details:
       " The NodeJS course at eSpark was an incredible experience! The instructors were highly knowledgeable and supportive, providing me with the guidance and mentorship I needed to master the technology. Overall, I highly recommend this course to anyone looking to gain a solid understanding of NodeJS and its applications in the tech industry. ",
     details2:
