@@ -164,7 +164,7 @@ const HomeOneInstructor = ({ background, color }) => {
                           `/instructor-details/${slugify("Troy Hall")}`
                         }
                       >
-                        Syed Muhammad Sohaib
+                        Syed M. Sohaib
                       </Link>
                     </h5>
                     <span className="desc">SEO Expert</span>
@@ -272,7 +272,7 @@ const HomeOneInstructor = ({ background, color }) => {
                           `/instructor-details/${slugify("Isabelle Bruner")}`
                         }
                       >
-                        Syed Muhammad Usama
+                        Syed M. Usama
                       </Link>
                     </h5>
                     <span className="desc">Sr Vue js Developer</span>
