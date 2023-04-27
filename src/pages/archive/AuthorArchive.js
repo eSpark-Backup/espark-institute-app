@@ -21,7 +21,7 @@ const AuthorArchive = () => {
     return (
         <>
             <SEO title={`Posts by ${authorName}`} />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title={`Posts by ${authorName}`}
                     rootUrl="/"
@@ -45,7 +45,7 @@ const AuthorArchive = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

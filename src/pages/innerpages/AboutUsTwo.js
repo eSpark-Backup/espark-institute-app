@@ -14,7 +14,7 @@ const AboutUsTwo = () => {
     return (
         <>
             <SEO title="About Us 2" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="About Us-2"
                     rootUrl="/"
@@ -36,7 +36,7 @@ const AboutUsTwo = () => {
 
                 <TestimonialSectionOne />
                 
-            </Layout>
+            
 
         </>
     )

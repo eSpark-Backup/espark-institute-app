@@ -47,7 +47,7 @@ const GalleryLoadMore = () => {
     return (
         <>
             <SEO title="Gallery( Load More )" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Gallery( Load More )"
                     rootUrl="/"
@@ -113,7 +113,7 @@ const GalleryLoadMore = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

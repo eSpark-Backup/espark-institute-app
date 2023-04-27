@@ -2,13 +2,13 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
 const Nav = ({ onClose }) => {
-  // const { pathname } = useLocation();
+  const { pathname } = useLocation();
 
   return (
     <ul className="mainmenu">
       <li>
         <Link
-          className="active"
+          className={pathname === "/" && "active"}
           to="/"
           onClick={() => onClose()}
         >
@@ -26,7 +26,7 @@ const Nav = ({ onClose }) => {
 
       <li>
         <Link
-          className="active"
+          className={pathname === "/about-us" && "active"}
           to="/about-us"
           onClick={() => onClose()}
         >
@@ -37,11 +37,13 @@ const Nav = ({ onClose }) => {
                     <li><Link to="/about-us-2">About Us 2</Link></li>
                     <li><Link to="/about-us-3">About Us 3</Link></li>
                 </ul> */}
-            </li>
-            
-            <li >
-                <Link to="/courses">Courses</Link>
-                {/* <ul className="submenu">
+      </li>
+
+      <li>
+        <Link to="/courses" className={pathname === "/courses" && "active"}>
+          Courses
+        </Link>
+        {/* <ul className="submenu">
                     <li><Link to="/course-1">Course 1</Link></li>s
                     <li><Link to="/course-2">Course 2</Link></li>
                     <li><Link to="/course-3">Course 3</Link></li>
@@ -56,11 +58,13 @@ const Nav = ({ onClose }) => {
                     <li><Link to="/course-load-more">Course( Load More )</Link></li>
                     <li><Link to="/course-category/business">Course Category Archive</Link></li>
                 </ul> */}
-            </li>
-            
-             <li >
-                <Link to="events">Events</Link>
-               {/* <ul className="submenu">
+      </li>
+
+      <li>
+        <Link to="events" className={pathname === "/events" && "active"}>
+          Events
+        </Link>
+        {/* <ul className="submenu">
                     <li className="has-droupdown">
                         <Link to="#">Event</Link>
                         <ul className="submenu">
@@ -97,12 +101,12 @@ const Nav = ({ onClose }) => {
                     <li><Link to="/login-register">Login/Register</Link></li>
                     <li><Link to="/404">404</Link></li>
                 </ul>  */}
-                </li>
+      </li>
 
       <li>
         <Link
-          className="active"
           to="/blogs"
+          className={pathname === "/blogs" && "active"}
           onClick={() => onClose()}
         >
           Blogs
@@ -125,9 +129,14 @@ const Nav = ({ onClose }) => {
                 </ul> */}
       </li>
 
-            <li >
-                <Link to="/contact-us">Contact</Link>
-                {/* <ul className="submenu">
+      <li>
+        <Link
+          to="/contact-us"
+          className={pathname === "/contact-us" && "active"}
+        >
+          Contact
+        </Link>
+        {/* <ul className="submenu">
                     <li><Link to="/contact-me">Contact Me</Link></li>
                     <li><Link to="/contact-us">Contact Us</Link></li>
                 </ul> */}

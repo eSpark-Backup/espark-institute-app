@@ -30,7 +30,7 @@ const GalleryGrid = () => {
     return (
         <>
             <SEO title="Gallery Grid" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Gallery Grid"
                     rootUrl="/"
@@ -76,7 +76,7 @@ const GalleryGrid = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

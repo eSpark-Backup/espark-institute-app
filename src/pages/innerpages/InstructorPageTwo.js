@@ -50,7 +50,7 @@ const InstructorPageTwo = ( { wrapperClass } ) => {
     return (
         <>
             <SEO title="Instructor 2" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Instructor 2"
                     rootUrl="/"
@@ -105,7 +105,7 @@ const InstructorPageTwo = ( { wrapperClass } ) => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

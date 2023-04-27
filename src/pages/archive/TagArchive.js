@@ -21,7 +21,7 @@ const TagArchive = () => {
     return (
         <>
             <SEO title={`Posts On "${tagTitle}" tag`} />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title={tagTitle}
                     rootUrl="/"
@@ -45,7 +45,7 @@ const TagArchive = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

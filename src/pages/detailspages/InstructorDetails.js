@@ -29,7 +29,7 @@ const InstructorDetails = () => {
     return (
         <>
             <SEO title={ teamMember.name } />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Instructor Profile"
                     rootUrl="/"
@@ -150,7 +150,7 @@ const InstructorDetails = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

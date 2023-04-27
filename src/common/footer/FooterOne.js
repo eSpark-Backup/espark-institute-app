@@ -63,27 +63,27 @@ const FooterOne = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/events">
                           <i className="icon-Double-arrow"></i>Upcoming Events
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/blogs">
                           <i className="icon-Double-arrow"></i>Blog & News
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/faqs">
                           <i className="icon-Double-arrow"></i>FAQ Question
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/testimonial">
                           <i className="icon-Double-arrow"></i>Testimonial
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/privacy-policy">
                           <i className="icon-Double-arrow"></i>Privacy Policy
                         </Link>
                       </li>
@@ -103,28 +103,28 @@ const FooterOne = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/pricing-plan">
                           <i className="icon-Double-arrow"></i>Pricing Plan
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/instructors">
                           <i className="icon-Double-arrow"></i>Instructor
                           Profile
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/purchase-guide">
                           <i className="icon-Double-arrow"></i>Purchase Guide
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/popular-courses">
                           <i className="icon-Double-arrow"></i>Popular Courses
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/event-details">
                           <i className="icon-Double-arrow"></i>Event Details
                         </Link>
                       </li>

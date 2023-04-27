@@ -11,7 +11,7 @@ const BlogCarousel = () => {
     return (
         <>
             <SEO title="Blog Carousel" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Blog Carousel"
                     rootUrl="/"
@@ -43,7 +43,7 @@ const BlogCarousel = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

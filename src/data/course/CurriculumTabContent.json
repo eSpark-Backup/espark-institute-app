@@ -1,118 +1,6 @@
 [
   {
       "id": 1,
-      "title": "iOS Development",
-      "curriculum": [
-          {
-              "title": "Introduction to Android Development",
-              "content": [
-                  "Android architecture and components",
-                  "Android versions and device compatibility",
-                  "Android development tools and resources",
-                  "Introduction to Java programming language",
-                  "Overview of the development process"
-              ]
-          },
-          {
-              "title": "Setting Up Your Development Environment",
-              "content": [
-                  "Installing Android Studio and SDK",
-                  "Setting up the Android Virtual Device (AVD) Manager",
-                  "Configuring Gradle and build settings",
-                  "Introduction to project structure and file organization",
-                  "Introduction to Git version control system",
-                  "Creating a basic Android project",
-                  "Emulator setup and usage"
-              ]
-          },
-          {
-              "title": "Understanding Android Components",
-              "content": [
-                  "What are Android Components",
-                  "Understanding the Android app lifecycle",
-                  "Activities and Intents Fragments",
-                  "Services and Background Processing",
-                  "Broadcast Receivers and System Events",
-                  "Content Providers and Data Sharing",
-                  "Mastering the Manifest file and its components"
-              ]
-          },
-          {
-              "title": "Designing User Interfaces (UI)",
-              "content": [
-                  "Creating layouts using XML and views",
-                  "Working with layouts LinearLayout, ConstraintLayout, RelativeLayout, FrameLayout",
-                  "Working with UI components such as buttons, edittext, textviews, images and RecyclerView, switch, floatingActionButton",
-                  "Creating responsive and accessible user interfaces",
-                  "Using styles and themes to customize app appearance",
-                  "Designing layouts for different device screen sizes"
-              ]
-          },
-          {
-              "title": "Storing Data",
-              "content": [
-                  "Using SQLite databases and Content Providers",
-                  "Using SharedPreferences and other local storage options",
-                  "Using cloud-based storage services",
-                  "Implementing data caching and synchronization",
-                  "Using Android's backup and restore"
-              ]
-          },
-          {
-              "title": "Accessing Device Functionality",
-              "content": [
-                  "Using device sensors such as accelerometer, GPS, and compass",
-                  "Using system services such as camera, media, and notifications",
-                  "Accessing network resources and services",
-                  "Working with device storage and file system",
-                  "Working with Bluetooth and other wireless"
-              ]
-          },
-          {
-              "title": "Advanced Developing Concepts",
-              "content": [
-                  "Working with third-party libraries and APIs",
-                  "Optimizing performance and battery usage",
-                  "Handling concurrency and multithreading",
-                  "Creating custom views and animations",
-                  "Working with advanced topics such as Android Wear and Android TV"
-              ]
-          },
-          {
-              "title": "Debugging and Testing",
-              "content": [
-                  "Using debugging tools and techniques",
-                  "Testing with emulators and real devices",
-                  "Testing user interface and functional behavior",
-                  "Using Android's testing frameworks",
-                  "Using crash reporting and analytics tools"
-              ]
-          },
-          {
-              "title": "Building & Publishing Your App",
-              "content": [
-                  "Overview of Android development",
-                  "Android Studio and SDK installation",
-                  "Creating a basic Android project",
-                  "Understanding the Android app lifecycle",
-                  "Emulator setup and usage"
-              ]
-          },
-          {
-              "title": "First Android Project",
-              "content": [
-                  "Create UI and Layout",
-                  "Build Logic and Functionality",
-                  "Setup Routes and Navigation",
-                  "Make http requests and handle Reponses",
-                  "Store Data and manipulation of Data",
-                  "Testing and Deployment"
-              ]
-          }
-      ]
-  },
-  {
-      "id": 2,
       "title": "Android Development",
       "curriculum": [
           {
@@ -224,7 +112,7 @@
       ]
   },
   {
-      "id": 3,
+      "id": 2,
       "title": "React JS Development",
       "curriculum": [
         {
@@ -355,7 +243,7 @@
     ]
   },
   {
-      "id": 4,
+      "id": 3,
       "title": "React Native Development",
       "curriculum": [
               {
@@ -508,119 +396,7 @@
       ]
   },
   {
-      "id": 5,
-      "title": "Vue JS Development",
-      "curriculum": [
-          {
-              "title": "Introduction to Android Development",
-              "content": [
-                  "Android architecture and components",
-                  "Android versions and device compatibility",
-                  "Android development tools and resources",
-                  "Introduction to Java programming language",
-                  "Overview of the development process"
-              ]
-          },
-          {
-              "title": "Setting Up Your Development Environment",
-              "content": [
-                  "Installing Android Studio and SDK",
-                  "Setting up the Android Virtual Device (AVD) Manager",
-                  "Configuring Gradle and build settings",
-                  "Introduction to project structure and file organization",
-                  "Introduction to Git version control system",
-                  "Creating a basic Android project",
-                  "Emulator setup and usage"
-              ]
-          },
-          {
-              "title": "Understanding Android Components",
-              "content": [
-                  "What are Android Components",
-                  "Understanding the Android app lifecycle",
-                  "Activities and Intents Fragments",
-                  "Services and Background Processing",
-                  "Broadcast Receivers and System Events",
-                  "Content Providers and Data Sharing",
-                  "Mastering the Manifest file and its components"
-              ]
-          },
-          {
-              "title": "Designing User Interfaces (UI)",
-              "content": [
-                  "Creating layouts using XML and views",
-                  "Working with layouts LinearLayout, ConstraintLayout, RelativeLayout, FrameLayout",
-                  "Working with UI components such as buttons, edittext, textviews, images and RecyclerView, switch, floatingActionButton",
-                  "Creating responsive and accessible user interfaces",
-                  "Using styles and themes to customize app appearance",
-                  "Designing layouts for different device screen sizes"
-              ]
-          },
-          {
-              "title": "Storing Data",
-              "content": [
-                  "Using SQLite databases and Content Providers",
-                  "Using SharedPreferences and other local storage options",
-                  "Using cloud-based storage services",
-                  "Implementing data caching and synchronization",
-                  "Using Android's backup and restore"
-              ]
-          },
-          {
-              "title": "Accessing Device Functionality",
-              "content": [
-                  "Using device sensors such as accelerometer, GPS, and compass",
-                  "Using system services such as camera, media, and notifications",
-                  "Accessing network resources and services",
-                  "Working with device storage and file system",
-                  "Working with Bluetooth and other wireless"
-              ]
-          },
-          {
-              "title": "Advanced Developing Concepts",
-              "content": [
-                  "Working with third-party libraries and APIs",
-                  "Optimizing performance and battery usage",
-                  "Handling concurrency and multithreading",
-                  "Creating custom views and animations",
-                  "Working with advanced topics such as Android Wear and Android TV"
-              ]
-          },
-          {
-              "title": "Debugging and Testing",
-              "content": [
-                  "Using debugging tools and techniques",
-                  "Testing with emulators and real devices",
-                  "Testing user interface and functional behavior",
-                  "Using Android's testing frameworks",
-                  "Using crash reporting and analytics tools"
-              ]
-          },
-          {
-              "title": "Building & Publishing Your App",
-              "content": [
-                  "Overview of Android development",
-                  "Android Studio and SDK installation",
-                  "Creating a basic Android project",
-                  "Understanding the Android app lifecycle",
-                  "Emulator setup and usage"
-              ]
-          },
-          {
-              "title": "First Android Project",
-              "content": [
-                  "Create UI and Layout",
-                  "Build Logic and Functionality",
-                  "Setup Routes and Navigation",
-                  "Make http requests and handle Reponses",
-                  "Store Data and manipulation of Data",
-                  "Testing and Deployment"
-              ]
-          }
-      ]
-  },
-  {
-      "id": 6,
+      "id": 4,
       "title": "Flutter Development",
       "curriculum": [
           {
@@ -727,7 +503,7 @@
       ]
   },
   {
-      "id": 7,
+      "id": 5,
       "title": "WordPress Development",
       "curriculum": [
           
@@ -836,7 +612,7 @@
               ]
   },
   {
-      "id": 8,
+      "id": 6,
       "title": "Search Engin Optimization",
       "curriculum": [
           {

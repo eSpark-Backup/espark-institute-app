@@ -11,7 +11,7 @@ const CourseCarousel = () => {
     return (
         <>
             <SEO title="Course Carousel" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Course Carousel"
                     rootUrl="/"
@@ -43,7 +43,7 @@ const CourseCarousel = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

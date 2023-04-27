@@ -31,7 +31,7 @@ const CourseLoadMore = () => {
     return (
         <>
             <SEO title="Course( Load More )" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Course( Load More )"
                     rootUrl="/"
@@ -77,7 +77,7 @@ const CourseLoadMore = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

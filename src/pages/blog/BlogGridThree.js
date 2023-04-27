@@ -10,7 +10,7 @@ const BlogGridThree = () => {
     return (
         <>
             <SEO title="Blog Grid 3" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Blog Grid 3"
                     rootUrl="/"
@@ -39,7 +39,7 @@ const BlogGridThree = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

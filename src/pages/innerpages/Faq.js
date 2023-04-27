@@ -227,7 +227,7 @@ const Faq = ( { wrapperClass } ) => {
     return (
         <>
             <SEO title="Frequently Asked Questions" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Frequently Asked Questions"
                     rootUrl="/"
@@ -377,7 +377,7 @@ const Faq = ( { wrapperClass } ) => {
                         }
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

@@ -1,41 +1,9 @@
 [
     {
         "id": 1,
-        "title": "iOS Development",
-        "image": "course-01.jpg",
-        "instructor": "Rohail Zafar",
-        "duration": "3h 14m 20s",
-        "durationInHour": "3 Hours",
-        "durationInHourMinute": "3hr 14min",
-        "level": "Intermediate",
-        "language": "English",
-        "deadline": "25 Dec, 2022",
-        "rating": "4.9",
-        "student": 763,
-        "lesson": 29,
-        "quizzes": 12,
-        "price": "45.00",
-        "oldPrice": "55.00",
-        "review": 56,
-        "passPercentage": 80,
-        "featured": true,
-        "certificate": "available",
-        "filterParam": "Popularity",
-        "categories": [
-            "Business",
-            "Graphics Design"
-        ],
-        "videoLink": [
-            "https://www.youtube.com/watch?v=pNje3bWz7V8"
-        ],
-        "excerpt": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "details": "<h5>Course Description</h5> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p><h5>What You’ll Learn From This Course</h5> <ul> <li>Neque sodales ut etiam sit amet nisl purus non tellus orci ac auctor</li><li>Tristique nulla aliquet enim tortor at auctor urna. Sit amet aliquam id diam maer</li><li>Nam libero justo laoreet sit amet. Lacus sed viverra tellus in hac</li><li>Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis</li></ul> <h5>Certification</h5> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>"
-    },
-    {
-        "id": 2,
         "title": "Android Development",
         "image": "course-02.jpg",
-        "instructor": "Rohail Zafar",
+        "instructor": "Imran Ahmed",
         "duration": "8h 15m 30s",
         "durationInHour": "8 Hours",
         "durationInHourMinute": "8hr 15min",
@@ -59,11 +27,11 @@
         "videoLink": [
             "https://www.youtube.com/watch?v=pNje3bWz7V8"
         ],
-        "excerpt": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "excerpt": "With the skill of Android development, you can build and publish your own mobile applications on the Google Play Store, providing useful and engaging experiences to millions of Android users worldwide.",
         "details": "<h5>Course Description</h5> <p>Android is an open-source mobile operating system based on the Linux kernel. It uses Java and the Android SDK for app development. Developers can distribute apps on the Google Play Store and use tools like Maps and Firebase.</p><h5>What You will learn from this course</h5> <ul><li>Setting up Android Studio and installing necessary tools.</li> <li>Understanding Android app components such as activities, services, broadcast receivers, and content providers.</li><li>Designing user interfaces using XML and Java code.</li><li>Handling user input and creating interactive user experiences.</li><li>Using Android APIs to access device functionality such as camera, location, and sensors.</li><li>Storing data in various forms such as Shared Preferences, SQLite databases, and cloud storage.</li><li>Debugging and testing your app using emulators and real devices.</li><li>Publishing your app to the Google Play Store.</li><li>Incorporating third-party libraries and APIs into your app.</li><li>Ensuring security and performance of your app.</li></ul>"
     },
     {
-        "id": 3,
+        "id": 2,
         "title": "React JS Development",
         "image": "course-03.jpg",
         "instructor": "Rohail Zafar",
@@ -90,11 +58,11 @@
         "videoLink": [
             "https://www.youtube.com/watch?v=pNje3bWz7V8"
         ],
-        "excerpt": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "details": "<h5>Course Description</h5> <p>Android is an open-source mobile operating system based on the Linux kernel. It uses Java and the Android SDK for app development. Developers can distribute apps on the Google Play Store and use tools like Maps and Firebase.</p><h5>What You will learn from this course</h5> <ul><li>Setting up Android Studio and installing necessary tools.</li> <li>Understanding Android app components such as activities, services, broadcast receivers, and content providers.</li><li>Designing user interfaces using XML and Java code.</li><li>Handling user input and creating interactive user experiences.</li><li>Using Android APIs to access device functionality such as camera, location, and sensors.</li><li>Storing data in various forms such as Shared Preferences, SQLite databases, and cloud storage.</li><li>Debugging and testing your app using emulators and real devices.</li><li>Publishing your app to the Google Play Store.</li><li>Incorporating third-party libraries and APIs into your app.</li><li>Ensuring security and performance of your app.</li></ul>"
+        "excerpt": "With the skill of React JS, you can develop highly interactive and responsive web applications that are scalable and easy to maintain.",
+        "details": "<h5>Course Description</h5> <p>React JS is a popular JavaScript library that provides many useful features for building user interfaces. One of the key features is the ability to create reusable components that can be used across different parts of an application. This makes it easier to maintain and update code, as well as reducing the overall amount of code required. React also makes it easy to manage the state of an application, which is important for creating responsive and interactive user interfaces. Additionally, React JS supports server-side rendering, which can improve the performance and SEO of web applications. Finally, React JS has a large and active community, with many open-source libraries and tools available to help developers build great applications. You'll start from scratch and build up to a comprehensive web application that uses modern techniques and best practices to consume RESTful data from a NodeJS/Express server and present it to the user in a multi-screen, interactive app.</p><h5>What You will learn from this course</h5> <ul><li>Fundamentals of React JS, including components, props, state, and JSX.</li><li>Using React Router for creating routes, navigation and controlling Single Page Applications flow.</li><li>State management using Redux for efficient and easy maintenance.</li><li>Creating forms in React JS and validating user input.</li><li>Authentication and authorization for restricting access to specific parts of web applications</li><li>Handling data in React JS, including fetching, updating, and deleting data from a database.</li><li>Integrating APIs into React JS applications for making data requests and receiving responses.</li><li>Testing and debugging React JS applications to ensure they are error-free and bug-free.</li><li>Deploying React JS applications to production servers for making them available to users worldwide.</li></ul>"
     },
     {
-        "id": 4,
+        "id": 3,
         "title": "React Native Development",
         "image": "course-04.jpg",
         "instructor": "Rohail Zafar",
@@ -121,42 +89,11 @@
         "videoLink": [
             "https://www.youtube.com/watch?v=pNje3bWz7V8"
         ],
-        "excerpt": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "details": "<h5>Course Description</h5> <p>Android is an open-source mobile operating system based on the Linux kernel. It uses Java and the Android SDK for app development. Developers can distribute apps on the Google Play Store and use tools like Maps and Firebase.</p><h5>What You will learn from this course</h5> <ul><li>Setting up Android Studio and installing necessary tools.</li> <li>Understanding Android app components such as activities, services, broadcast receivers, and content providers.</li><li>Designing user interfaces using XML and Java code.</li><li>Handling user input and creating interactive user experiences.</li><li>Using Android APIs to access device functionality such as camera, location, and sensors.</li><li>Storing data in various forms such as Shared Preferences, SQLite databases, and cloud storage.</li><li>Debugging and testing your app using emulators and real devices.</li><li>Publishing your app to the Google Play Store.</li><li>Incorporating third-party libraries and APIs into your app.</li><li>Ensuring security and performance of your app.</li></ul>"
+        "excerpt": "Learning React Native can open up opportunities to develop mobile applications for both Android and iOS platforms, using a single codebase, resulting in faster development and reduced cost.",
+        "details": "<h5>Course Description</h5> <p>React Native is used by organizations worldwide to create cross-platform phone/tablet apps with one code base. This means that you can write code easily that will run on iPhones, iPads, and Android phones and tablets without having to rewrite it in two or more languages -- just one.</p><h5>What You will learn from this course</h5> <ul><li>Develop cross-platform apps for iOS and Android</li><li>Set up and deploy apps on device emulators</li><li>Use react-native-cli to create and run iOS and Android apps</li><li>Explain the architecture of a device app</li><li>Apply the most useful React Native components</li><li>Write code that works seamlessly on different platforms</li><li>Use flexbox on devices to control the layout of your apps</li><li>Style React Native apps efficiently using best practices</li><li>Implement different types of navigators such as stack navigators, drawer navigators, and tab navigators to create smooth app transitions</li><li>Consume RESTful data and present it to the user. </li></ul>"
     },
     {
-        "id": 5,
-        "title": "Vue JS Development",
-        "image": "course-05.jpg",
-        "instructor": "Rohail Zafar",
-        "duration": "8h 15m 30s",
-        "durationInHour": "8 Hours",
-        "durationInHourMinute": "8hr 15min",
-        "level": "Advanced",
-        "language": "English",
-        "deadline": "28 Dec, 2022",
-        "rating": "4.8",
-        "student": 255,
-        "lesson": 35,
-        "quizzes": 10,
-        "price": "55.00",
-        "review": 25,
-        "passPercentage": 90,
-        "featured": false,
-        "certificate": "available",
-        "filterParam": "Trending",
-        "categories": [
-            "Business",
-            "Graphics Design"
-        ],
-        "videoLink": [
-            "https://www.youtube.com/watch?v=pNje3bWz7V8"
-        ],
-        "excerpt": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "details": "<h5>Course Description</h5> <p>Android is an open-source mobile operating system based on the Linux kernel. It uses Java and the Android SDK for app development. Developers can distribute apps on the Google Play Store and use tools like Maps and Firebase.</p><h5>What You will learn from this course</h5> <ul><li>Setting up Android Studio and installing necessary tools.</li> <li>Understanding Android app components such as activities, services, broadcast receivers, and content providers.</li><li>Designing user interfaces using XML and Java code.</li><li>Handling user input and creating interactive user experiences.</li><li>Using Android APIs to access device functionality such as camera, location, and sensors.</li><li>Storing data in various forms such as Shared Preferences, SQLite databases, and cloud storage.</li><li>Debugging and testing your app using emulators and real devices.</li><li>Publishing your app to the Google Play Store.</li><li>Incorporating third-party libraries and APIs into your app.</li><li>Ensuring security and performance of your app.</li></ul>"
-    },
-    {
-        "id": 6,
+        "id": 4,
         "title": "Flutter Development",
         "image": "course-06.jpg",
         "instructor": "Rohail Zafar",
@@ -183,14 +120,14 @@
         "videoLink": [
             "https://www.youtube.com/watch?v=pNje3bWz7V8"
         ],
-        "excerpt": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "details": "<h5>Course Description</h5> <p>Android is an open-source mobile operating system based on the Linux kernel. It uses Java and the Android SDK for app development. Developers can distribute apps on the Google Play Store and use tools like Maps and Firebase.</p><h5>What You will learn from this course</h5> <ul><li>Setting up Android Studio and installing necessary tools.</li> <li>Understanding Android app components such as activities, services, broadcast receivers, and content providers.</li><li>Designing user interfaces using XML and Java code.</li><li>Handling user input and creating interactive user experiences.</li><li>Using Android APIs to access device functionality such as camera, location, and sensors.</li><li>Storing data in various forms such as Shared Preferences, SQLite databases, and cloud storage.</li><li>Debugging and testing your app using emulators and real devices.</li><li>Publishing your app to the Google Play Store.</li><li>Incorporating third-party libraries and APIs into your app.</li><li>Ensuring security and performance of your app.</li></ul>"
+        "excerpt": "After learning Flutter, you can create high-quality native applications for mobile, web, and desktop with a fast development cycle and a rich set of pre-built widgets.",
+        "details": "<h5>Course Description</h5> <p>Flutter is a mobile app development framework that is rapidly gaining popularity among developers for its ability to create native apps with a single codebase for both Android and iOS platforms. With Flutter, developers can write code that runs smoothly on different devices and operating systems. Flutter uses Dart programming language, which is easy to learn for those who know other programming languages such as Java or JavaScript. Flutter apps are highly performant and can be deployed to both the Apple App Store and Google Play Store. In this course, you will learn the fundamentals of Flutter, including navigation, layout, and styling. You will also explore more advanced topics such as state management, animations, and working with APIs. By the end of the course, you will have the skills to build a comprehensive Flutter app and publish it to the app stores. The course will consist of a mix of lectures and hands-on labs to provide a practical understanding of Flutter app development.</h5> <ul><li>Develop cross-platform apps for iOS and Android.</li><li>Set up and deploy apps on device emulators.</li><li>Use Flutter commands to create and run apps on iOS and Android devices.</li><li>Explain the architecture of a Flutter app.</li><li>Implement commonly used Flutter widgets and components.</li><li>Write code that works seamlessly on different platforms.</li><li>Use Flutter's layout system to control app layout on different devices.</li><li>Style Flutter apps efficiently using best practices.</li><li>Implement different types of navigators such as stack navigators, drawer navigators, and tab navigators to create smooth app transitions.</li><li>Consume RESTful data and present it to the user in a Flutter app.. </li></ul>"
     },
     {
-        "id": 7,
+        "id": 5,
         "title": "Wordpress Development",
         "image": "course-07.jpg",
-        "instructor": "Rohail Zafar",
+        "instructor": "Muhammad Sohaib",
         "duration": "8h 15m 30s",
         "durationInHour": "8 Hours",
         "durationInHourMinute": "8hr 15min",
@@ -214,14 +151,14 @@
         "videoLink": [
             "https://www.youtube.com/watch?v=pNje3bWz7V8"
         ],
-        "excerpt": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "details": "<h5>Course Description</h5> <p>Android is an open-source mobile operating system based on the Linux kernel. It uses Java and the Android SDK for app development. Developers can distribute apps on the Google Play Store and use tools like Maps and Firebase.</p><h5>What You will learn from this course</h5> <ul><li>Setting up Android Studio and installing necessary tools.</li> <li>Understanding Android app components such as activities, services, broadcast receivers, and content providers.</li><li>Designing user interfaces using XML and Java code.</li><li>Handling user input and creating interactive user experiences.</li><li>Using Android APIs to access device functionality such as camera, location, and sensors.</li><li>Storing data in various forms such as Shared Preferences, SQLite databases, and cloud storage.</li><li>Debugging and testing your app using emulators and real devices.</li><li>Publishing your app to the Google Play Store.</li><li>Incorporating third-party libraries and APIs into your app.</li><li>Ensuring security and performance of your app.</li></ul>"
+        "excerpt": "By learning WordPress development, you can build professional-looking websites and online applications with ease and efficiency, using a powerful and user-friendly CMS.",
+        "details": "<h5>Course Description</h5> <p>WordPress is one of the most popular content management systems. With WordPress, anyone can build an optimized website and put it online with little effort. Bloggers can get started just as easily with WordPress—in fact there are more than 75 million WordPress blogs! WordPress was developed with search engine optimization (SEO) in mind. With clean URLs and access to powerful SEO plugins your website or blog will be optimized for the search engines, making it easier to be found online.</h5> <ul><li>Prepare the system to run WordPress</li><li>Install WordPress and explore WordPress Dashboard</li><li>Change the appearance of the WordPress site using themes</li><li>Use several types of Default content types in WordPress</li><li>Create custom content types in WordPress</li><li>Choose, Install, and use different WordPress themes</li><li>Choose, Install, and use different WordPress plugins</li><li>Use a Page builder (Elementor) and customize the website with that</li><li>Use the Menus, Sidebars & Widgets</li><li>Manage users in WordPress</li><li>Increase WordPress Speed and Security</li><li>Know the basic intro of jQuery, HTML, CSS & PHP</li><li>Work on WordPress templates on a template hierarchy</li><li>Get knowledge of WordPress Child themes</li><li>Write a basic WordPress plugin</li><li>Convert HTML to WordPress</li><li>Setup an E-Commerce site using WooCommerce</li><li>Setup an LMS site</li><li>Setup a Membership site</li><li>Learn how to make money using Learnings from the course</li></ul>"
     },
     {
-        "id": 8,
+        "id": 6,
         "title": "Search Engin Optimization",
         "image": "course-08.jpg",
-        "instructor": "Rohail Zafar",
+        "instructor": "Muhammad Sohaib",
         "duration": "8h 15m 30s",
         "durationInHour": "8 Hours",
         "durationInHourMinute": "8hr 15min",
@@ -245,7 +182,7 @@
         "videoLink": [
             "https://www.youtube.com/watch?v=pNje3bWz7V8"
         ],
-        "excerpt": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "excerpt": " With the knowledge of SEO, you can optimize websites and online content for search engines, resulting in improved visibility, higher traffic, and better engagement with the target audience.",
         "details": "<h5>Course Description</h5> <p>Search Engine Optimization (SEO) empowers a business to rank higher in search engine results which helps in reaching a wider audience. Humans are inquisitive in nature, and they search for answers all the time. This was made easier with the advent of technology and Google has become the go-to search engine for Billions of people all around the world. This can be achieved by understanding how Google’s search engine works and how it ranks websites. This course is the key to understanding one of the most important skills in Digital Marketing. If businesses can learn to rank their websites on Google, then they can literally expect millions of visitors to their websites with millions of opportunities to get leads and sales.</p><h5>What You will learn from this course</h5> <ul><li>After completing this course, a trainee will be able to.</li><li>Use the Google Search engine efficiently.</li><li>Practice different steps to do efficient keyword research.</li><li>Utilize keywords with your unique content.</li><li>Plan SEO activities based on how search engines rank websites.</li><li>Change the existing structure of a website to rank it higher in search results.</li><li>Create a better marketing strategy for any product or service keeping in mind the importance of SEO.</li><li>Perform On-page Optimization to rank the website higher in Google search results.</li><li>Integrate some on-page factors like Sitemap, Robots.txt, and Schema.</li><li>Configure important tools like Google Search Console and Google Analytics.</li><li>Implement different on-page factors on a WordPress website using the necessitating plugin, called The Yoast SEO plugin.</li><li>Perform Off-page Optimization, also called Link Building.</li><li>Perform Video, social media, and AppStore SEO according to the latest trends and techniques.</li><li>Apply advanced techniques that will make the websites rank better than competitors.</li><li>Use some of the most important tools for SEO. Manage a complete SEO project.</li><li>Acquire online SEO-related projects on different freelancing platforms.</li><li>Perform competitor analysis.</li><li>Create SEO Project Performance report.</li></ul>"
     }
 ]

@@ -21,7 +21,7 @@ const BlogDetailsThree = () => {
     return (
         <>
             <SEO title={ data.title } />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title={ data.title }
                     rootUrl="/"
@@ -149,7 +149,7 @@ const BlogDetailsThree = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

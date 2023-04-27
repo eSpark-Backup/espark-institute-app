@@ -10,7 +10,7 @@ const CoruseTwo = () => {
     return (
         <>
             <SEO title="Course Style - 2" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Course Style - 2"
                     rootUrl="/"
@@ -30,7 +30,7 @@ const CoruseTwo = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

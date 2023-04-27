@@ -10,7 +10,7 @@ const InstructorPageThree = () => {
     return (
         <>
             <SEO title="Instructor 3" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Instructor 3"
                     rootUrl="/"
@@ -223,7 +223,7 @@ const InstructorPageThree = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

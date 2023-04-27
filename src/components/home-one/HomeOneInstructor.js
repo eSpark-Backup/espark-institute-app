@@ -109,7 +109,7 @@ const HomeOneInstructor = ({ background, color }) => {
                           `/instructor-details/${slugify("Nancy Phipps")}`
                         }
                       >
-                        Ovais Rafique{" "}
+                        Ovais<br/>Rafique{" "}
                       </Link>
                     </h5>
                     <span className="desc">Node JS Expert</span>
@@ -218,7 +218,7 @@ const HomeOneInstructor = ({ background, color }) => {
                           `/instructor-details/${slugify("Isabelle Bruner")}`
                         }
                       >
-                        Hassan Ahmed Khan
+                        Hassan Ahmed<br/> Khan
                       </Link>
                     </h5>
                     <span className="desc">SQA Engineer​</span>

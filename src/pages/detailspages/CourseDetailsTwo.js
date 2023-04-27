@@ -74,7 +74,7 @@ const CourseDetailsTwo = () => {
     return (
         <>
             <SEO title={ courseItem.title } />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Course Details"
                     rootUrl="/"
@@ -259,7 +259,7 @@ const CourseDetailsTwo = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

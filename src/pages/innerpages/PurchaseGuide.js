@@ -7,7 +7,7 @@ const PurchaseGuide = () => {
     return (
         <>
             <SEO title="Purchase Guide" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Purchase Guide"
                     rootUrl="/"
@@ -57,7 +57,7 @@ const PurchaseGuide = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

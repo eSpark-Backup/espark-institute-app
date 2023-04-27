@@ -16,7 +16,7 @@ const BlogGridRightSidebar = () => {
     return (
         <>
             <SEO title="Blog Grid" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Blog Grid With Right Sidebar"
                     rootUrl="/"
@@ -55,7 +55,7 @@ const BlogGridRightSidebar = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }
