@@ -49,5 +49,4 @@ const RelatedCourses = ( { courseID } ) => {
         </>
     )
 }
-colo
 export default RelatedCourses;
