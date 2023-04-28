@@ -40,7 +40,7 @@ const Nav = ({ onClose }) => {
       </li>
 
       <li>
-        <Link to="/courses" className={pathname === "/courses" && "active"}>
+        <Link to="/courses" className={pathname.includes("course") && "active"}>
           Courses
         </Link>
         {/* <ul className="submenu">
@@ -106,7 +106,7 @@ const Nav = ({ onClose }) => {
       <li>
         <Link
           to="/blogs"
-          className={pathname === "/blogs" && "active"}
+          className={pathname.includes("blog") && "active"}
           onClick={() => onClose()}
         >
           Blogs
@@ -134,7 +134,7 @@ const Nav = ({ onClose }) => {
           to="/contact-us"
           className={pathname === "/contact-us" && "active"}
         >
-          Contact
+          Contact Us
         </Link>
         {/* <ul className="submenu">
                     <li><Link to="/contact-me">Contact Me</Link></li>

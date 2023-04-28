@@ -78,7 +78,7 @@ const HomeOneInstructor = ({ background, color }) => {
             </div>
           </div> */}
 
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+          {/* <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <div
               className={`edu-instructor-grid edu-instructor-3 edu-instructor-3-visible${
                 visible === "team2" ? " eduvibe-hover-active" : ""
@@ -186,7 +186,118 @@ const HomeOneInstructor = ({ background, color }) => {
                 </div>
               </div>
             </div>
+          </div> */}
+
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div
+              className={`edu-instructor-grid edu-instructor-3 edu-instructor-3-visible${
+                visible === "team2" ? " eduvibe-hover-active" : ""
+              }`}
+              onMouseOver={() => setVisible("team2")}
+              onMouseOut={() => setVisible("")}
+            >
+              <div className="edu-instructor">
+                <div className="inner">
+                  <div className="thumbnail">
+                    <Link
+                      to={
+                        process.env.PUBLIC_URL +
+                        `/instructor-details/${slugify("Nancy Phipps")}`
+                      }
+                    >
+                      <img
+                        src="/images/instructor/instructor-03/rohail.png"
+                        alt="team images"
+                      />
+                    </Link>
+                  </div>
+                  <div className="edu-instructor-info">
+                    <h5 className="title">
+                      <Link
+                        to={
+                          process.env.PUBLIC_URL +
+                          `/instructor-details/${slugify("Nancy Phipps")}`
+                        }
+                      >
+                        Rohail Zafar{" "}
+                      </Link>
+                    </h5>
+                    <span className="desc">Mobile App Developer</span>
+                    <div className="team-share-info bg-transparent">
+                      <a className="linkedin" href="#">
+                        <i className="icon-linkedin"></i>
+                      </a>
+                      <a className="facebook" href="#">
+                        <i className="icon-Fb"></i>
+                      </a>
+                      <a className="twitter" href="#">
+                        <i className="icon-Twitter"></i>
+                      </a>
+                      <a className="youtube" href="#">
+                        <i className="icon-youtube"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div
+              className={`edu-instructor-grid edu-instructor-3 edu-instructor-3-visible${
+                visible === "team3" ? " eduvibe-hover-active" : ""
+              }`}
+              onMouseOver={() => setVisible("team3")}
+              onMouseOut={() => setVisible("")}
+            >
+              <div className="edu-instructor">
+                <div className="inner">
+                  <div className="thumbnail">
+                    <Link
+                      to={
+                        process.env.PUBLIC_URL +
+                        `/instructor-details/${slugify("Troy Hall")}`
+                      }
+                    >
+                      <img
+                        src="/images/instructor/instructor-03/imran.png"
+                        alt="team images"
+                      />
+                    </Link>
+                  </div>
+                  <div className="edu-instructor-info">
+                    <h5 className="title">
+                      <Link
+                        to={
+                          process.env.PUBLIC_URL +
+                          `/instructor-details/${slugify("Troy Hall")}`
+                        }
+                      >
+                        Imran Ahmed
+                      </Link>
+                    </h5>
+                    <span className="desc">Android Developer</span>
+                    <div className="team-share-info bg-transparent">
+                      <a className="linkedin" href="#">
+                        <i className="icon-linkedin"></i>
+                      </a>
+                      <a className="facebook" href="#">
+                        <i className="icon-Fb"></i>
+                      </a>
+                      <a className="twitter" href="#">
+                        <i className="icon-Twitter"></i>
+                      </a>
+                      <a className="youtube" href="#">
+                        <i className="icon-youtube"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <div
               className={`edu-instructor-grid edu-instructor-3 edu-instructor-3-visible${

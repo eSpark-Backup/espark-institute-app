@@ -10,10 +10,10 @@ const ContactUs = () => {
       <SEO title="Contact Us" />
      
         <BreadcrumbOne
-          title="Contact"
+          title="Contact Us"
           rootUrl="/"
           parentUrl="Home"
-          currentUrl="Contact"
+          currentUrl="Contact Us"
         />
         <div className="eduvibe-contact-us edu-contact-us-area edu-section-gap bg-color-white">
           <div className="container eduvibe-animated-shape">
@@ -21,7 +21,7 @@ const ContactUs = () => {
               <div className="col-lg-12">
                 <div className="section-title text-center">
                   <span className="pre-title">Need Help?</span>
-                  <h3 className="title">Get In Touch With us</h3>
+                  <h3 className="title">Get in touch with us</h3>
                 </div>
               </div>
             </div>
@@ -53,8 +53,8 @@ const ContactUs = () => {
                           <div className="content">
                             <h6 className="title">Call Us On</h6>
                             <p>
-                              <a href="tel: +9232 (327) 8259">
-                                +9232 (327) 8259
+                              <a href="tel: +923232788259">
+                                0323-2788259
                               </a>
                             </p>
                           </div>

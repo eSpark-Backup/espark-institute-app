@@ -21,8 +21,7 @@
         "certificate": "available",
         "filterParam": "Trending",
         "categories": [
-            "Business",
-            "Graphics Design"
+            "Mobile Application"
         ],
         "videoLink": [
             "https://www.youtube.com/watch?v=pNje3bWz7V8"
@@ -52,8 +51,7 @@
         "certificate": "available",
         "filterParam": "Trending",
         "categories": [
-            "Business",
-            "Graphics Design"
+            "Web Application"
         ],
         "videoLink": [
             "https://www.youtube.com/watch?v=pNje3bWz7V8"
@@ -83,8 +81,7 @@
         "certificate": "available",
         "filterParam": "Trending",
         "categories": [
-            "Business",
-            "Graphics Design"
+            "Mobile Application"
         ],
         "videoLink": [
             "https://www.youtube.com/watch?v=pNje3bWz7V8"
@@ -114,8 +111,7 @@
         "certificate": "available",
         "filterParam": "Trending",
         "categories": [
-            "Business",
-            "Graphics Design"
+            "Hybrid Application"
         ],
         "videoLink": [
             "https://www.youtube.com/watch?v=pNje3bWz7V8"
@@ -145,8 +141,7 @@
         "certificate": "available",
         "filterParam": "Trending",
         "categories": [
-            "Business",
-            "Graphics Design"
+            "Web Application"
         ],
         "videoLink": [
             "https://www.youtube.com/watch?v=pNje3bWz7V8"
@@ -156,7 +151,7 @@
     },
     {
         "id": 6,
-        "title": "Search Engin Optimization",
+        "title": "Search Engine Optimization",
         "image": "course-08.jpg",
         "instructor": "Muhammad Sohaib",
         "duration": "40h 15m 30s",
@@ -176,8 +171,7 @@
         "certificate": "available",
         "filterParam": "Trending",
         "categories": [
-            "Business",
-            "Graphics Design"
+            "Marketing"
         ],
         "videoLink": [
             "https://www.youtube.com/watch?v=pNje3bWz7V8"

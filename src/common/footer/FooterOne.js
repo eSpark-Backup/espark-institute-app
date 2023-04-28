@@ -78,12 +78,12 @@ const FooterOne = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/testimonial">
+                        <Link to="/testimonials">
                           <i className="icon-Double-arrow"></i>Testimonial
                         </Link>
                       </li>
                       <li>
-                        <Link to="/privacy-policy">
+                        <Link to="/privacypolicy">
                           <i className="icon-Double-arrow"></i>Privacy Policy
                         </Link>
                       </li>
@@ -114,7 +114,7 @@ const FooterOne = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/purchase-guide">
+                        <Link to="/purchaseguide">
                           <i className="icon-Double-arrow"></i>Purchase Guide
                         </Link>
                       </li>
