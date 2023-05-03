@@ -1,42 +1,47 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 
-const Result = () => {
+const Result = ({ error, color }) => {
   return (
-    <p className="success-message">
-      Thanks for your query. We will contact with you soon.
+    <p className="success-message" style={{ color: error ? color : null }}>
+      {error ? error : "Thanks for your query. We will contact with you soon."}
     </p>
   );
 };
 
 function ContactUsForm({ formStyle }) {
   const [result, setResult] = useState(false);
+  const [error, setError] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
     const data = new FormData(e.target);
 
     emailjs.init("nCNAvN3x_AzOlKyP7");
-
-    emailjs
-      .send("service_mr9eoju", "template_w8prz8r", {
-        to_name: "eSpark Institue Of Technical Training",
-        from_name: data.get("fullname").toString(),
-        message: data.get("message").toString(),
-        from_email: data.get("email").toString(),
-        // phone: data.get("phone").toString(),
-        subject: data.get("subject").toString(),
-      })
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.reset();
-    setResult(true);
+    if (data.get("fullname").toString().length >= 3) {
+      emailjs
+        .send("service_mr9eoju", "template_w8prz8r", {
+          to_name: "eSpark Institue Of Technical Training",
+          from_name: data.get("fullname").toString(),
+          message: data.get("message").toString(),
+          from_email: data.get("email").toString(),
+          subject: data.get("subject").toString(),
+        })
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      e.target.reset();
+      setError("");
+      setResult(true);
+    } else {
+      setResult(true);
+      setError("Name Field Should be atleast 3 Characters");
+    }
   };
 
   setTimeout(() => {
@@ -115,7 +120,7 @@ function ContactUsForm({ formStyle }) {
       </div>
       {result ? (
         <div className="form-group">
-          <Result />
+          <Result error={error} color={"red"} />
         </div>
       ) : null}
     </form>
