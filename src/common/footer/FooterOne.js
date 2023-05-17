@@ -15,7 +15,7 @@ const FooterOne = () => {
                     <Link to={process.env.PUBLIC_URL + "/"}>
                       <img
                         className="logo-light"
-                        src="/images/logo/institue-FLAT-WHITE.png"
+                        src="/images/logo/Institute_White.png"
                         alt="Footer Logo"
                       />
                     </Link>

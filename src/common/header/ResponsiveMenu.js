@@ -36,7 +36,7 @@ const ResponsiveMenu = ({ show, onClose, showSearch, onSearch }) => {
           <div className="header-top">
             <div className="logo">
               <Link to={process.env.PUBLIC_URL + "/"} onClick={onClose}>
-                <img src="/images/logo/institue-FLAT.png" alt="Main Logo" />
+                <img src="/images/logo/institute-logo.png" alt="Main Logo" />
               </Link>
             </div>
             <div className="close-menu">

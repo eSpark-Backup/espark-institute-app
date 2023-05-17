@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": 1,
         "title": "Android Development",
         "image": "course-02.jpg",
@@ -21,7 +20,8 @@
         "certificate": "available",
         "filterParam": "Trending",
         "categories": [
-            "Mobile Application"
+            "Mobile Application",
+            "Training"
         ],
         "videoLink": [
             "https://www.youtube.com/watch?v=pNje3bWz7V8"
@@ -51,7 +51,7 @@
         "certificate": "available",
         "filterParam": "Trending",
         "categories": [
-            "Web Application"
+            "Web Application", "Training"
         ],
         "videoLink": [
             "https://www.youtube.com/watch?v=pNje3bWz7V8"
@@ -81,7 +81,8 @@
         "certificate": "available",
         "filterParam": "Trending",
         "categories": [
-            "Mobile Application"
+            "Mobile Application",
+            "Training"
         ],
         "videoLink": [
             "https://www.youtube.com/watch?v=pNje3bWz7V8"
@@ -111,7 +112,8 @@
         "certificate": "available",
         "filterParam": "Trending",
         "categories": [
-            "Hybrid Application"
+            "Hybrid Application",
+            "Training"
         ],
         "videoLink": [
             "https://www.youtube.com/watch?v=pNje3bWz7V8"
@@ -141,7 +143,7 @@
         "certificate": "available",
         "filterParam": "Trending",
         "categories": [
-            "Web Application"
+            "Web Application", "Training"
         ],
         "videoLink": [
             "https://www.youtube.com/watch?v=pNje3bWz7V8"
@@ -171,7 +173,7 @@
         "certificate": "available",
         "filterParam": "Trending",
         "categories": [
-            "Marketing"
+            "Marketing", "Training"
         ],
         "videoLink": [
             "https://www.youtube.com/watch?v=pNje3bWz7V8"

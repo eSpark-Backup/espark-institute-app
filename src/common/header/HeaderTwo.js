@@ -31,7 +31,7 @@ const HeaderTwo = ( { styles, disableSticky, searchDisable, buttonStyle } ) => {
                     <div className="col-lg-4 col-xl-3 col-md-6 col-6">
                         <div className="logo">
                             <Link to={process.env.PUBLIC_URL + "/"}>
-                                <img className="logo-light" src="/images/logo/institue-FLAT.png" alt="Main Logo" />
+                                <img className="logo-light" src="/images/logo/institute-logo.png" alt="Main Logo" />
                             </Link>
                         </div>
                     </div>
@@ -57,9 +57,9 @@ const HeaderTwo = ( { styles, disableSticky, searchDisable, buttonStyle } ) => {
                                         <i className="ri-user-line"></i>Join Now
                                     </Link>
                                 </div>
-                                <div className="quote-icon quote-user d-block d-md-none ml--15 ml_sm--5">
+                                {/* <div className="quote-icon quote-user d-block d-md-none ml--15 ml_sm--5">
                                 <Link to={process.env.PUBLIC_URL + "/login-register"} className="white-box-icon" href="#"><i className="ri-user-line"></i></Link>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="mobile-menu-bar ml--15 ml_sm--5 d-block d-xl-none">
                                 <div className="hamberger">
