@@ -1,35 +1,221 @@
 [
-    {
-        "title": "The First Steps",
+  {
+    "Course": ".net/C#",
+    "tabContent": [
+      {
+        "title": "WEEK 01",
         "content": [
-            "Introduction",
-            "Course Overview",
-            "Local Development Environment Tools",
-            "Course Excercise",
-            "Embedding PHP in HTML",
-            "Using Dynamic Data"
+          "Introduction to .net/c#",
+          "Primitive types and expressions",
+          "Non-Primitive Types"
         ]
-    },
-    {
-        "title": "Data Types and More",
+      },
+      {
+        "title": "WEEK 02",
         "content": [
-            "Introduction",
-            "Course Overview",
-            "Local Development Environment Tools",
-            "Course Excercise",
-            "Embedding PHP in HTML",
-            "Using Dynamic Data"
+          "Hands On type System",
+          "Basic Math",
+          "User Input",
+          "More Math"
         ]
-    },
-    {
-        "title": "Control Structure",
+      },
+      {
+        "title": "WEEK 03",
         "content": [
-            "Introduction",
-            "Course Overview",
-            "Local Development Environment Tools",
-            "Course Excercise",
-            "Embedding PHP in HTML",
-            "Using Dynamic Data"
+          "Arrays",
+          "Working with files",
+          "User methods",
+          "Value and Reference types"
         ]
-    }
+      },
+      {
+        "title": "WEEK 04",
+        "content": [
+          "Making your own classes/ properties/structs",
+          "Inheritance/Polymorphism",
+          "Virtual Methods",
+          "Abstract Classes"
+        ]
+      },
+      {
+        "title": "WEEK 05",
+        "content": [
+          "Interfaces",
+          "Generics",
+          "Making Generic types",
+          "Language Integrated Query (LINQ)"
+        ]
+      },
+      {
+        "title": "WEEK 06",
+        "content": ["Introduction to windows forms"]
+      },
+      {
+        "title": "WEEK 07",
+        "content": ["Introduction to ASP .Net"]
+      },
+      {
+        "title": "WEEK 08",
+        "content": ["Introduction to .net core"]
+      }
+    ]
+  },
+  {
+    "Course": "Advertising with Meta",
+    "tabContent": [
+      {
+        "title": "WEEK 1 - Introduction to Facebook Ads Ecosystem",
+        "content": [
+          "Careers in Meta Advertising",
+          "Introduction to the Facebook Marketing Facebook Ads Account & Business Manager",
+          "How to add payments into Facebook Ads Account"
+        ]
+      },
+      {
+        "title": "WEEK 2 - Determine Your Goals",
+        "content": [
+          "Understanding All types of Campaign Objectives in FB",
+          "Concept Related to Landing Pages",
+          "Concept of Facebook Ads Auction",
+          "Buyers Persona in Facebook Ads"
+        ]
+      },
+      {
+        "title": "WEEK 3 - Facebook Pixel",
+        "content": [
+          "Facebook Pixel Integrations",
+          "Facebook Pixel Event",
+          "Ecommerce Setting",
+          "Create Store Catalogue"
+        ]
+      },
+      {
+        "title": "WEEK 4 - Campaign Structure",
+        "content": [
+          "Facebook Ads Hierarchy",
+          "Set a Campaign Objective",
+          "Set Your Campaign Budget",
+          "Determine Your Campaign Objective and Budget Conclusion"
+        ]
+      },
+      {
+        "title": "WEEK 5 - How to do Detailed Audience Targeting",
+        "content": [
+          "Introduction to Audiences in Ads Manager",
+          "Custom Audiences",
+          "Lookalike Audiences",
+          "Select Your Audience, Placements and Schedule Conclusion"
+        ]
+      },
+
+      {
+        "title": "WEEK 6-Instagram Mystery",
+        "content": [
+          "Power Instagram Ad Techniques",
+          "Learn How to Make the Most Out Of Instagram Ads",
+          "Learn How to Create the Ideal Ads",
+          "Grow your Instagram Business Profile"
+        ]
+      },
+      {
+        "title": "WEEK 7 - Evaluate Your Campaign Results",
+        "content": [
+          "Edit and Troubleshoot Your Campaign",
+          "Understand Your Campaign Performance",
+          "Analyze Your Campaign Results",
+          "Create Your Ads and Evaluate Your Campaign Results Conclusion"
+        ]
+      },
+      {
+        "title": "WEEK 8 - Summary",
+        "content": [
+          "Facebook Marketing Summary",
+          "Facebook Ads Summary",
+          "Competitors analysis",
+          "QnA"
+        ]
+      }
+    ]
+  },
+  {
+    "Course": "UI/UX & Graphic Designing",
+    "tabContent": [
+      {
+        "title": "Week 1-2",
+        "content": [
+          "Introduction to Design Theory & Composition of design elements",
+          "Deep understanding of Colour Theory, Typography & Interaction design basics",
+          "Implementation and examples of Design Principles in details",
+          "Importance of User Experience (UX) in design"
+        ]
+      },
+      {
+        "title": "Week 3-4",
+        "content": [
+          "Introduction to Adobe Illustrator",
+          "Working with shape tool, pen tool, curvature tool & pathfinder & shape builder tool",
+          "Illustrator Project + advanced tips & tricks",
+          "Introduction to Adobe Photoshop",
+          "Working with selection tools, layers, pen tool, grids & blending modes"
+        ]
+      },
+      {
+        "title": "Week 5-6",
+        "content": [
+          "Introduction to Figma",
+          "Introduction to User Interface (UI) Principles. Creating User Personas & wireframing",
+          "Working with Figma Tool Panel, Framing, layering, Grouping, creating/editing shapes & masking",
+          "Working with Components & Variants"
+        ]
+      },
+      {
+        "title": "Week 7-8",
+        "content": [
+          "Understanding what 'Auto Layout' is & when to use it",
+          "Using Prototypes to create interactive and working designs that simulate the experience of a working website or an App",
+          "Creating predetermined Fonts, Colour & Layout styles to create a consistency in our designs",
+          "Figma project + Advanced tips & tricks"
+        ]
+      }
+    ]
+  },
+  {
+    "Course": "Basic Web Development",
+    "tabContent": [
+      {
+        "title": "Week 1-2: Introduction and Visual Studio Code Basics",
+        "content": [
+          "Get acquainted with the course objectives and structure.",
+          "Learn how to install Visual Studio Code, a popular code editor used for web development.",
+          "Discover useful shortcuts and productivity features in Visual Studio Code."
+        ]
+      },
+      {
+        "title": "Weeks 3-4: HTML Fundamentals",
+        "content": [
+          "Gain a solid understanding of HTML (Hypertext Markup Language).",
+          "Differentiate between block and inline elements. Learn how to work with elements, attributes, classes, and IDs.",
+          "ncorporate various media elements such as audio, video, and images into web pages. Create hyperlinks to connect web pages."
+        ]
+      },
+      {
+        "title": "Weeks 5-6: Cascading Style Sheets (CSS)",
+        "content": [
+          "Understand the role of CSS (Cascading Style Sheets) in web development. Master CSS syntax and its application.",
+          "Select and style HTML elements using CSS selectors. Annotate your CSS code effectively with comments.",
+          "Manipulate colors to create appealing designs. Apply borders to elements for visual distinction. Control margins, padding, height, and width of elements.",
+          "Arrange elements in layers using z-index. Position elements precisely on web pages. Handle content overflow within elements."
+        ]
+      },
+      {
+        "title": "Weeks 7-8: JavaScript Essentials",
+        "content": [
+          "Understand JavaScript syntax and fundamental concepts. Annotate JavaScript code using comments.",
+          "Declare and manipulate variables to store and retrieve data. Explore different data types in JavaScript and learn useful string methods.",
+          "Perform calculations and comparisons using arithmetic, assignment, and comparison operators. Implement conditional statements (if, else, else if, switch) for decision-making.",
+          "Work with arrays to store and manipulate collections of data."
+        ]
+      }
+    ]
+  }
 ]
