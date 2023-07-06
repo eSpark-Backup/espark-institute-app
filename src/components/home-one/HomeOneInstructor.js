@@ -92,11 +92,11 @@ const HomeOneInstructor = ({ background, color }) => {
                     <Link
                       to={
                         process.env.PUBLIC_URL +
-                        `/instructor-details/${slugify("Nancy Phipps")}`
+                        `/instructor-details/${slugify("Affan Saeed")}`
                       }
                     >
                       <img
-                        src="/images/instructor/instructor-03/Ovais.png"
+                        src="/images/instructor/instructor-01/Affan_Saeed.jpg"
                         alt="team images"
                       />
                     </Link>
@@ -106,10 +106,10 @@ const HomeOneInstructor = ({ background, color }) => {
                       <Link
                         to={
                           process.env.PUBLIC_URL +
-                          `/instructor-details/${slugify("Nancy Phipps")}`
+                          `/instructor-details/${slugify("Affan Saeed")}`
                         }
                       >
-                        Ovais Rafique{" "}
+                        Affan Saeed{" "}
                       </Link>
                     </h5>
                     <span className="desc">Node JS Expert</span>
@@ -147,11 +147,11 @@ const HomeOneInstructor = ({ background, color }) => {
                     <Link
                       to={
                         process.env.PUBLIC_URL +
-                        `/instructor-details/${slugify("Troy Hall")}`
+                        `/instructor-details/${slugify("Ahmed Naseeml")}`
                       }
                     >
                       <img
-                        src="/images/instructor/instructor-03/Sohaib.png"
+                        src="/images/instructor/instructor-01/Ahmed_Naseem.jpg"
                         alt="team images"
                       />
                     </Link>
@@ -161,10 +161,10 @@ const HomeOneInstructor = ({ background, color }) => {
                       <Link
                         to={
                           process.env.PUBLIC_URL +
-                          `/instructor-details/${slugify("Troy Hall")}`
+                          `/instructor-details/${slugify("Ahmed Naseem")}`
                         }
                       >
-                        Syed Muhammad Sohaib
+                        Ahmed Naseem
                       </Link>
                     </h5>
                     <span className="desc">SEO Expert</span>
@@ -201,11 +201,11 @@ const HomeOneInstructor = ({ background, color }) => {
                     <Link
                       to={
                         process.env.PUBLIC_URL +
-                        `/instructor-details/${slugify("Isabelle Bruner")}`
+                        `/instructor-details/${slugify("Areeba Shakeel")}`
                       }
                     >
                       <img
-                        src="/images/instructor/instructor-03/Hassan.png"
+                        src="/images/instructor/instructor-01/Areeba_Shakeel.jpg"
                         alt="team images"
                       />
                     </Link>
@@ -215,10 +215,10 @@ const HomeOneInstructor = ({ background, color }) => {
                       <Link
                         to={
                           process.env.PUBLIC_URL +
-                          `/instructor-details/${slugify("Isabelle Bruner")}`
+                          `/instructor-details/${slugify("Areeba Shakeel")}`
                         }
                       >
-                        Hassan Ahmed Khan
+                        Areeba Shakeel
                       </Link>
                     </h5>
                     <span className="desc">SQA Engineer​</span>
@@ -255,11 +255,11 @@ const HomeOneInstructor = ({ background, color }) => {
                     <Link
                       to={
                         process.env.PUBLIC_URL +
-                        `/instructor-details/${slugify("Isabelle Bruner")}`
+                        `/instructor-details/${slugify("Kashif Hussain")}`
                       }
                     >
                       <img
-                        src="/images/instructor/instructor-03/Usama.png"
+                        src="/images/instructor/instructor-01/Kashif_Hussain.jpg"
                         alt="team images"
                       />
                     </Link>
@@ -269,10 +269,10 @@ const HomeOneInstructor = ({ background, color }) => {
                       <Link
                         to={
                           process.env.PUBLIC_URL +
-                          `/instructor-details/${slugify("Isabelle Bruner")}`
+                          `/instructor-details/${slugify("Kashif Hussain")}`
                         }
                       >
-                        Syed Muhammad Usama
+                        Kashif Hussain
                       </Link>
                     </h5>
                     <span className="desc">Sr Vue js Developer</span>
