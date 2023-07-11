@@ -8,7 +8,7 @@ const CourseFilterOne = () => {
     return (
         <>
             <SEO title="Course Filter 1" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Course Filter 1"
                     rootUrl="/"
@@ -20,7 +20,7 @@ const CourseFilterOne = () => {
                             <CourseTypeFilter itemToShow="9" />
                         </div>
                     </div>
-            </Layout>
+            
         </>
     )
 }

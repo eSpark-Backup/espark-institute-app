@@ -16,7 +16,7 @@ const HomeFour = () => {
         <>
             <SEO title="Home 4" />
             
-            <Layout>
+            
 
                 <BannerFour />
 
@@ -36,7 +36,7 @@ const HomeFour = () => {
 
                 <HomeFourBlog />
 
-            </Layout>
+            
         </>
     )
 }

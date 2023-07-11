@@ -1,12 +1,20 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
 
-const Nav = () => {
-    return (
-        <ul className="mainmenu">
-            <li >
-                <Link to="/">Home</Link>
-                {/* <ul className="submenu">
+const Nav = ({ onClose }) => {
+  const { pathname } = useLocation();
+
+  return (
+    <ul className="mainmenu">
+      <li>
+        <Link
+          className={pathname === "/" && "active"}
+          to="/"
+          onClick={() => onClose()}
+        >
+          Home
+        </Link>
+        {/* <ul className="submenu">
                     <li><Link to="/home-1">Home 1</Link></li>
                     <li><Link to="/home-2">Home 2</Link></li>
                     <li><Link to="/home-3">Home 3</Link></li>
@@ -14,21 +22,29 @@ const Nav = () => {
                     <li><Link to="/home-5">Home 5</Link></li>
                     <li><Link to="/">Landing Demo</Link></li>
                 </ul> */}
-            </li>
+      </li>
 
-            <li >
-                <Link to="/about-us">About Us</Link>
-                {/* <ul className="submenu">
+      <li>
+        <Link
+          className={pathname === "/about-us" && "active"}
+          to="/about-us"
+          onClick={() => onClose()}
+        >
+          About Us
+        </Link>
+        {/* <ul className="submenu">
                     <li><Link to="/about-us-1">About Us 1</Link></li>
                     <li><Link to="/about-us-2">About Us 2</Link></li>
                     <li><Link to="/about-us-3">About Us 3</Link></li>
                 </ul> */}
-            </li>
-            
-            <li className="has-droupdown">
-                <Link to="#">Courses</Link>
-                <ul className="submenu">
-                    <li><Link to="/course-1">Course 1</Link></li>
+      </li>
+
+      <li>
+        <Link to="/courses" className={pathname.includes("course") && "active"}>
+          Courses
+        </Link>
+        {/* <ul className="submenu">
+                    <li><Link to="/course-1">Course 1</Link></li>s
                     <li><Link to="/course-2">Course 2</Link></li>
                     <li><Link to="/course-3">Course 3</Link></li>
                     <li><Link to="/course-4">Course 4</Link></li>
@@ -41,12 +57,14 @@ const Nav = () => {
                     <li><Link to="/course-carousel">Course Carousel</Link></li>
                     <li><Link to="/course-load-more">Course( Load More )</Link></li>
                     <li><Link to="/course-category/business">Course Category Archive</Link></li>
-                </ul>
-            </li>
-            
-            <li >
-                <Link to="#">Events</Link>
-                {/* <ul className="submenu">
+                </ul> */}
+      </li>
+
+      <li>
+        <Link to="events" className={pathname === "/events" && "active"}>
+          Events
+        </Link>
+        {/* <ul className="submenu">
                     <li className="has-droupdown">
                         <Link to="#">Event</Link>
                         <ul className="submenu">
@@ -82,11 +100,18 @@ const Nav = () => {
                     <li><Link to="/coming-soon">Coming Soon</Link></li>
                     <li><Link to="/login-register">Login/Register</Link></li>
                     <li><Link to="/404">404</Link></li>
-                </ul> */}
-            </li>
-            
-            <li><Link to="#">Blog</Link>
-                {/* <ul className="submenu">
+                </ul>  */}
+      </li>
+
+      <li>
+        <Link
+          to="/blogs"
+          className={pathname.includes("blog") && "active"}
+          onClick={() => onClose()}
+        >
+          Blogs
+        </Link>
+        {/* <ul className="submenu">
                     <li><Link to="/blog-grid-1">Blog Grid 1</Link></li>
                     <li><Link to="/blog-grid-2">Blog Grid 2</Link></li>
                     <li><Link to="/blog-grid-3">Blog Grid 3</Link></li>
@@ -102,16 +127,21 @@ const Nav = () => {
                     <li><Link to="/tag/finance">Tag Archive</Link></li>
                     <li><Link to="/author/hazel-thomas">Author Archive</Link></li>
                 </ul> */}
-            </li>
+      </li>
 
-            <li >
-                <Link to="/">Contact</Link>
-                {/* <ul className="submenu">
+      <li>
+        <Link
+          to="/contact-us"
+          className={pathname === "/contact-us" && "active"}
+        >
+          Contact Us
+        </Link>
+        {/* <ul className="submenu">
                     <li><Link to="/contact-me">Contact Me</Link></li>
                     <li><Link to="/contact-us">Contact Us</Link></li>
                 </ul> */}
-            </li>
-        </ul>
-    )
-}
+      </li>
+    </ul>
+  );
+};
 export default Nav;

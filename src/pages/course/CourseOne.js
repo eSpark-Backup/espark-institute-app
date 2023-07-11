@@ -9,13 +9,13 @@ const CourseOne = () => {
     const CourseItems = CourseData.slice(0, 9);
     return (
         <>
-            <SEO title="Course Style - 1" />
-            <Layout>
+            <SEO title="Our Courses" />
+            
                 <BreadcrumbOne 
-                    title="Course Style - 1"
+                    title="Our Courses"
                     rootUrl="/"
                     parentUrl="Home"
-                    currentUrl="Course Style - 1"
+                    currentUrl="Our Courses"
                 />
                 <div className="edu-course-area edu-section-gap bg-color-white">
                     <div className="container">
@@ -30,7 +30,7 @@ const CourseOne = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

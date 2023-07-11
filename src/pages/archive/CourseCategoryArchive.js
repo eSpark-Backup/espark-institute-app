@@ -21,7 +21,7 @@ const CourseCategoryArchive = () => {
     return (
         <>
             <SEO title={`Courses On "${catTitle}" Category`} />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title={catTitle}
                     rootUrl="/"
@@ -45,7 +45,7 @@ const CourseCategoryArchive = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

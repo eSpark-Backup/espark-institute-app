@@ -95,7 +95,7 @@ const HomeOneAbout = () => {
                                 className="read-more-btn"
                                 animateOnce={true}
                             >
-                                <Link className="edu-btn" to="/about-us-1">
+                                <Link className="edu-btn" to="/about-us">
                                     Learn More<i className="icon-arrow-right-line-right"></i>
                                 </Link>
                             </ScrollAnimation>

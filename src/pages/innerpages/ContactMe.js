@@ -8,7 +8,7 @@ const ContactMe = () => {
     return (
         <>
             <SEO title="Contact Me" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Contact Me"
                     rootUrl="/"
@@ -133,7 +133,7 @@ const ContactMe = () => {
                         <img src="/images/contact/contact-me/bg-image-27.jpg" alt="Shape Images" />
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

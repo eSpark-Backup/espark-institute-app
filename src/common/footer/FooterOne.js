@@ -15,7 +15,7 @@ const FooterOne = () => {
                     <Link to={process.env.PUBLIC_URL + "/"}>
                       <img
                         className="logo-light"
-                        src="/images/logo/institue-FLAT-WHITE.png"
+                        src="/images/logo/Institute_White.png"
                         alt="Footer Logo"
                       />
                     </Link>
@@ -58,32 +58,32 @@ const FooterOne = () => {
                   <div className="inner">
                     <ul className="footer-link link-hover">
                       <li>
-                        <Link to="/about-us-1">
+                        <Link to="/about-us">
                           <i className="icon-Double-arrow"></i>About Us
                         </Link>
                       </li>
                       <li>
-                        <Link to="/event-grid">
+                        <Link to="/events">
                           <i className="icon-Double-arrow"></i>Upcoming Events
                         </Link>
                       </li>
                       <li>
-                        <Link to="/blog-standard">
+                        <Link to="/blogs">
                           <i className="icon-Double-arrow"></i>Blog & News
                         </Link>
                       </li>
                       <li>
-                        <Link to="/faq">
+                        <Link to="/faqs">
                           <i className="icon-Double-arrow"></i>FAQ Question
                         </Link>
                       </li>
                       <li>
-                        <Link to="/testimonial">
+                        <Link to="/testimonials">
                           <i className="icon-Double-arrow"></i>Testimonial
                         </Link>
                       </li>
                       <li>
-                        <Link to="/privacy-policy">
+                        <Link to="/privacypolicy">
                           <i className="icon-Double-arrow"></i>Privacy Policy
                         </Link>
                       </li>
@@ -103,28 +103,28 @@ const FooterOne = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/pricing">
+                        <Link to="/pricing-plan">
                           <i className="icon-Double-arrow"></i>Pricing Plan
                         </Link>
                       </li>
                       <li>
-                        <Link to="/instructor-details/james-carlson">
+                        <Link to="/instructors">
                           <i className="icon-Double-arrow"></i>Instructor
                           Profile
                         </Link>
                       </li>
                       <li>
-                        <Link to="/purchase-guide">
+                        <Link to="/purchaseguide">
                           <i className="icon-Double-arrow"></i>Purchase Guide
                         </Link>
                       </li>
                       <li>
-                        <Link to="/course-1">
+                        <Link to="/popular-courses">
                           <i className="icon-Double-arrow"></i>Popular Courses
                         </Link>
                       </li>
                       <li>
-                        <Link to="/event-details/1">
+                        <Link to="/event-details">
                           <i className="icon-Double-arrow"></i>Event Details
                         </Link>
                       </li>

@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
     return (
         <>
             <SEO title="Privacy Policy" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Privacy Policy"
                     rootUrl="/"
@@ -52,7 +52,7 @@ const PrivacyPolicy = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

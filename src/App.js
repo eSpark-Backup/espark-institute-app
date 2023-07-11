@@ -82,7 +82,7 @@ function App() {
                     <Route exact path={`${process.env.PUBLIC_URL + '/coming-soon'}`} element={<ComingSoon />} />
                     <Route exact path={`${process.env.PUBLIC_URL + '/contact-me'}`} element={<ContactMe />} />
                     <Route exact path={`${process.env.PUBLIC_URL + '/contact-us'}`} element={<ContactUs />} />
-                    <Route exact path={`${process.env.PUBLIC_URL + '/course-1'}`} element={<CourseOne />} />
+                    <Route exact path={`${process.env.PUBLIC_URL + '/courses'}`} element={<CourseOne />} />
                     <Route exact path={`${process.env.PUBLIC_URL + '/course-2'}`} element={<CourseTwo />} />
                     <Route exact path={`${process.env.PUBLIC_URL + '/course-3'}`} element={<CourseThree />} />
                     <Route exact path={`${process.env.PUBLIC_URL + '/course-4'}`} element={<CourseFour />} />
@@ -112,7 +112,7 @@ function App() {
                     <Route exact path={`${process.env.PUBLIC_URL + '/purchase-guide'}`} element={<PurchaseGuide />} />
                     <Route exact path={`${process.env.PUBLIC_URL + '/testimonial'}`} element={<Testimonial />} />
                     <Route exact path={`${process.env.PUBLIC_URL + '/instructor-details/:slug'}`} element={<InstructorDetails />} />
-                    <Route exact path={`${process.env.PUBLIC_URL + '/blog-grid-1'}`} element={<BlogGridOne />} />
+                    <Route exact path={`${process.env.PUBLIC_URL + '/blogs'}`} element={<BlogGridOne />} />
                     <Route exact path={`${process.env.PUBLIC_URL + '/blog-grid-2'}`} element={<BlogGridTwo />} />
                     <Route exact path={`${process.env.PUBLIC_URL + '/blog-grid-3'}`} element={<BlogGridThree />} />
                     <Route exact path={`${process.env.PUBLIC_URL + '/blog-carousel'}`} element={<BlogCarousel />} />

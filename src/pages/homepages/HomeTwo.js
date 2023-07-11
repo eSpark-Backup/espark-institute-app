@@ -35,9 +35,9 @@ const HomeTwo = () => {
 
             <CallToActionOne />
 
-            <HomeTwoBlog />
+            <HomeTwoBlog /><FooterOne />
 
-            <FooterOne />
+            
         </>
     )
 }

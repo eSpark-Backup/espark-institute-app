@@ -15,7 +15,7 @@ const BlogStandard = () => {
     return (
         <>
             <SEO title="Blog Standard" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Blog Standard"
                     rootUrl="/"
@@ -52,7 +52,7 @@ const BlogStandard = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

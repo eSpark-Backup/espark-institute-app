@@ -456,3 +456,11 @@
         transform:scale(1.25)
     }
 }
+::-moz-selection {
+	background: var(--color-primary);
+    color: var(--color-white);
+}
+::selection {
+	background: var(--color-primary);
+    color: var(--color-white);
+}

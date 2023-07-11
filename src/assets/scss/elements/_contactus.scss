@@ -51,9 +51,9 @@
     &.phone {
         .inner {
             .icon {
-                background: rgba(251,124,86,0.1);
+                background: rgba(82,95,225,0.1);
                 i {
-                    color: var(--color-secondary);
+                    color: var(--color-primary);
                 }
             }
         }
@@ -62,22 +62,22 @@
     &.email {
         .inner {
             .icon {
-                background: rgba(255,164,27,0.1);
+                background: rgba(82,95,225,0.1);
                 i {
-                    color: #FFA41B;
+                    color: var(--color-primary);
                 }
             }
         }
     }
 
     &:hover {
-        background: var(--color-secondary);
+        background: var(--color-primary);
         transform: translateY(-15px);
         .inner {
             .icon {
                 background: var(--color-white);
                 i {
-                    color: var(--color-secondary);
+                    color: var(--color-primary);
                 }
             }
             .content {
@@ -182,7 +182,7 @@
         textarea {
             background: #F5F5F5;
             padding: 17px 30px;
-            min-height: 180px;
+            min-height: 250px;
             border: 0 none;
             border: 1px solid transparent;
             transition: 0.4s;

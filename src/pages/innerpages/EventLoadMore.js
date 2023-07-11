@@ -31,7 +31,7 @@ const EventLoadMore = () => {
     return (
         <>
             <SEO title="Event( Load More )" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Event( Load More )"
                     rootUrl="/"
@@ -77,7 +77,7 @@ const EventLoadMore = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

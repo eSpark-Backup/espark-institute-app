@@ -19,7 +19,7 @@ const items = [
     },
     {
         title: 'WordPress Development',
-        info: 'Design and develop websites using the popular CMS.​.',
+        info: 'Design and develop websites using the popular CMS.​',
         numberOfCourses: '15 Courses',
         image: 'category-03.jpg',
         link: '#'
@@ -71,7 +71,7 @@ const CategoryOne = ({ wrapperClass, styleClass, buttonStatus }) => {
                             className="load-more-btn"
                             animateOnce={true}
                         >
-                            <Link className="edu-btn" to="/">All Courses​<i
+                            <Link className="edu-btn" to="/courses">All Courses​<i
                                 className="icon-arrow-right-line-right"></i></Link>
                         </ScrollAnimation>
                     </div>

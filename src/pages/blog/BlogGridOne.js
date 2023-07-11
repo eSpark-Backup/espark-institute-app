@@ -9,13 +9,13 @@ import PostData from '../../data/blog/PostData.json';
 const BlogGridOne = () => {
     return (
         <>
-            <SEO title="Blog Grid 1" />
-            <Layout>
+            <SEO title="Our Blogs" />
+            
                 <BreadcrumbOne 
-                    title="Blog Grid 1"
+                    title="Our Blogs"
                     rootUrl="/"
                     parentUrl="Home"
-                    currentUrl="Blog Grid 1"
+                    currentUrl="Our Blogs"
                 />
                 <div className="edu-elements-area edu-section-gap bg-color-white">
                     <div className="container">
@@ -32,14 +32,14 @@ const BlogGridOne = () => {
                                 </div>
                                 <div className="row">
                                     <div className="col-lg-12 mt--60">
-                                        <PaginationOne />
+                                        {/* <PaginationOne /> */}
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

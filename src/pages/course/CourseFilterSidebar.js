@@ -11,7 +11,7 @@ const CourseFilterSidebar = () => {
     return (
         <>
             <SEO title="Courses Filter Sidebar" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Courses Filter Sidebar"
                     rootUrl="/"
@@ -34,7 +34,7 @@ const CourseFilterSidebar = () => {
                         </div>
                     </FilterProvider>
                 </CoursesProvider>
-            </Layout>
+            
         </>
     )
 }

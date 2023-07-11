@@ -131,7 +131,7 @@ const Pricing = () => {
     return (
         <>
             <SEO title="Pricing Plan" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Pricing Plan"
                     rootUrl="/"
@@ -246,7 +246,7 @@ const Pricing = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

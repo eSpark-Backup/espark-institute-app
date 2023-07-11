@@ -1,35 +1,741 @@
 [
-    {
-        "title": "The First Steps",
-        "content": [
-            "Introduction",
-            "Course Overview",
-            "Local Development Environment Tools",
-            "Course Excercise",
-            "Embedding PHP in HTML",
-            "Using Dynamic Data"
-        ]
-    },
-    {
-        "title": "Data Types and More",
-        "content": [
-            "Introduction",
-            "Course Overview",
-            "Local Development Environment Tools",
-            "Course Excercise",
-            "Embedding PHP in HTML",
-            "Using Dynamic Data"
-        ]
-    },
-    {
-        "title": "Control Structure",
-        "content": [
-            "Introduction",
-            "Course Overview",
-            "Local Development Environment Tools",
-            "Course Excercise",
-            "Embedding PHP in HTML",
-            "Using Dynamic Data"
-        ]
-    }
+  {
+      "id": 1,
+      "title": "Android Development",
+      "curriculum": [
+          {
+              "title": "Introduction to Android Development",
+              "content": [
+                  "Android architecture and components",
+                  "Android versions and device compatibility",
+                  "Android development tools and resources",
+                  "Introduction to Java programming language",
+                  "Overview of the development process"
+              ]
+          },
+          {
+              "title": "Setting Up Your Development Environment",
+              "content": [
+                  "Installing Android Studio and SDK",
+                  "Setting up the Android Virtual Device (AVD) Manager",
+                  "Configuring Gradle and build settings",
+                  "Introduction to project structure and file organization",
+                  "Introduction to Git version control system",
+                  "Creating a basic Android project",
+                  "Emulator setup and usage"
+              ]
+          },
+          {
+              "title": "Understanding Android Components",
+              "content": [
+                  "What are Android Components",
+                  "Understanding the Android app lifecycle",
+                  "Activities and Intents Fragments",
+                  "Services and Background Processing",
+                  "Broadcast Receivers and System Events",
+                  "Content Providers and Data Sharing",
+                  "Mastering the Manifest file and its components"
+              ]
+          },
+          {
+              "title": "Designing User Interfaces (UI)",
+              "content": [
+                  "Creating layouts using XML and views",
+                  "Working with layouts LinearLayout, ConstraintLayout, RelativeLayout, FrameLayout",
+                  "Working with UI components such as buttons, edittext, textviews, images and RecyclerView, switch, floatingActionButton",
+                  "Creating responsive and accessible user interfaces",
+                  "Using styles and themes to customize app appearance",
+                  "Designing layouts for different device screen sizes"
+              ]
+          },
+          {
+              "title": "Storing Data",
+              "content": [
+                  "Using SQLite databases and Content Providers",
+                  "Using SharedPreferences and other local storage options",
+                  "Using cloud-based storage services",
+                  "Implementing data caching and synchronization",
+                  "Using Android's backup and restore"
+              ]
+          },
+          {
+              "title": "Accessing Device Functionality",
+              "content": [
+                  "Using device sensors such as accelerometer, GPS, and compass",
+                  "Using system services such as camera, media, and notifications",
+                  "Accessing network resources and services",
+                  "Working with device storage and file system",
+                  "Working with Bluetooth and other wireless"
+              ]
+          },
+          {
+              "title": "Advanced Developing Concepts",
+              "content": [
+                  "Working with third-party libraries and APIs",
+                  "Optimizing performance and battery usage",
+                  "Handling concurrency and multithreading",
+                  "Creating custom views and animations",
+                  "Working with advanced topics such as Android Wear and Android TV"
+              ]
+          },
+          {
+              "title": "Debugging and Testing",
+              "content": [
+                  "Using debugging tools and techniques",
+                  "Testing with emulators and real devices",
+                  "Testing user interface and functional behavior",
+                  "Using Android's testing frameworks",
+                  "Using crash reporting and analytics tools"
+              ]
+          },
+          {
+              "title": "Building & Publishing Your App",
+              "content": [
+                  "Overview of Android development",
+                  "Android Studio and SDK installation",
+                  "Creating a basic Android project",
+                  "Understanding the Android app lifecycle",
+                  "Emulator setup and usage"
+              ]
+          },
+          {
+              "title": "First Android Project",
+              "content": [
+                  "Create UI and Layout",
+                  "Build Logic and Functionality",
+                  "Setup Routes and Navigation",
+                  "Make http requests and handle Reponses",
+                  "Store Data and manipulation of Data",
+                  "Testing and Deployment"
+              ]
+          }
+      ]
+  },
+  {
+      "id": 2,
+      "title": "React JS Development",
+      "curriculum": [
+        {
+            "title": "Introduction to React JS",
+            "content": [
+                "What is React JS",
+                "What does it do for us? Why choose it?",
+                "Pros and cons",
+                "Architecture",
+                "Sharing with web projects",
+                "What does React code look like?",
+                "Revising JS Concepts",
+                "JSX structure and rules",
+                "Virtual DOM vs the real DOM"
+            ]
+        },
+        {
+            "title": "The Development Process",
+            "content": [
+                "Creating a new React Web App",
+                "What is Node & NPM",
+                "How to Install NPM packages and use it",
+                "What is Yarn and how to use it",
+                "What is Version Control, Git & GitHub",
+                "Using, Git & Git Hub "
+            ]
+        },
+        {
+            "title": "Components Handling",
+            "content": [
+                "What is React Components",
+                "Why we use React Components",
+                "What is Functional Component",
+                "Using Functional Components",
+                "What is Class-based Components?",
+                "Using Class-base Components",
+                "Functional vs Class-base Components",
+                "Choosing Between: When and Why?"
+            ]
+        },
+        {
+            "title": "Using & creating props, Hooks",
+            "content": [
+                "What are Props and how to use it",
+                "Parse Data from Parent to Child & Child to parent",
+                "What are Hooks & How to use it?",
+                "How to create Custom Hooks.",
+                "Why we create Custom Hooks"
+            ]
+        },
+        {
+            "title": "Redirection with React Routers",
+            "content": [
+                "What is Redirection?",
+                "How Redirection works",
+                "What is React Routers",
+                "Using React Routers",
+                "Conditional Routing (404)",
+                "Efficient Routing"
+            ]
+        },
+        {
+            "title": "State management with Redux",
+            "content": [
+                "What is State management?",
+                "How Redirection works",
+                "What is React Redux",
+                "Using React Redux",
+                "Creating Reducer Actions",
+                "Binding Actions with components "
+            ]
+        },
+        {
+            "title": "Layouts in React JS",
+            "content": [
+                "What is React Layouts?",
+                "How to create Custom Layouts",
+                "Implementing React Layouts",
+                "Using pre-built layout components and utilities (Bootstrap, Material UI, and Tailwind CSS). "
+            ]
+        },
+        {
+            "title": "Forms and validation",
+            "content": [
+                "How to create Forms ",
+                "Type of forms inputs",
+                "Validating Form inputs",
+                "Browser-side validation",
+                "External validation in Forms (google captcha)"
+            ]
+        },
+        {
+            "title": "Authentication & Authorization",
+            "content": [
+                "What is Authentication? ",
+                "How to use Authentication ",
+                "& Implement Private Routing ",
+                "What is Authorization?",
+                "Browser side Authorization",
+                "External Authorization (Google & Apple)",
+                "Two-factor authentication (Email & SMS)"
+            ]
+        },
+        {
+            "title": "APIs & Data handling",
+            "content": [
+                "What is JSON & Core Concept of JSON",
+                "What is RESTful API?",
+                "Using Fetch Method for API",
+                "(GET, POST, PUT, PATCH, UPDATE & DELETE)",
+                "What is AXIOS?",
+                "Using AXIOS in React JS.",
+                "How to Efficiently use APIs.",
+                "Local JSON vs API: When and Why?"
+            ]
+        },
+        {
+            "title": "First React JS Application",
+            "content": [
+                "Create UI and Layout",
+                "Build Logic and Functionality",
+                "Setup Routes and Navigation",
+                "Make http requests and handle Reponses.",
+                "Store Data and manipulation of Data",
+                "Testing and Deployment"
+            ]
+        }
+    ]
+  },
+  {
+      "id": 3,
+      "title": "React Native Development",
+      "curriculum": [
+              {
+                  "title": "Hello React Native",
+                  "content": [
+                      "What is React Native",
+                      "What does it do for us? Why choose it?",
+                      "Pros and cons",
+                      "Architecture",
+                      "Sharing with web projects",
+                      "What React Native code looks like",
+                      "Leveraging your React knowledge"
+                  ]
+              },
+              {
+                  "title": "JSX & Components Types",
+                  "content": [
+                      "JSX structure and rules",
+                      "SFCs vs class-based components",
+                      "Composition",
+                      "Props",
+                      "State",
+                      "Controlled and uncontrolled components",
+                      "Virtual DOM vs the real DOM"
+                  ]
+              },
+              {
+                  "title": "The Development Process",
+                  "content": [
+                      "What is react-native-cli?",
+                      "Creating a new React Native app",
+                      "How to run it on a tethered device",
+                      "How to run it on a wireless device",
+                      "How to run it in an Android emulator",
+                      "How to run it in an Android emulator",
+                      "Logging, breakpoints, stepping through"
+                  ]
+              },
+              {
+                  "title": "Single-value Controls",
+                  "content": [
+                      "Components overview",
+                      "Categories of components",
+                      "Text",
+                      "Text props and events",
+                      "Text Input",
+                      "props and events and the event object",
+                      "Image",
+                      "Local images vs remote images",
+                      "resize Mode"
+                  ]
+              },
+              {
+                  "title": "Layout Components",
+                  "content": [
+                      "Layout Components",
+                      "View",
+                      "Safe Area View",
+                      "Scroll View",
+                      "Keyboard Avoiding View",
+                      "How to create modal views",
+                      "Controlling the OS's status bar"
+                  ]
+              },
+              {
+                  "title": "Flexbox for Native Layouts",
+                  "content": [
+                      "Why flexbox?",
+                      "Flexbox on the web is NOT flexbox on native",
+                      "Containers and items",
+                      "Flex Direction",
+                      "Flex Basis vs width/height",
+                      "Flex Shrink, Flex Grow",
+                      "The flex shorthand",
+                      "Justify Content and Align Content",
+                      "Flex Wrap"
+                  ]
+              },
+              {
+                  "title": "Styling React Native Apps",
+                  "content": [
+                      "How React Native styles differ from CSS",
+                      "How to apply styles",
+                      "How to control style inheritance",
+                      "Style arrays",
+                      "Four methods of defining styles",
+                      "Common properties",
+                      "Cross-platform fonts",
+                      "Conditional and programmatic styles"
+                  ]
+              },
+              {
+                  "title": "Navigation",
+                  "content": [
+                      "What is navigation, really?",
+                      "How to get React Navigation",
+                      "The three types of navigators",
+                      "Stack Navigator",
+                      "Routing object",
+                      "Navigation config",
+                      "How to pass params when navigating",
+                      "Tab Navigators",
+                      "Three types of Tab Navigators",
+                      "How to set icons",
+                      "Drawer Navigator",
+                      "Examples and demos"
+                  ]
+              },
+              {
+                  "title": "Fetching in React Native",
+                  "content": [
+                      "Why it must be different on a device",
+                      "The fetch API",
+                      "How to show a loading indicator",
+                      "How to make requests and populate affordances",
+                      "Security in a native environment"
+                  ]
+              },
+              {
+                  "title": "List Components",
+                  "content": [
+                      "Components review",
+                      "Pickers",
+                      "Flat List",
+                      "Section List"
+                  ]
+              },
+              {
+                  "title": "Touchable and Buttons",
+                  "content": [
+                      "The Button API",
+                      "Button events and props",
+                      "Touchable Without Feedback",
+                      "Touchable Native Feedback",
+                      "Touchable Opacity",
+                      "Pressable"
+                  ]
+              },
+              {
+                  "title": "First React Native Project",
+                  "content": [
+                      "Create UI and Layout",
+                      "Build Logic and Functionality",
+                      "Setup Routes and Navigation",
+                      "Make http requests and handle Reponses",
+                      "Store Data and manipulation of Data",
+                      "Testing and Deployment"
+                  ]
+              }
+      ]
+  },
+  {
+      "id": 4,
+      "title": "Flutter Development",
+      "curriculum": [
+          {
+              "title": "Flutter",
+              "content": [
+                  "What is Flutter?",
+                  "Why we use Flutter?",
+                  "Flutter Architecture",
+                  "Pros and cons",
+                  "Flutter vs React Native"
+              ]
+          },
+          {
+              "title": "Introduction to Dart",
+              "content": [
+                  "What is Dart?",
+                  "Why Flutter use Dart?",
+                  "Dart Syntax",
+                  "Exploring Dart",
+                  "Pros and cons",
+                  "Flutter vs Java"
+              ]
+          },
+          {
+              "title": "Flutter Widgets and Layouts",
+              "content": [
+                  "Material Design and Cupertino widgets",
+                  "Creating layouts using widgets",
+                  "Containers and Rows",
+                  "Columns and Expanded widgets",
+                  "Flutter Box Constraints",
+                  "Flutter Flex and Spacer widgets"
+              ]
+          },
+          {
+              "title": "Flutter Gestures",
+              "content": [
+                  "What are Flutter Gestures",
+                  "Gesture recognition & Detection",
+                  "Gesture widgets & animation",
+                  "Gesture handling & feedback",
+                  "Custom Gesture Creation"
+              ]
+          },
+          {
+              "title": "Flutter Navigation and Routing",
+              "content": [
+                  "Navigation and Routing in Flutter",
+                  "Using Navigator to push and pop routes.",
+                  "Flutter Material App and Material App routes",
+                  "Named routes in Flutter.",
+                  "Flutter Navigation Drawer and Tabs"
+              ]
+          },
+          {
+              "title": "Flutter State Management",
+              "content": [
+                  "Stateful and Stateless widgets",
+                  "Flutter setState method",
+                  "Inherited Widget and Inherited Model",
+                  "Provider package for State Management in Flutter",
+                  "Bloc pattern for Flutter State Management"
+              ]
+          },
+          {
+              "title": "Flutter Animations and Effects",
+              "content": [
+                  "Animations in Flutter",
+                  "Tween Animation and Animated Builder widget",
+                  "Animation Controllers and Animation Curves",
+                  "Hero animations in Flutter",
+                  "Flutter Transitions and Effects"
+              ]
+          },
+          {
+              "title": "Flutter Networking and Persistence",
+              "content": [
+                  "JSON and RESTful API",
+                  "Flutter Http and Dio packages for Networking",
+                  "Flutter Shared Preferences and SQLite for Persistence",
+                  "Flutter Firebase Cloud Firestore"
+              ]
+          },
+          {
+              "title": "Flutter Testing and Debugging",
+              "content": [
+                  "Testing in Flutter",
+                  "Flutter Code Logging Testing",
+                  "Widget Testing in Flutter",
+                  "Debugging and Logging in Flutter",
+                  "Flutter DevTools and Inspector"
+              ]
+          },
+          {
+              "title": "Flutter Deployment and Publishing",
+              "content": [
+                  "Building Flutter apps for iOS and Android",
+                  "Deploying to Apple AppStore and Google Play Store",
+                  "Flutter app signing and security.",
+                  "App Store Optimization (ASO) for Flutter apps",
+                  "Flutter app monetization strategies"
+              ]
+          }
+      ]
+  },
+  {
+      "id": 5,
+      "title": "WordPress Development",
+      "curriculum": [
+          
+                  {
+                      "title": "Development environment",
+                      "content": [
+                          "Installing xampp/mamp",
+                          "Starting apache server",
+                          "Starting MySQL server",
+                          "PhpMyAdmin-creating database",
+                          "Troubleshooting xamp"
+                      ]
+                  },
+                  {
+                      "title": "Introducing WordPress",
+                      "content": [
+                          "Getting into WordPress",
+                          "Understanding the common terms",
+                          "Why chooses WordPress?",
+                          "Getting to know the WordPress family",
+                          "Digging into WordPress – the features",
+                          "Learning more with online WordPress resources",
+                          "Staying updated with WordPress news",
+                          "Understanding the codex",
+                          "Getting support from other users",
+                          "Using theme and plugin directories"
+                      ]
+                  },
+                  {
+                      "title": "Getting started with WordPress",
+                      "content": [
+                          "Building your WordPress website – start here",
+                          "The two worlds of WordPress – the difference between wordpress.com and wordpress.org",
+                          "Getting and installing WordPress",
+                          "Installing WordPress through an auto-installer script",
+                          "The wp-admin panel",
+                          "Getting a gravatar"
+                      ]
+                  },
+                  {
+                      "title": "Creating blog content",
+                      "content": [
+                          "WordPress admin conventions",
+                          "Posting on your blog",
+                          "Discussion on your blog – comments",
+                          "Adding and managing categories & assigning tags Pages, post, media",
+                          "importing/exporting content",
+                          "Pages",
+                          "Difference between post & pages",
+                          "Media library",
+                          "Importing/exporting content"
+                      ]
+                  },
+                  {
+                      "title": "Plugins - what they are and why you need them",
+                      "content": [
+                          "Breaking down plugins – what are they?",
+                          "Installing a plugin – how to go about this",
+                          "The must-have pack of plugins"
+                      ]
+                  },
+                  {
+                      "title": "Choosing and installing themes",
+                      "content": [
+                          "Finding themes",
+                          "Factors to consider when choosing a theme",
+                          "Installing and changing themes",
+                          "Fixed themes & template themes"
+                      ]
+                  },
+                  {
+                      "title": "Customizing your website appearance/performance",
+                      "content": [
+                          "Menus",
+                          "Widgets",
+                          "WordPress customizer",
+                          "Amp plugins for WordPress",
+                          "Speed optimization (minifying script & adding can to media file)",
+                          "Basic SOO (search engine optimization)"
+                      ]
+                  },
+                  {
+                      "title": "Social media integration, podcasting, and https",
+                      "content": [
+                          "Integrating social media",
+                          "Embedding videos & audio content",
+                          "HTTPS and SSL"
+                      ]
+                  },
+                  {
+                      "title": "Creating a non-blog website (part one) The basics",
+                      "content": [
+                          "Static websites",
+                          "Corporate and business websites",
+                          "One-page websites"
+                      ]
+                  },
+                  {
+                      "title": "Creating WordPress website part two e-commerce websites and custom Content elements",
+                      "content": [
+                          "E-commerce stores",
+                          "Custom post type plugins",
+                          "Creating a custom post type"
+                      ]
+                  }
+              ]
+  },
+  {
+      "id": 6,
+      "title": "Search Engin Optimization",
+      "curriculum": [
+          {
+              "title": "Introduction to Search Engine Optimization",
+              "content": [
+                  "What is search engine optimization",
+                  "Meet the search engines",
+                  "How search engines work",
+                  "SEO impact on businesses",
+                  "Why SEO is important?"
+              ]
+          },
+          {
+              "title": "Keyword Research",
+              "content": [
+                  "What is a keyword",
+                  "The several types of keywords",
+                  "Examining the intent behind a keyword",
+                  "Understanding the progression of a search query",
+                  "Steps to keyword research",
+                  "How to find the best keywords to target",
+                  "How to discover your competitors keywords",
+                  "Competitive keyword analysis",
+                  "Keyword research tools",
+                  "Keyword research lab"
+              ]
+          },
+          {
+              "title": "Competitive Analysis",
+              "content": [
+                  "How to identify your competitors?",
+                  "What to analyze?",
+                  "How to use your competitive analysis for keyword targeting?"
+              ]
+          },
+          {
+              "title": "SEO Content",
+              "content": [
+                  "What is SEO content",
+                  "Several types of SEO content",
+                  "Steps to creating SEO content",
+                  "How to factor in your customer buying journey when creating SEO content",
+                  "How to evaluate your competitor’s content"
+              ]
+          },
+          {
+              "title": "On-Page Optimization",
+              "content": [
+                  "What is on-page optimization",
+                  "Elements of on-page optimization",
+                  "How to optimize Meta data?",
+                  "The importance of sitemaps",
+                  "Examining the perfectly optimized web page",
+                  "On page optimization lab"
+              ]
+          },
+          {
+              "title": "Off-Page Optimization",
+              "content": [
+                  "What is off-page optimization",
+                  "The role of backlinks",
+                  "Best practices for link building",
+                  "How to build internal site links",
+                  "How to get backlinks",
+                  "Strategies for achieving high ranking"
+              ]
+          },
+          {
+              "title": "Designing for SEO",
+              "content": [
+                  "How to structure your website",
+                  "How to organize your web pages",
+                  "How to design your website navigation",
+                  "How to use rich snippets/structure data",
+                  "What are Meta robot tags",
+                  "How to use Meta robot tags",
+                  "What are 404 error pages",
+                  "Tips for creating 404 error pages",
+                  "What are 301 redirects",
+                  "How search engines handle 301 redirects",
+                  "The importance of canonicalization",
+                  "The implementation of canonicalization",
+                  "How website speed influences your rankings and how to improve it"
+              ]
+          },
+          {
+              "title": "Mobile SEO",
+              "content": [
+                  "Factors that influence Mobile SEO",
+                  "The importance of mobile SEO",
+                  "A look at options for creating mobile friendly websites",
+                  "Characteristics of mobile websites",
+                  "Creating mobile focused content"
+              ]
+          },
+          {
+              "title": "Video Optimization",
+              "content": [
+                  "Step to YouTube Video Optimization",
+                  "Keyword Research for Video Optimization",
+                  "How to Optimize YouTube Videos",
+                  "Factors that Affect Your Video Ranking",
+                  "Types of Videos to Create",
+                  "How to Promote Your Videos"
+              ]
+          },
+          {
+              "title": "SEO Audit",
+              "content": [
+                  "What is an SEO Audit?",
+                  "How to conduct an SEO Audit?",
+                  "Tools for conducting an SEO Audit?",
+                  "SEO Audit Lab"
+              ]
+          },
+          {
+              "title": "Measuring & Reporting on SEO Success",
+              "content": [
+                  "KPIs for Organic Search",
+                  "How to Report on SEO Progress",
+                  "Demystifying SEO Reports"
+              ]
+          }
+      ]
+  }
 ]

@@ -12,7 +12,7 @@ const EventCarousel = () => {
     return (
         <>
             <SEO title="Event Carousel" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Event Carousel"
                     rootUrl="/"
@@ -44,7 +44,7 @@ const EventCarousel = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

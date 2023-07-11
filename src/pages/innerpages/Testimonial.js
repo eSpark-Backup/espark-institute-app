@@ -11,7 +11,7 @@ const Testimonial = () => {
     return (
         <>
             <SEO title="Testimonial" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Testimonial"
                     rootUrl="/"
@@ -40,7 +40,7 @@ const Testimonial = () => {
 
                 <TestimonialSectionTwo />
 
-            </Layout>
+            
 
         </>
     )

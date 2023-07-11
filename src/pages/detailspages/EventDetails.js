@@ -14,7 +14,7 @@ const EventDetails = () => {
     return (
         <>
             <SEO title={ eventItem.title } />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Event Details"
                     rootUrl="/"
@@ -99,7 +99,7 @@ const EventDetails = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

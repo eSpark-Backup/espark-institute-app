@@ -11,7 +11,7 @@ const EventGrid = () => {
     return (
         <>
             <SEO title="Event Grid" />
-            <Layout>
+            
                 <BreadcrumbOne 
                     title="Event Grid"
                     rootUrl="/"
@@ -36,7 +36,7 @@ const EventGrid = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
+            
         </>
     )
 }

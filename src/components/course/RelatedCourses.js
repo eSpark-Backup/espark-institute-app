@@ -30,7 +30,7 @@ const RelatedCourses = ( { courseID } ) => {
                 <div className="edu-course-wrapper pt--65">
                     <div className="section-title text-start mb--20">
                         <span className="pre-title">Related Courses</span>
-                        <h3 className="title">Courses You May Like</h3>
+                        <h3 className="title">Courses You may like</h3>
                     </div>
                     <Slider 
                         className="mt--40 edu-slick-button slick-activation-wrapper eduvibe-course-one-carousel"
@@ -49,5 +49,4 @@ const RelatedCourses = ( { courseID } ) => {
         </>
     )
 }
-
 export default RelatedCourses;
