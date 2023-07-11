@@ -147,7 +147,7 @@ const HomeOneInstructor = ({ background, color }) => {
                     <Link
                       to={
                         process.env.PUBLIC_URL +
-                        `/instructor-details/${slugify("Ahmed Naseeml")}`
+                        `/instructor-details/${slugify("Ahmed Naseem")}`
                       }
                     >
                       <img
