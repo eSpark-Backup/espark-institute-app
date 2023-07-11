@@ -30,7 +30,7 @@ const CustomToggle = ({ children, eventKey }) => {
   );
 };
 
-const CurriculumContent = ({ id }) => {
+const CurriculumContent = ({ title }) => {
   const [activeId, setActiveId] = useState("0");
 
   function toggleActive(id) {
@@ -40,16 +40,15 @@ const CurriculumContent = ({ id }) => {
       setActiveId(id);
     }
   }
-
-  const filterCurriculmData = () => {
-    const filterData = CurriculumTabContent.filter((item) => item?.id == id);
-
-    return filterData;
-  };
+  const filteredData = CurriculumTabContent.filter(
+    (accordion) => accordion.Course === title
+  );
+  
+  const tabContentArray = filteredData[0].tabContent;
 
   return (
     <Accordion bsPrefix="edu-accordion-02" defaultActiveKey={activeId} flush>
-      {filterCurriculmData()[0]?.curriculum?.map((accordion, i) => (
+      {tabContentArray.map((accordion, i) => (
         <Accordion.Item
           eventKey={i.toString()}
           key={i}
@@ -112,157 +111,162 @@ const CourseDetails = () => {
   return (
     <>
       <SEO title={courseItem.title} />
-      <BreadcrumbOne
-        title="Course Details"
-        rootUrl="/"
-        parentUrl="Home"
-        currentUrl="Course Details"
-      />
-      <div className="edu-course-details-area edu-section-gap bg-color-white">
-        <div className="container">
-          <div className="row g-5">
-            <div className="col-lg-12">
-              <div className="main-image thumbnail">
-                <img
-                  className="radius-small"
-                  src={`${process.env.PUBLIC_URL}/images/course/course-details/${courseItem.image}`}
-                  alt="Course Thumb"
-                />
+      <Layout>
+        <BreadcrumbOne
+          title="Course Details"
+          rootUrl="/"
+          parentUrl="Home"
+          currentUrl="Course Details"
+        />
+        <div className="edu-course-details-area edu-section-gap bg-color-white">
+          <div className="container">
+            <div className="row g-5">
+              <div className="col-lg-12">
+                <div className="main-image thumbnail">
+                  <img
+                    className="radius-small"
+                    src={`${process.env.PUBLIC_URL}/images/course/course-details/${courseItem.image}`}
+                    alt="Course Thumb"
+                  />
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="row g-5">
-            <div className="col-xl-8 col-lg-7">
-              <div className="course-details-content">
-                {/* <div className="content-top">
-                                        <div className="author-meta">
-                                            <div className="author-thumb">
-                                                <Link to={process.env.PUBLIC_URL + `/instructor-details/${slugify( courseItem.instructor ) }`}>
-                                                    <img src={`${process.env.PUBLIC_URL}/images/instructor/instructor-small/${instructor.image}`} alt="Author Thumb" />
-                                                    <span className="author-title">By { courseItem.instructor }</span>
-                                                </Link>
-                                            </div>
-                                        </div>
-                                        <div className="edu-rating rating-default eduvibe-course-rating-stars">
-                                            <div className="rating eduvibe-course-rating-stars">
-                                                <i className="icon-Star"></i>
-                                                <i className="icon-Star"></i>
-                                                <i className="icon-Star"></i>
-                                                <i className="icon-Star"></i>
-                                                <i className="icon-Star"></i>
-                                            </div>
-                                            <span className="rating-count">({courseItem.review} Review)</span>
-                                        </div>
-                                    </div> */}
-
-                <h3 className="title">{courseItem.title}</h3>
-                <ul className="edu-course-tab nav nav-tabs" role="tablist">
-                  <li className="nav-item">
-                    <button
-                      className={
-                        contentTab === "overview"
-                          ? "nav-link active"
-                          : "nav-link"
-                      }
-                      type="button"
-                      aria-label="Overview"
-                      onClick={() => handleTab("overview")}
-                    >
-                      Overview
-                    </button>
-                  </li>
-                  <li className="nav-item">
-                    <button
-                      className={
-                        contentTab === "curriculum"
-                          ? "nav-link active"
-                          : "nav-link"
-                      }
-                      type="button"
-                      aria-label="Curriculum"
-                      onClick={() => handleTab("curriculum")}
-                    >
-                      Curriculum
-                    </button>
-                  </li>
-                  <li className="nav-item">
-                    <button
-                      className={
-                        contentTab === "instructor"
-                          ? "nav-link active"
-                          : "nav-link"
-                      }
-                      type="button"
-                      aria-label="Instructor"
-                      onClick={() => handleTab("instructor")}
-                    >
-                      Instructor
-                    </button>
-                  </li>
-                  {/* <li className="nav-item">
-                                            <button
-                                                className={contentTab === 'reviews' ? 'nav-link active' : 'nav-link'}
-                                                type="button"
-                                                aria-label="Reviews"
-                                                onClick={() => handleTab('reviews')}
-                                            >
-                                                Reviews
-                                            </button>
-                                        </li> */}
-                </ul>
-
-                <div className="tab-content">
-                  {contentTab === "overview" && (
-                    <div
-                      className={`tab-pane fade show ${
-                        contentTab === "overview" ? "active" : ""
-                      } `}
-                    >
-                      <div
-                        className="course-tab-content"
-                        dangerouslySetInnerHTML={{ __html: courseItem.details }}
-                      />
-                    </div>
-                  )}
-
-                  {contentTab === "curriculum" && (
-                    <div
-                      className={`tab-pane fade show ${
-                        contentTab === "curriculum" ? "active" : ""
-                      } `}
-                    >
-                      <div className="course-tab-content">
-                        <CurriculumContent id={id} />
+            <div className="row g-5">
+              <div className="col-xl-8 col-lg-7">
+                <div className="course-details-content">
+                  <div className="content-top">
+                    <div className="author-meta">
+                      <div className="author-thumb">
+                        <Link
+                          to={
+                            process.env.PUBLIC_URL +
+                            `/instructor-details/${slugify(
+                              courseItem.instructor
+                            )}`
+                          }
+                        >
+                          <img
+                            src={`${process.env.PUBLIC_URL}/images/instructor/instructor-small/${instructor.image}`}
+                            alt="Author Thumb"
+                          />
+                          <span className="author-title">
+                            By {courseItem.instructor}
+                          </span>
+                        </Link>
                       </div>
                     </div>
-                  )}
+                    <div className="edu-rating rating-default eduvibe-course-rating-stars">
+                      <div className="rating eduvibe-course-rating-stars">
+                        <i className="icon-Star"></i>
+                        <i className="icon-Star"></i>
+                        <i className="icon-Star"></i>
+                        <i className="icon-Star"></i>
+                        <i className="icon-Star"></i>
+                      </div>
+                      <span className="rating-count">
+                        ({courseItem.review} Review)
+                      </span>
+                    </div>
+                  </div>
 
-                  {contentTab === "instructor" && (
-                    <div
-                      className={`tab-pane fade show ${
-                        contentTab === "instructor" ? "active" : ""
-                      } `}
-                    >
-                      <div className="course-tab-content">
-                        <div className="course-author-wrapper">
-                          <div className="thumbnail">
-                            <Link
-                              to={
-                                process.env.PUBLIC_URL +
-                                `/instructor-details/${slugify(
-                                  courseItem.instructor
-                                )}`
-                              }
-                            >
-                              <img
-                                src={`${process.env.PUBLIC_URL}/images/instructor/course-details/${instructor.image}`}
-                                alt="Author Thumb"
-                              />
-                            </Link>
-                          </div>
-                          <div className="author-content">
-                            <h6 className="title">
+                  <h3 className="title">{courseItem.title}</h3>
+                  <ul className="edu-course-tab nav nav-tabs" role="tablist">
+                    <li className="nav-item">
+                      <button
+                        className={
+                          contentTab === "overview"
+                            ? "nav-link active"
+                            : "nav-link"
+                        }
+                        type="button"
+                        aria-label="Overview"
+                        onClick={() => handleTab("overview")}
+                      >
+                        Overview
+                      </button>
+                    </li>
+                    <li className="nav-item">
+                      <button
+                        className={
+                          contentTab === "curriculum"
+                            ? "nav-link active"
+                            : "nav-link"
+                        }
+                        type="button"
+                        aria-label="Curriculum"
+                        onClick={() => handleTab("curriculum")}
+                      >
+                        Curriculum
+                      </button>
+                    </li>
+                    <li className="nav-item">
+                      <button
+                        className={
+                          contentTab === "instructor"
+                            ? "nav-link active"
+                            : "nav-link"
+                        }
+                        type="button"
+                        aria-label="Instructor"
+                        onClick={() => handleTab("instructor")}
+                      >
+                        Instructor
+                      </button>
+                    </li>
+                    <li className="nav-item">
+                      <button
+                        className={
+                          contentTab === "reviews"
+                            ? "nav-link active"
+                            : "nav-link"
+                        }
+                        type="button"
+                        aria-label="Reviews"
+                        onClick={() => handleTab("reviews")}
+                      >
+                        Reviews
+                      </button>
+                    </li>
+                  </ul>
+
+                  <div className="tab-content">
+                    {contentTab === "overview" && (
+                      <div
+                        className={`tab-pane fade show ${
+                          contentTab === "overview" ? "active" : ""
+                        } `}
+                      >
+                        <div
+                          className="course-tab-content"
+                          dangerouslySetInnerHTML={{
+                            __html: courseItem.details,
+                          }}
+                        />
+                      </div>
+                    )}
+
+                    {contentTab === "curriculum" && (
+                      <div
+                        className={`tab-pane fade show ${
+                          contentTab === "curriculum" ? "active" : ""
+                        } `}
+                      >
+                        <div className="course-tab-content">
+                          <CurriculumContent title={courseItem.title} />
+                        </div>
+                      </div>
+                    )}
+
+                    {contentTab === "instructor" && (
+                      <div
+                        className={`tab-pane fade show ${
+                          contentTab === "instructor" ? "active" : ""
+                        } `}
+                      >
+                        <div className="course-tab-content">
+                          <div className="course-author-wrapper">
+                            <div className="thumbnail">
                               <Link
                                 to={
                                   process.env.PUBLIC_URL +
@@ -271,137 +275,222 @@ const CourseDetails = () => {
                                   )}`
                                 }
                               >
-                                {instructor.name}
+                                <img
+                                  src={`${process.env.PUBLIC_URL}/images/instructor/course-details/${instructor.image}`}
+                                  alt="Author Thumb"
+                                />
                               </Link>
-                            </h6>
-                            <span className="subtitle">
-                              {instructor.designation}
-                            </span>
-                            <p>{instructorExcerpt}</p>
-                            {/* <ul className="social-share border-style">
-                                                                <li><a href={instructor.facebookUrl}><i className="icon-Fb"></i></a></li>
-                                                                <li><a href={instructor.linkedInUrl}><i className="icon-linkedin"></i></a></li>
-                                                                <li><a href={instructor.pinterest}><i className="icon-Pinterest"></i></a></li>
-                                                                <li><a href={instructor.twitterUrl}><i className="icon-Twitter"></i></a></li>
-                                                            </ul> */}
+                            </div>
+                            <div className="author-content">
+                              <h6 className="title">
+                                <Link
+                                  to={
+                                    process.env.PUBLIC_URL +
+                                    `/instructor-details/${slugify(
+                                      courseItem.instructor
+                                    )}`
+                                  }
+                                >
+                                  {instructor.name}
+                                </Link>
+                              </h6>
+                              <span className="subtitle">
+                                {instructor.designation}
+                              </span>
+                              <p>{instructorExcerpt}</p>
+                              <ul className="social-share border-style">
+                                <li>
+                                  <a href={instructor.facebookUrl}>
+                                    <i className="icon-Fb"></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href={instructor.linkedInUrl}>
+                                    <i className="icon-linkedin"></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href={instructor.pinterest}>
+                                    <i className="icon-Pinterest"></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href={instructor.twitterUrl}>
+                                    <i className="icon-Twitter"></i>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  )}
+                    )}
 
-                  {/* { contentTab === 'reviews' && 
-                                            <div className={`tab-pane fade show ${contentTab === 'reviews' ? 'active' : '' } `}>
-                                                <div className="course-tab-content">
-                                                    <div className="row row--30">
-                                                        <div className="col-lg-4">
-                                                            <div className="rating-box">
-                                                                <div className="rating-number">{courseItem.rating}</div>
-                                                                <div className="rating eduvibe-course-rating-stars">
-                                                                    <i className="icon-Star"></i>
-                                                                    <i className="icon-Star"></i>
-                                                                    <i className="icon-Star"></i>
-                                                                    <i className="icon-Star"></i>
-                                                                    <i className="icon-Star"></i>
-                                                                </div>
-                                                                <span>({courseItem.review} Review)</span>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-8">
-                                                            <div className="review-wrapper">
+                    {contentTab === "reviews" && (
+                      <div
+                        className={`tab-pane fade show ${
+                          contentTab === "reviews" ? "active" : ""
+                        } `}
+                      >
+                        <div className="course-tab-content">
+                          <div className="row row--30">
+                            <div className="col-lg-4">
+                              <div className="rating-box">
+                                <div className="rating-number">
+                                  {courseItem.rating}
+                                </div>
+                                <div className="rating eduvibe-course-rating-stars">
+                                  <i className="icon-Star"></i>
+                                  <i className="icon-Star"></i>
+                                  <i className="icon-Star"></i>
+                                  <i className="icon-Star"></i>
+                                  <i className="icon-Star"></i>
+                                </div>
+                                <span>({courseItem.review} Review)</span>
+                              </div>
+                            </div>
+                            <div className="col-lg-8">
+                              <div className="review-wrapper">
+                                <div className="single-progress-bar">
+                                  <div className="rating-text">
+                                    5 <i className="icon-Star"></i>
+                                  </div>
+                                  <div className="progress">
+                                    <div
+                                      className="progress-bar"
+                                      role="progressbar"
+                                      style={{ width: "100%" }}
+                                      aria-valuenow="100"
+                                      aria-valuemin="0"
+                                      aria-valuemax="100"
+                                    ></div>
+                                  </div>
+                                  <span className="rating-value">1</span>
+                                </div>
 
-                                                                <div className="single-progress-bar">
-                                                                    <div className="rating-text">
-                                                                        5 <i className="icon-Star"></i>
-                                                                    </div>
-                                                                    <div className="progress">
-                                                                        <div className="progress-bar" role="progressbar" style={ {width: '100%'} } aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                                                    </div>
-                                                                    <span className="rating-value">1</span>
-                                                                </div>
+                                <div className="single-progress-bar">
+                                  <div className="rating-text">
+                                    4 <i className="icon-Star"></i>
+                                  </div>
+                                  <div className="progress">
+                                    <div
+                                      className="progress-bar"
+                                      role="progressbar"
+                                      style={{ width: "0%" }}
+                                      aria-valuenow="0"
+                                      aria-valuemin="0"
+                                      aria-valuemax="100"
+                                    ></div>
+                                  </div>
+                                  <span className="rating-value">0</span>
+                                </div>
 
-                                                                <div className="single-progress-bar">
-                                                                    <div className="rating-text">
-                                                                        4 <i className="icon-Star"></i>
-                                                                    </div>
-                                                                    <div className="progress">
-                                                                        <div className="progress-bar" role="progressbar" style={ {width: '0%'} } aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                                                                    </div>
-                                                                    <span className="rating-value">0</span>
-                                                                </div>
+                                <div className="single-progress-bar">
+                                  <div className="rating-text">
+                                    3 <i className="icon-Star"></i>
+                                  </div>
+                                  <div className="progress">
+                                    <div
+                                      className="progress-bar"
+                                      role="progressbar"
+                                      style={{ width: "0%" }}
+                                      aria-valuenow="0"
+                                      aria-valuemin="0"
+                                      aria-valuemax="100"
+                                    ></div>
+                                  </div>
+                                  <span className="rating-value">0</span>
+                                </div>
 
-                                                                <div className="single-progress-bar">
-                                                                    <div className="rating-text">
-                                                                        3 <i className="icon-Star"></i>
-                                                                    </div>
-                                                                    <div className="progress">
-                                                                        <div className="progress-bar" role="progressbar" style={ {width: '0%'} } aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                                                                    </div>
-                                                                    <span className="rating-value">0</span>
-                                                                </div>
+                                <div className="single-progress-bar">
+                                  <div className="rating-text">
+                                    2 <i className="icon-Star"></i>
+                                  </div>
+                                  <div className="progress">
+                                    <div
+                                      className="progress-bar"
+                                      role="progressbar"
+                                      style={{ width: "0%" }}
+                                      aria-valuenow="0"
+                                      aria-valuemin="0"
+                                      aria-valuemax="100"
+                                    ></div>
+                                  </div>
+                                  <span className="rating-value">0</span>
+                                </div>
 
-                                                                <div className="single-progress-bar">
-                                                                    <div className="rating-text">
-                                                                        2 <i className="icon-Star"></i>
-                                                                    </div>
-                                                                    <div className="progress">
-                                                                        <div className="progress-bar" role="progressbar" style={ {width: '0%'} } aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                                                                    </div>
-                                                                    <span className="rating-value">0</span>
-                                                                </div>
-
-                                                                <div className="single-progress-bar">
-                                                                    <div className="rating-text">
-                                                                        1 <i className="icon-Star"></i>
-                                                                    </div>
-                                                                    <div className="progress">
-                                                                        <div className="progress-bar" role="progressbar" style={ {width: '0%'} } aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                                                                    </div>
-                                                                    <span className="rating-value">0</span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="comment-wrapper pt--40">
-                                                        <div className="section-title">
-                                                            <h5 className="mb--25">Reviews</h5>
-                                                        </div>
-                                                        <div className="edu-comment">
-                                                            <div className="thumbnail">
-                                                                <img src="/images/course/student-review/student-1.png" alt="Student Thumb" />
-                                                            </div>
-                                                            <div className="comment-content">
-                                                                <div className="comment-top">
-                                                                    <h6 className="title">Elen Saspita</h6>
-                                                                    <div className="rating eduvibe-course-rating-stars">
-                                                                        <i className="icon-Star"></i>
-                                                                        <i className="icon-Star"></i>
-                                                                        <i className="icon-Star"></i>
-                                                                        <i className="icon-Star"></i>
-                                                                        <i className="icon-Star"></i>
-                                                                    </div>
-                                                                </div>
-                                                                <span className="subtitle">“ Outstanding Course ”</span>
-                                                                <p>As Thomas pointed out, Chegg’s survey appears more like a scorecard that details obstacles and challenges that the current university undergraduate student population is going through in their universities and countries.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        } */}
+                                <div className="single-progress-bar">
+                                  <div className="rating-text">
+                                    1 <i className="icon-Star"></i>
+                                  </div>
+                                  <div className="progress">
+                                    <div
+                                      className="progress-bar"
+                                      role="progressbar"
+                                      style={{ width: "0%" }}
+                                      aria-valuenow="0"
+                                      aria-valuemin="0"
+                                      aria-valuemax="100"
+                                    ></div>
+                                  </div>
+                                  <span className="rating-value">0</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="comment-wrapper pt--40">
+                            <div className="section-title">
+                              <h5 className="mb--25">Reviews</h5>
+                            </div>
+                            <div className="edu-comment">
+                              <div className="thumbnail">
+                                <img
+                                  src="/images/course/student-review/student-1.png"
+                                  alt="Student Thumb"
+                                />
+                              </div>
+                              <div className="comment-content">
+                                <div className="comment-top">
+                                  <h6 className="title">Elen Saspita</h6>
+                                  <div className="rating eduvibe-course-rating-stars">
+                                    <i className="icon-Star"></i>
+                                    <i className="icon-Star"></i>
+                                    <i className="icon-Star"></i>
+                                    <i className="icon-Star"></i>
+                                    <i className="icon-Star"></i>
+                                  </div>
+                                </div>
+                                <span className="subtitle">
+                                  “ Outstanding Course ”
+                                </span>
+                                <p>
+                                  As Thomas pointed out, Chegg’s survey appears
+                                  more like a scorecard that details obstacles
+                                  and challenges that the current university
+                                  undergraduate student population is going
+                                  through in their universities and countries.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+                  </div>
                 </div>
               </div>
+              <div className="col-xl-4 col-lg-5">
+                <CourseInfo data={courseItem} />
+              </div>
             </div>
-            <div className="col-xl-4 col-lg-5">
-              <CourseInfo data={courseItem} />
+            <div className="row">
+              <div className="col-lg-12">
+                <RelatedCourses courseID={courseItem.id} />
+              </div>
             </div>
-          </div>
-          <div className="row">
-            <RelatedCourses courseID={courseItem.id} />
-            <div className="col-lg-12"></div>
           </div>
         </div>
-      </div>
+      </Layout>
     </>
   );
 };

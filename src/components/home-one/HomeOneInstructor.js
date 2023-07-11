@@ -112,7 +112,7 @@ const HomeOneInstructor = ({ background, color }) => {
                         Affan Saeed{" "}
                       </Link>
                     </h5>
-                    <span className="desc">Node JS Expert</span>
+                    <span className="desc">.net/C# Developer</span>
                     <div className="team-share-info bg-transparent">
                       <a className="linkedin" href="#">
                         <i className="icon-linkedin"></i>
@@ -167,7 +167,7 @@ const HomeOneInstructor = ({ background, color }) => {
                         Ahmed Naseem
                       </Link>
                     </h5>
-                    <span className="desc">SEO Expert</span>
+                    <span className="desc">UI/UX Designer</span>
                     <div className="team-share-info bg-transparent">
                       <a className="linkedin" href="#">
                         <i className="icon-linkedin"></i>
@@ -221,7 +221,7 @@ const HomeOneInstructor = ({ background, color }) => {
                         Areeba Shakeel
                       </Link>
                     </h5>
-                    <span className="desc">SQA Engineer​</span>
+                    <span className="desc">Web Developer​</span>
                     <div className="team-share-info bg-transparent">
                       <a className="linkedin" href="#">
                         <i className="icon-linkedin"></i>
@@ -275,7 +275,7 @@ const HomeOneInstructor = ({ background, color }) => {
                         Kashif Hussain
                       </Link>
                     </h5>
-                    <span className="desc">Sr Vue js Developer</span>
+                    <span className="desc">Wordpress Expert</span>
                     <div className="team-share-info bg-transparent">
                       <a className="linkedin" href="#">
                         <i className="icon-linkedin"></i>

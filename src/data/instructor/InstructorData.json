@@ -1,291 +1,434 @@
 [
- 
-    {
-        "id": 2,
-        "name": "Rohail Zafar",
-        "designation": "Team Lead-Mobile Application Developer",
-        "image": "rohail.jpg",
-        "facebookUrl": "#",
-        "twitterUrl": "#",
-        "linkedInUrl": "#",
-        "youtubeUrl": "#",
-        "pinterest": "#",
-        "mail": "rohail@espark-institute.com",
-        "phone": "316-2265-948",
-        "details": "Rohail Zafar is a skilled and experienced Team Lead-Mobile Application Developer, specializing in React and React Native development. With a passion for creating engaging and high-performing mobile applications, Rohail leads his team in delivering top-quality solutions to clients across a wide range of industries. He has a deep understanding of the React and React Native frameworks, and is always up-to-date with the latest technologies and trends in mobile development. With his strong leadership and technical skills, Rohail has established himself as a trusted and respected professional in the field of mobile application development.",
-        "courseids": [2, 4, 6, 8],
-        "experience": [
-            {
-                "title": "WordPress Development",
-                "percent": "85"
-            },
-            {
-                "title": "Laravel Development",
-                "percent": "90"
-            },
-            {
-                "title": "Digital Marketing",
-                "percent": "80"
-            },
-            {
-                "title": "Live Support",
-                "percent": "95"
-            }
-        ],
-        "features": [
-            {
-                "title": "COURSE AUTHOR",
-                "number": "4"
-            },
-            {
-                "title": "TOTAL RATING",
-                "number": "14"
-            },
-            {
-                "title": "AVE. RATING",
-                "number": "4.9",
-                "isDecimal": true
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Imran Ahmed",
-        "designation": "Sr. Android Developer",
-        "image": "imran.png",
-        "facebookUrl": "#",
-        "twitterUrl": "#",
-        "linkedInUrl": "#",
-        "youtubeUrl": "#",
-        "pinterest": "#",
-        "mail": "imran@example.com",
-        "phone": "254-913-2124",
-        "details": "Imran Ahmed is a seasoned Sr. Android Developer with a wealth of experience in creating high-quality mobile applications for various clients. With a strong technical background in Android development, Imran has a deep understanding of the intricacies of the platform and is adept at building scalable and robust applications that meet the needs of end-users. He stays up-to-date with the latest tools and technologies in the field, enabling him to deliver cutting-edge solutions that are both innovative and user-friendly. Imran's passion for Android development, coupled with his expertise and dedication, make him a valuable asset to any project or team.",
-        "courseids": [1, 3, 5, 6],
-        "experience": [
-            {
-                "title": "Shopify Development",
-                "percent": "95"
-            },
-            {
-                "title": "UX/UI Design",
-                "percent": "90"
-            },
-            {
-                "title": "Digital Marketing",
-                "percent": "95"
-            },
-            {
-                "title": "Live Support",
-                "percent": "80"
-            }
-        ],
-        "features": [
-            {
-                "title": "COURSE AUTHOR",
-                "number": "6"
-            },
-            {
-                "title": "TOTAL RATING",
-                "number": "4"
-            },
-            {
-                "title": "AVE. RATING",
-                "number": "4.5",
-                "isDecimal": true
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Ovais Rafique",
-        "designation": "Node Js Expert",
-        "image": "instructor-4.jpg",
-        "facebookUrl": "#",
-        "twitterUrl": "#",
-        "linkedInUrl": "#",
-        "youtubeUrl": "#",
-        "pinterest": "#",
-        "mail": "Isabelle@example.com",
-        "phone": "719-226-2966",
-        "details": "Ovais Rafique is a skilled Node Js Expert with a wealth of experience in creating high-performance applications using Node.js. With a deep understanding of the Node.js framework, Ovais is proficient in building scalable and efficient web applications that meet the unique needs of clients. His technical expertise and strong problem-solving skills allow him to tackle complex projects and deliver top-quality solutions within tight deadlines. Ovais is always exploring new tools and technologies in the Node.js ecosystem, enabling him to provide innovative solutions that meet the changing demands of the industry. With his passion for Node.js and his dedication to excellence, Ovais is a valuable asset to any team looking to build cutting-edge applications.",
-        "courseids": [2, 3, 5, 7],
-        "experience": [
-            {
-                "title": "React Development",
-                "percent": "80"
-            },
-            {
-                "title": "Laravel Development",
-                "percent": "85"
-            },
-            {
-                "title": "Digital Marketing",
-                "percent": "90"
-            },
-            {
-                "title": "Live Support",
-                "percent": "95"
-            }
-        ],
-        "features": [
-            {
-                "title": "COURSE AUTHOR",
-                "number": "3"
-            },
-            {
-                "title": "TOTAL RATING",
-                "number": "18"
-            },
-            {
-                "title": "AVE. RATING",
-                "number": "5.0",
-                "isDecimal": true
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Muhammad Usama",
-        "designation": "Sr. Vue JS Developer",
-        "image": "instructor-5.jpg",
-        "facebookUrl": "#",
-        "twitterUrl": "#",
-        "linkedInUrl": "#",
-        "youtubeUrl": "#",
-        "pinterest": "#",
-        "mail": "Douglas@example.com",
-        "phone": "706-226-8629",
-        "details": "Muhammad Usama is a seasoned Sr. Vue JS Developer with a wealth of experience in creating high-quality web applications using the Vue.js framework. With a strong technical background in Vue.js, Muhammad is proficient in building responsive and scalable applications that meet the unique needs of clients. His expertise in the field enables him to tackle complex problems and deliver innovative solutions that meet the changing demands of the industry. Muhammad is always up-to-date with the latest trends and best practices in Vue.js development, allowing him to stay ahead of the curve and provide cutting-edge solutions to his clients. With his passion for Vue.js and his dedication to excellence, Muhammad is a valuable asset to any team looking to build dynamic and engaging web applications.",
-        "courseids": [1, 5, 6, 7],
-        "experience": [
-            {
-                "title": "JavaScript Development",
-                "percent": "90"
-            },
-            {
-                "title": "Angular Development",
-                "percent": "95"
-            },
-            {
-                "title": "Vue Development",
-                "percent": "80"
-            },
-            {
-                "title": "React Development",
-                "percent": "85"
-            }
-        ],
-        "features": [
-            {
-                "title": "COURSE AUTHOR",
-                "number": "6"
-            },
-            {
-                "title": "TOTAL RATING",
-                "number": "12"
-            },
-            {
-                "title": "AVE. RATING",
-                "number": "4.6",
-                "isDecimal": true
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "name": "Shah Meer Hashim Raza",
-        "designation": "DotNet Developer",
-        "image": "instructor-6.jpg",
-        "facebookUrl": "#",
-        "twitterUrl": "#",
-        "linkedInUrl": "#",
-        "youtubeUrl": "#",
-        "pinterest": "#",
-        "mail": "Linda@example.com",
-        "phone": "917-714-7334",
-        "details": "Shah Meer Hashim Raza is a skilled DotNet Developer with a wealth of experience in building robust and scalable web applications using the Microsoft .NET framework. With a deep understanding of the .NET ecosystem, Shah Meer is proficient in developing applications that meet the unique needs of clients, using a variety of programming languages such as C#, ASP.NET, and VB.NET. His expertise in the field enables him to tackle complex problems and deliver innovative solutions that meet the changing demands of the industry. Shah Meer is always up-to-date with the latest technologies and best practices in DotNet development, allowing him to stay ahead of the curve and provide cutting-edge solutions to his clients. With his passion for DotNet development and his dedication to excellence, Shah Meer is a valuable asset to any team looking to build reliable and scalable web applications.",
-        "courseids": [3, 4, 5, 6],
-        "experience": [
-            {
-                "title": "WordPress Development",
-                "percent": "95"
-            },
-            {
-                "title": "Shopify Development",
-                "percent": "90"
-            },
-            {
-                "title": "Laravel Development",
-                "percent": "80"
-            },
-            {
-                "title": "Live Support",
-                "percent": "90"
-            }
-        ],
-        "features": [
-            {
-                "title": "COURSE AUTHOR",
-                "number": "8"
-            },
-            {
-                "title": "TOTAL RATING",
-                "number": "15"
-            },
-            {
-                "title": "AVE. RATING",
-                "number": "4.7",
-                "isDecimal": true
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "name": "Muhammad Sohaib",
-        "designation": "Web/SEO Expert",
-        "image": "sohaib.png",
-        "facebookUrl": "#",
-        "twitterUrl": "#",
-        "linkedInUrl": "#",
-        "youtubeUrl": "#",
-        "pinterest": "#",
-        "mail": "rohail@espark-institute.com",
-        "phone": "316-2265-948",
-        "details": "Muhammad Sohaib is a skilled Web Wordpress / SEO Expert with a wealth of experience in building high-quality websites and optimizing them for search engines. With a deep understanding of the Wordpress platform and its ecosystem, Muhammad is proficient in developing websites that are both visually appealing and user-friendly. His expertise in SEO enables him to optimize websites for search engines, resulting in higher visibility and increased traffic. Muhammad stays up-to-date with the latest trends and best practices in web development and SEO, enabling him to provide cutting-edge solutions that meet the changing demands of the industry. With his passion for web development and SEO, coupled with his dedication to excellence, Muhammad is a valuable asset to any team looking to build engaging and optimized websites.",
-        "courseids": [2, 4, 6, 8],
-        "experience": [
-            {
-                "title": "WordPress Development",
-                "percent": "85"
-            },
-            {
-                "title": "Laravel Development",
-                "percent": "90"
-            },
-            {
-                "title": "Digital Marketing",
-                "percent": "80"
-            },
-            {
-                "title": "Live Support",
-                "percent": "95"
-            }
-        ],
-        "features": [
-            {
-                "title": "COURSE AUTHOR",
-                "number": "4"
-            },
-            {
-                "title": "TOTAL RATING",
-                "number": "14"
-            },
-            {
-                "title": "AVE. RATING",
-                "number": "4.9",
-                "isDecimal": true
-            }
-        ]
-    }
+  {
+    "id": 1,
+    "name": "Affan Saeed",
+    "designation": ".net/C#",
+    "image": "Affan_Saeed.jpg",
+    "facebookUrl": "#",
+    "twitterUrl": "#",
+    "linkedInUrl": "#",
+    "youtubeUrl": "#",
+    "pinterest": "#",
+    "mail": "James@example.com",
+    "phone": "570-543-3889",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "courseids": [1, 3, 5, 6, 7],
+    "experience": [
+      {
+        "title": "Website Development",
+        "percent": "90"
+      },
+      {
+        "title": "Product Design",
+        "percent": "80"
+      },
+      {
+        "title": "Digital Marketing",
+        "percent": "95"
+      },
+      {
+        "title": "Live Support",
+        "percent": "85"
+      }
+    ],
+    "features": [
+      {
+        "title": "COURSE AUTHOR",
+        "number": "5"
+      },
+      {
+        "title": "TOTAL RATING",
+        "number": "20"
+      },
+      {
+        "title": "AVE. RATING",
+        "number": "4.5",
+        "isDecimal": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ahmed Naseem",
+    "designation": "UX Expert",
+    "image": "Ahmed_Naseem.jpg",
+    "facebookUrl": "#",
+    "twitterUrl": "#",
+    "linkedInUrl": "#",
+    "youtubeUrl": "#",
+    "pinterest": "#",
+    "mail": "Nancy@example.com",
+    "phone": "806-740-0589",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "courseids": [2, 4, 6, 8],
+    "experience": [
+      {
+        "title": "WordPress Development",
+        "percent": "85"
+      },
+      {
+        "title": "Laravel Development",
+        "percent": "90"
+      },
+      {
+        "title": "Digital Marketing",
+        "percent": "80"
+      },
+      {
+        "title": "Live Support",
+        "percent": "95"
+      }
+    ],
+    "features": [
+      {
+        "title": "COURSE AUTHOR",
+        "number": "4"
+      },
+      {
+        "title": "TOTAL RATING",
+        "number": "14"
+      },
+      {
+        "title": "AVE. RATING",
+        "number": "4.9",
+        "isDecimal": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Areeba Shakeel",
+    "designation": "Digital Marketer",
+    "image": "Areeba_Shakeel.jpg",
+    "facebookUrl": "#",
+    "twitterUrl": "#",
+    "linkedInUrl": "#",
+    "youtubeUrl": "#",
+    "pinterest": "#",
+    "mail": "Troy@example.com",
+    "phone": "254-913-2124",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "courseids": [1, 3, 5, 6],
+    "experience": [
+      {
+        "title": "Shopify Development",
+        "percent": "95"
+      },
+      {
+        "title": "UX/UI Design",
+        "percent": "90"
+      },
+      {
+        "title": "Digital Marketing",
+        "percent": "95"
+      },
+      {
+        "title": "Live Support",
+        "percent": "80"
+      }
+    ],
+    "features": [
+      {
+        "title": "COURSE AUTHOR",
+        "number": "6"
+      },
+      {
+        "title": "TOTAL RATING",
+        "number": "4"
+      },
+      {
+        "title": "AVE. RATING",
+        "number": "4.5",
+        "isDecimal": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Kashif Hussain",
+    "designation": "WordPress Expert",
+    "image": "Kashif_Hussain.jpg",
+    "facebookUrl": "#",
+    "twitterUrl": "#",
+    "linkedInUrl": "#",
+    "youtubeUrl": "#",
+    "pinterest": "#",
+    "mail": "Isabelle@example.com",
+    "phone": "719-226-2966",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "courseids": [2, 3, 5, 7],
+    "experience": [
+      {
+        "title": "React Development",
+        "percent": "80"
+      },
+      {
+        "title": "Laravel Development",
+        "percent": "85"
+      },
+      {
+        "title": "Digital Marketing",
+        "percent": "90"
+      },
+      {
+        "title": "Live Support",
+        "percent": "95"
+      }
+    ],
+    "features": [
+      {
+        "title": "COURSE AUTHOR",
+        "number": "3"
+      },
+      {
+        "title": "TOTAL RATING",
+        "number": "18"
+      },
+      {
+        "title": "AVE. RATING",
+        "number": "5.0",
+        "isDecimal": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Waqas Ahmed",
+    "designation": "Laravel Expert",
+    "image": "waqas_ahmed.jpg",
+    "facebookUrl": "#",
+    "twitterUrl": "#",
+    "linkedInUrl": "#",
+    "youtubeUrl": "#",
+    "pinterest": "#",
+    "mail": "Douglas@example.com",
+    "phone": "706-226-8629",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "courseids": [1, 5, 6, 7],
+    "experience": [
+      {
+        "title": "JavaScript Development",
+        "percent": "90"
+      },
+      {
+        "title": "Angular Development",
+        "percent": "95"
+      },
+      {
+        "title": "Vue Development",
+        "percent": "80"
+      },
+      {
+        "title": "React Development",
+        "percent": "85"
+      }
+    ],
+    "features": [
+      {
+        "title": "COURSE AUTHOR",
+        "number": "6"
+      },
+      {
+        "title": "TOTAL RATING",
+        "number": "12"
+      },
+      {
+        "title": "AVE. RATING",
+        "number": "4.6",
+        "isDecimal": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Linda Bacote",
+    "designation": "UX Expert",
+    "image": "instructor-6.jpg",
+    "facebookUrl": "#",
+    "twitterUrl": "#",
+    "linkedInUrl": "#",
+    "youtubeUrl": "#",
+    "pinterest": "#",
+    "mail": "Linda@example.com",
+    "phone": "917-714-7334",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "courseids": [3, 4, 5, 6],
+    "experience": [
+      {
+        "title": "WordPress Development",
+        "percent": "95"
+      },
+      {
+        "title": "Shopify Development",
+        "percent": "90"
+      },
+      {
+        "title": "Laravel Development",
+        "percent": "80"
+      },
+      {
+        "title": "Live Support",
+        "percent": "90"
+      }
+    ],
+    "features": [
+      {
+        "title": "COURSE AUTHOR",
+        "number": "8"
+      },
+      {
+        "title": "TOTAL RATING",
+        "number": "15"
+      },
+      {
+        "title": "AVE. RATING",
+        "number": "4.7",
+        "isDecimal": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "John Moss",
+    "designation": "Digital Marketer",
+    "image": "instructor-7.jpg",
+    "facebookUrl": "#",
+    "twitterUrl": "#",
+    "linkedInUrl": "#",
+    "youtubeUrl": "#",
+    "pinterest": "#",
+    "mail": "John@example.com",
+    "phone": "662-219-5908",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "courseids": [2, 3, 6, 7],
+    "experience": [
+      {
+        "title": "JavaScript Development",
+        "percent": "80"
+      },
+      {
+        "title": "React Development",
+        "percent": "100"
+      },
+      {
+        "title": "Digital Marketing",
+        "percent": "90"
+      },
+      {
+        "title": "Live Support",
+        "percent": "95"
+      }
+    ],
+    "features": [
+      {
+        "title": "COURSE AUTHOR",
+        "number": "6"
+      },
+      {
+        "title": "TOTAL RATING",
+        "number": "20"
+      },
+      {
+        "title": "AVE. RATING",
+        "number": "4.8",
+        "isDecimal": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Alice McCoy",
+    "designation": "WordPress Expert",
+    "image": "instructor-8.jpg",
+    "facebookUrl": "#",
+    "twitterUrl": "#",
+    "linkedInUrl": "#",
+    "youtubeUrl": "#",
+    "pinterest": "#",
+    "mail": "Alice@example.com",
+    "phone": "479-689-0161",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "courseids": [1, 3, 6, 7],
+    "experience": [
+      {
+        "title": "Shopify Development",
+        "percent": "95"
+      },
+      {
+        "title": "Laravel Development",
+        "percent": "90"
+      },
+      {
+        "title": "UX/UI Design",
+        "percent": "85"
+      },
+      {
+        "title": "Customer Support",
+        "percent": "90"
+      }
+    ],
+    "features": [
+      {
+        "title": "COURSE AUTHOR",
+        "number": "3"
+      },
+      {
+        "title": "TOTAL RATING",
+        "number": "15"
+      },
+      {
+        "title": "AVE. RATING",
+        "number": "4.8",
+        "isDecimal": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Anita Carter",
+    "designation": "UX/UI Expert",
+    "image": "instructor-9.jpg",
+    "facebookUrl": "#",
+    "twitterUrl": "#",
+    "linkedInUrl": "#",
+    "youtubeUrl": "#",
+    "pinterest": "#",
+    "mail": "Anita@example.com",
+    "phone": "804-659-4183",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "courseids": [1, 3, 6, 7],
+    "experience": [
+      {
+        "title": "Laravel Development",
+        "percent": "90"
+      },
+      {
+        "title": "Python Development",
+        "percent": "80"
+      },
+      {
+        "title": "React Development",
+        "percent": "95"
+      },
+      {
+        "title": "Live Support",
+        "percent": "85"
+      }
+    ],
+    "features": [
+      {
+        "title": "COURSE AUTHOR",
+        "number": "5"
+      },
+      {
+        "title": "TOTAL RATING",
+        "number": "10"
+      },
+      {
+        "title": "AVE. RATING",
+        "number": "4.9",
+        "isDecimal": true
+      }
+    ]
+  }
 ]
