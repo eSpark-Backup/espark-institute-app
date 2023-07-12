@@ -4,18 +4,11 @@
     "tabContent": [
       {
         "title": "Week 1 - Introduction to .net/c#",
-        "content": [
-          "Primitive types and expressions",
-          "Non-Primitive Types"
-        ]
+        "content": ["Primitive types and expressions", "Non-Primitive Types"]
       },
       {
         "title": "Week 2 - Hands On type System",
-        "content": [
-          "Basic Math",
-          "User Input",
-          "More Math"
-        ]
+        "content": ["Basic Math", "User Input", "More Math"]
       },
       {
         "title": "Week 3 - Arrays",
@@ -62,7 +55,8 @@
         "title": "Week 1 - Introduction to Facebook Ads Ecosystem",
         "content": [
           "Careers in Meta Advertising",
-          "Introduction to the Facebook Marketing Facebook Ads Account & Business Manager",
+          "Introduction to the Facebook Marketing",
+          "Facebook Ads Account & Business Manager",
           "How to add payments into Facebook Ads Account"
         ]
       },
@@ -174,7 +168,7 @@
     "Course": "Basic Web Development",
     "tabContent": [
       {
-        "title": "Weeks 1-2: Introduction and Visual Studio Code Basics",
+        "title": "Weeks 1: Introduction and Visual Studio Code Basics",
         "content": [
           "Get acquainted with the course objectives and structure.",
           "Learn how to install Visual Studio Code, a popular code editor used for web development.",
@@ -182,15 +176,15 @@
         ]
       },
       {
-        "title": "Weeks 3-4: HTML Fundamentals",
+        "title": "Weeks 2-3: HTML Fundamentals",
         "content": [
           "Gain a solid understanding of HTML (Hypertext Markup Language).",
           "Differentiate between block and inline elements. Learn how to work with elements, attributes, classes, and IDs.",
-          "ncorporate various media elements such as audio, video, and images into web pages. Create hyperlinks to connect web pages."
+          "Incorporate various media elements such as audio, video, and images into web pages. Create hyperlinks to connect web pages."
         ]
       },
       {
-        "title": "Weeks 5-6: Cascading Style Sheets (CSS)",
+        "title": "Weeks 4-5: Cascading Style Sheets (CSS)",
         "content": [
           "Understand the role of CSS (Cascading Style Sheets) in web development. Master CSS syntax and its application.",
           "Select and style HTML elements using CSS selectors. Annotate your CSS code effectively with comments.",
@@ -199,7 +193,7 @@
         ]
       },
       {
-        "title": "Weeks 7-8: JavaScript Essentials",
+        "title": "Weeks 6-7: JavaScript Essentials",
         "content": [
           "Understand JavaScript syntax and fundamental concepts. Annotate JavaScript code using comments.",
           "Declare and manipulate variables to store and retrieve data. Explore different data types in JavaScript and learn useful string methods.",
