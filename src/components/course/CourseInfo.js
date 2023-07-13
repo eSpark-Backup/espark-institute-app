@@ -58,11 +58,9 @@ const CourseInfo = ({ data }) => {
                     <span
                       style={{
                         textAlign: "right",
-                        whiteSpace: "pre-wrap",
-                        overflowWrap: "break-word",
                       }}
                     >
-                      {data.ClassDays.replace(" and", " and\n")}
+                      {data.ClassDays}
                     </span>
                   </li>
                 )}
