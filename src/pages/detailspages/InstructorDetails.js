@@ -45,7 +45,7 @@ const InstructorDetails = () => {
       <div className="edu-instructor-profile-area edu-section-gap bg-color-white">
         <div className="container">
           <div className="row g-5">
-            <div className="col-lg-4 pr--55">
+            <div className="col-lg-4">
               <div className="instructor-profile-left">
                 <div className="inner">
                   <div className="thumbnail">
