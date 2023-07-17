@@ -64,12 +64,12 @@ const InstructorDetails = () => {
                           {teamMember.mail}
                         </a>
                       </p>
-                      <p>
+                      {/* <p>
                         <span>Phone:</span>{" "}
                         <a href={`tel:${teamMember.phone}`}>
                           {teamMember.phone}
                         </a>
-                      </p>
+                      </p> */}
                     </div>
                     <ul className="social-share bg-transparent justify-content-center medium-size">
                       <li>
