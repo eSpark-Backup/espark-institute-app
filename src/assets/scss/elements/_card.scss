@@ -625,3 +625,15 @@
         }
     }
 }
+
+.edu-course-area {
+    .container {
+        .row {
+            .col-12.col-sm-6.col-lg-4 {
+                @media #{$sm-layout} {
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

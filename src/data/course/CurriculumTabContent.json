@@ -52,7 +52,7 @@
       },
       {
         "title": "Week 7",
-        "content": ["Introduction to ASP .Net", "ASP .Net"]
+        "content": ["Introduction to ASP .Net"]
       },
       {
         "title": "Week 8",
@@ -73,7 +73,7 @@
         ]
       },
       {
-        "title": "Week 2 - Determine Your Goals",
+        "title": "Week 2",
         "content": [
           "Concept Related to Landing Pages",
           "Concept of Facebook Ads Auction",
@@ -215,10 +215,10 @@
       {
         "title": "Weeks 2",
         "content": [
-          "Gain a solid understanding of HTML (Hypertext Markup Language).",
+          "Gain a solid understanding of HTML (Hypertext Markup Language) by exploring basic HTML tags and their usage.",
           "Differentiate between block and inline elements. Learn how to work with elements, attributes, classes, and IDs.",
           "Implementing FavIcons for branding and visual appeal.",
-          "Incorporate various media elements such as audio, video, and images into web pages. Create hyperlinks to connect web pages."
+          "Incorporating various media elements such as audio, video, and images into web pages and adding quotations to enhance content presentation."
         ]
       },
       {
@@ -234,7 +234,7 @@
         "content": [
           "Understand the role of CSS (Cascading Style Sheets) in web development. Master CSS syntax and its application.",
           "Select and style HTML elements using CSS selectors. Annotate your CSS code effectively with comments.",
-          "Manipulate colors to create appealing designs. Apply borders to elements for visual distinction. Control margins, padding, height, and width of elements."
+          "Manipulate colors to create appealing designs. Customize backgrounds with colors, images, and gradients."
         ]
       },
       {

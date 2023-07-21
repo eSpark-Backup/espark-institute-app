@@ -231,6 +231,8 @@
 /* Breadcrumb  */
 .edu-breadcrumb-area {
     background-image: url(../../images/bg/breadcrumb-bg.jpg);
+    position: relative;
+    overflow: hidden;
     .shape-image {
         position: absolute;
         z-index: -1;
