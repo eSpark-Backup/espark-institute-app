@@ -142,21 +142,21 @@
     "Course": "UI/UX & Graphic Designing",
     "tabContent": [
       {
-        "title": "Weeks 1",
+        "title": "Week 1",
         "content": [
           "Introduction to Design Theory & Composition of design elements",
           "Deep understanding of Colour Theory, Typography & Interaction design basics"
         ]
       },
       {
-        "title": "Weeks 2",
+        "title": "Week 2",
         "content": [
           "Implementation and examples of Design Principles in details",
           "Importance of User Experience (UX) in design"
         ]
       },
       {
-        "title": "Weeks 3",
+        "title": "Week 3",
         "content": [
           "Introduction to Adobe Illustrator",
           "Working with shape tool, pen tool, curvature tool & pathfinder & shape builder tool",
@@ -164,7 +164,7 @@
         ]
       },
       {
-        "title": "Weeks 4",
+        "title": "Week 4",
         "content": [
           "Introduction to Adobe Photoshop",
           "Working with selection tools, layers, pen tool, grids & blending modes",
@@ -172,28 +172,28 @@
         ]
       },
       {
-        "title": "Weeks 5",
+        "title": "Week 5",
         "content": [
           "Introduction to Figma",
           "Introduction to User Interface (UI) Principles. Creating User Personas & wireframing"
         ]
       },
       {
-        "title": "Weeks 6",
+        "title": "Week 6",
         "content": [
           "Working with Figma Tool Panel, Framing, layering, Grouping, creating/editing shapes & masking",
           "Working with Components & Variants"
         ]
       },
       {
-        "title": "Weeks 7",
+        "title": "Week 7",
         "content": [
           "Understanding what 'Auto Layout' is & when to use it",
           "Using Prototypes to create interactive and working designs that simulate the experience of a working website or an App"
         ]
       },
       {
-        "title": "Weeks 8",
+        "title": "Week 8",
         "content": [
           "Creating predetermined Fonts, Colour & Layout styles to create a consistency in our designs",
           "Figma project + Advanced tips & tricks"
@@ -213,7 +213,7 @@
         ]
       },
       {
-        "title": "Weeks 2",
+        "title": "Week 2",
         "content": [
           "Gain a solid understanding of HTML (Hypertext Markup Language) by exploring basic HTML tags and their usage.",
           "Differentiate between block and inline elements. Learn how to work with elements, attributes, classes, and IDs.",
@@ -222,7 +222,7 @@
         ]
       },
       {
-        "title": "Weeks 3",
+        "title": "Week 3",
         "content": [
           "Create interactive forms for user input",
           "Use lists to present information",
@@ -230,7 +230,7 @@
         ]
       },
       {
-        "title": "Weeks 4",
+        "title": "Week 4",
         "content": [
           "Understand the role of CSS (Cascading Style Sheets) in web development. Master CSS syntax and its application.",
           "Select and style HTML elements using CSS selectors. Annotate your CSS code effectively with comments.",
@@ -238,7 +238,7 @@
         ]
       },
       {
-        "title": "Weeks 5",
+        "title": "Week 5",
         "content": [
           "Control margins, padding, height, and width of elements. Arrange elements in layers using z-index. Position elements precisely on web pages.",
           "Handle content overflow within elements.",
@@ -247,7 +247,7 @@
         ]
       },
       {
-        "title": "Weeks 6",
+        "title": "Week 6",
         "content": [
           "Dive into JavaScript, a powerful programming language for web development. Understand JavaScript syntax and fundamental concepts. Annotate JavaScript code using comments.",
           "Declare and manipulate variables to store and retrieve data.",
@@ -256,7 +256,7 @@
         ]
       },
       {
-        "title": "Weeks 7",
+        "title": "Week 7",
         "content": [
           "Work with arrays to store and manipulate collections of data.",
           "Implement conditional statements (if, else, else if, switch) for decision-making.",
@@ -265,7 +265,7 @@
         ]
       },
       {
-        "title": "Weeks 8",
+        "title": "Week 8",
         "content": [
           "Q/A"
         ]
