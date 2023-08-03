@@ -13,7 +13,7 @@
 
         img {
             height: 570px;
-            object-fit: cover;
+            object-fit: fill;
             width: 100%;
 
             @media #{$sm-layout} {
