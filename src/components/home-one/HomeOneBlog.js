@@ -7,7 +7,7 @@ import PostData from '../../data/blog/PostData.json';
 
 const HomeOneBlog = () => {
     return (
-        <div className="edu-blog-area eduvibe-home-one-blog edu-section-gap bg-image bg-color-white">
+        <div className="edu-blog-area eduvibe-home-one-blog edu-section-gap bg-image bg-color">
             <div className="container eduvibe-animated-shape">
                 <div className="row g-5 align-items-center">
                     <div className="col-lg-6">
@@ -19,7 +19,7 @@ const HomeOneBlog = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="read-more-btn text-end">
-                            <Link className="edu-btn" to="/blogs">Read More<i className="icon-arrow-right-line-right"></i></Link>
+                            <Link className="edu-btn" to="#">Read More<i className="icon-arrow-right-line-right"></i></Link>
                         </div>
                     </div>
                 </div>

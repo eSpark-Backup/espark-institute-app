@@ -21,7 +21,7 @@ const HomeOneAbout = () => {
     return (
         <Element
             name="about-us"
-            className="edu-about-area about-style-1 edu-section-gap bg-color-white"
+            className="edu-about-area about-style-1 edu-section-gap bg-color-white "
         >
             <div className="container">
                 <div className="row g-5">
