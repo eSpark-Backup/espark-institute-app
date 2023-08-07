@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaInstagram } from 'react-icons/fa';
 import ScrollTopButton from "./ScrollTopButton";
 
 const FooterOne = () => {
@@ -40,12 +41,12 @@ const FooterOne = () => {
                     </li>
                     <li>
                       <a href="#">
-                        <i className="icon-Pinterest"></i>
+                      <FaInstagram style={{ fontSize: 25 }} />
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i className="icon-Twitter"></i>
+                        <i className="icon-youtube"></i>
                       </a>
                     </li>
                   </ul>
@@ -57,29 +58,29 @@ const FooterOne = () => {
                   <h5 className="widget-title">Explore</h5>
                   <div className="inner">
                     <ul className="footer-link link-hover">
+                    <li>
+                        <Link to="#">
+                          <i className="icon-Double-arrow"></i>Home
+                        </Link>
+                      </li>
                       <li>
                         <Link to="/about-us">
                           <i className="icon-Double-arrow"></i>About Us
                         </Link>
                       </li>
                       <li>
-                        <Link to="/events">
-                          <i className="icon-Double-arrow"></i>Upcoming Events
+                        <Link to="/courses">
+                          <i className="icon-Double-arrow"></i>Courses
                         </Link>
                       </li>
                       <li>
-                        <Link to="/blogs">
-                          <i className="icon-Double-arrow"></i>Blog & News
+                        <Link to="/contact-us">
+                          <i className="icon-Double-arrow"></i>Contact Us
                         </Link>
                       </li>
                       <li>
                         <Link to="/faqs">
                           <i className="icon-Double-arrow"></i>FAQ Question
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/testimonials">
-                          <i className="icon-Double-arrow"></i>Testimonial
                         </Link>
                       </li>
                       <li>
@@ -94,38 +95,27 @@ const FooterOne = () => {
 
               <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div className="edu-footer-widget quick-link-widget">
-                  <h5 className="widget-title">Useful Links</h5>
+                  <h5 className="widget-title">Courses</h5>
                   <div className="inner">
                     <ul className="footer-link link-hover">
                       <li>
-                        <Link to="/contact-us">
-                          <i className="icon-Double-arrow"></i>Contact Us
+                        <Link to="/course-details/1">
+                          <i className="icon-Double-arrow"></i>Programming Fundamentals
                         </Link>
                       </li>
                       <li>
-                        <Link to="/pricing-plan">
-                          <i className="icon-Double-arrow"></i>Pricing Plan
+                        <Link to="/course-details/2">
+                          <i className="icon-Double-arrow"></i>Graphic Designing
                         </Link>
                       </li>
                       <li>
-                        <Link to="/instructors">
-                          <i className="icon-Double-arrow"></i>Instructor
-                          Profile
+                        <Link to="/course-details/3">
+                          <i className="icon-Double-arrow"></i>Basic Web Development
                         </Link>
                       </li>
                       <li>
-                        <Link to="/purchaseguide">
-                          <i className="icon-Double-arrow"></i>Purchase Guide
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/popular-courses">
-                          <i className="icon-Double-arrow"></i>Popular Courses
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/event-details">
-                          <i className="icon-Double-arrow"></i>Event Details
+                        <Link to="/course-details/4">
+                          <i className="icon-Double-arrow"></i>Advertising with Meta
                         </Link>
                       </li>
                     </ul>
