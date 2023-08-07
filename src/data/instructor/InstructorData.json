@@ -2,16 +2,16 @@
   {
     "id": 1,
     "name": "Affan Saeed",
-    "designation": ".net/C#",
+    "designation": ".net/C# Developer",
     "image": "Affan_Saeed.jpg",
     "facebookUrl": "#",
     "twitterUrl": "#",
     "linkedInUrl": "#",
     "youtubeUrl": "#",
     "pinterest": "#",
-    "mail": "James@example.com",
+    "mail": "affansaied@esparkconsultants.com",
     "phone": "570-543-3889",
-    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "details": "I grew up in Lahore, Pakistan, and was introduced to 286 machines in 1988 by my father. This was the same period when I started learning coding using GWBASIC and Lotus. I have successfully completed MCS, and MIBF from KU, and have proven experience in local/International niches that involves my freelancing endeavors as well. In a successful career spanning more than 10 years, I have mastered the art of making Cloud Applications with C# using Amazon/Google APIs and automation using Selenium.",
     "courseids": [1, 3, 5, 6, 7],
     "experience": [
       {
@@ -50,16 +50,16 @@
   {
     "id": 2,
     "name": "Ahmed Naseem",
-    "designation": "UX Expert",
+    "designation": "UI/UX Designer",
     "image": "Ahmed_Naseem.jpg",
     "facebookUrl": "#",
     "twitterUrl": "#",
     "linkedInUrl": "#",
     "youtubeUrl": "#",
     "pinterest": "#",
-    "mail": "Nancy@example.com",
+    "mail": "ahmednaseem@esparkconsultants.com",
     "phone": "806-740-0589",
-    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "details": "I'm Ahmed Naseem, a highly adaptive, energetic, goal-oriented, and focused UI/UX & Graphic Designer with a keen aptitude for solving complex UX problems. Obsessed with staying organized and making everyone's life easier by providing design solutions. With over 3 Years of experience, I have honed my skills in delivering visually compelling designs that captivate users and drive business growth. Whether it's designing intuitive user interfaces, engaging user experiences, or impactful branding that reflects your identity.",
     "courseids": [2, 4, 6, 8],
     "experience": [
       {
@@ -98,16 +98,16 @@
   {
     "id": 3,
     "name": "Areeba Shakeel",
-    "designation": "Digital Marketer",
+    "designation": "Web Developer",
     "image": "Areeba_Shakeel.jpg",
     "facebookUrl": "#",
     "twitterUrl": "#",
     "linkedInUrl": "#",
     "youtubeUrl": "#",
     "pinterest": "#",
-    "mail": "Troy@example.com",
+    "mail": "Areeba@esparkconsultants.com",
     "phone": "254-913-2124",
-    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "details": "Hello, this is Areeba Shakeel, your instructor for the Web Development Fundamentals course. With proven experience in web development, I like to share my knowledge and help individuals to embark on their journey into the world of web development. Throughout my inspiring career, I have worked on numerous complex web application projects and mastered the art of web development. All my training aspects have influenced me to make the learning experience engaging, interactive, and enjoyable for all participants.",
     "courseids": [1, 3, 5, 6],
     "experience": [
       {
@@ -146,16 +146,16 @@
   {
     "id": 4,
     "name": "Kashif Hussain",
-    "designation": "WordPress Expert",
+    "designation": "Media Buyer",
     "image": "Kashif_Hussain.jpg",
     "facebookUrl": "#",
     "twitterUrl": "#",
     "linkedInUrl": "#",
     "youtubeUrl": "#",
     "pinterest": "#",
-    "mail": "Isabelle@example.com",
+    "mail": "kashifhussain@esparkconsultants.com",
     "phone": "719-226-2966",
-    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "details": "Digital Marketing specialist who can deliver guaranteed results with 100% success rate. I've more than 7 years of experience in Digital Marketing and Media Buying.\n\nFrom Brick & Mortar Stores to Startups, and from Pharmaceutical to FMCG businesses I have served successfully to small startups, medium and large-scale brands.\n\nI have an experience working with major global and local brands including:\n\n· L'Oréal Pakistan.\n\n· Garnier.\n\n· Maybelline New York.\n\n· NYX cosmetics.\n\n· Naheed.pk.\n\n· Xcitium (Cyber security).\n\n· Velo Pakistan.\n\n· Shed autos.\n\n· Sois Life Sciences.\n\n· Liberty Books.",
     "courseids": [2, 3, 5, 7],
     "experience": [
       {
@@ -235,198 +235,6 @@
       {
         "title": "AVE. RATING",
         "number": "4.6",
-        "isDecimal": true
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "name": "Linda Bacote",
-    "designation": "UX Expert",
-    "image": "instructor-6.jpg",
-    "facebookUrl": "#",
-    "twitterUrl": "#",
-    "linkedInUrl": "#",
-    "youtubeUrl": "#",
-    "pinterest": "#",
-    "mail": "Linda@example.com",
-    "phone": "917-714-7334",
-    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "courseids": [3, 4, 5, 6],
-    "experience": [
-      {
-        "title": "WordPress Development",
-        "percent": "95"
-      },
-      {
-        "title": "Shopify Development",
-        "percent": "90"
-      },
-      {
-        "title": "Laravel Development",
-        "percent": "80"
-      },
-      {
-        "title": "Live Support",
-        "percent": "90"
-      }
-    ],
-    "features": [
-      {
-        "title": "COURSE AUTHOR",
-        "number": "8"
-      },
-      {
-        "title": "TOTAL RATING",
-        "number": "15"
-      },
-      {
-        "title": "AVE. RATING",
-        "number": "4.7",
-        "isDecimal": true
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "name": "John Moss",
-    "designation": "Digital Marketer",
-    "image": "instructor-7.jpg",
-    "facebookUrl": "#",
-    "twitterUrl": "#",
-    "linkedInUrl": "#",
-    "youtubeUrl": "#",
-    "pinterest": "#",
-    "mail": "John@example.com",
-    "phone": "662-219-5908",
-    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "courseids": [2, 3, 6, 7],
-    "experience": [
-      {
-        "title": "JavaScript Development",
-        "percent": "80"
-      },
-      {
-        "title": "React Development",
-        "percent": "100"
-      },
-      {
-        "title": "Digital Marketing",
-        "percent": "90"
-      },
-      {
-        "title": "Live Support",
-        "percent": "95"
-      }
-    ],
-    "features": [
-      {
-        "title": "COURSE AUTHOR",
-        "number": "6"
-      },
-      {
-        "title": "TOTAL RATING",
-        "number": "20"
-      },
-      {
-        "title": "AVE. RATING",
-        "number": "4.8",
-        "isDecimal": true
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "name": "Alice McCoy",
-    "designation": "WordPress Expert",
-    "image": "instructor-8.jpg",
-    "facebookUrl": "#",
-    "twitterUrl": "#",
-    "linkedInUrl": "#",
-    "youtubeUrl": "#",
-    "pinterest": "#",
-    "mail": "Alice@example.com",
-    "phone": "479-689-0161",
-    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "courseids": [1, 3, 6, 7],
-    "experience": [
-      {
-        "title": "Shopify Development",
-        "percent": "95"
-      },
-      {
-        "title": "Laravel Development",
-        "percent": "90"
-      },
-      {
-        "title": "UX/UI Design",
-        "percent": "85"
-      },
-      {
-        "title": "Customer Support",
-        "percent": "90"
-      }
-    ],
-    "features": [
-      {
-        "title": "COURSE AUTHOR",
-        "number": "3"
-      },
-      {
-        "title": "TOTAL RATING",
-        "number": "15"
-      },
-      {
-        "title": "AVE. RATING",
-        "number": "4.8",
-        "isDecimal": true
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "name": "Anita Carter",
-    "designation": "UX/UI Expert",
-    "image": "instructor-9.jpg",
-    "facebookUrl": "#",
-    "twitterUrl": "#",
-    "linkedInUrl": "#",
-    "youtubeUrl": "#",
-    "pinterest": "#",
-    "mail": "Anita@example.com",
-    "phone": "804-659-4183",
-    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "courseids": [1, 3, 6, 7],
-    "experience": [
-      {
-        "title": "Laravel Development",
-        "percent": "90"
-      },
-      {
-        "title": "Python Development",
-        "percent": "80"
-      },
-      {
-        "title": "React Development",
-        "percent": "95"
-      },
-      {
-        "title": "Live Support",
-        "percent": "85"
-      }
-    ],
-    "features": [
-      {
-        "title": "COURSE AUTHOR",
-        "number": "5"
-      },
-      {
-        "title": "TOTAL RATING",
-        "number": "10"
-      },
-      {
-        "title": "AVE. RATING",
-        "number": "4.9",
         "isDecimal": true
       }
     ]

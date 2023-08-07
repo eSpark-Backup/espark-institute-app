@@ -275,7 +275,7 @@ const HomeOneInstructor = ({ background, color }) => {
                         Kashif Hussain
                       </Link>
                     </h5>
-                    <span className="desc">Wordpress Expert</span>
+                    <span className="desc">Media Buyer</span>
                     <div className="team-share-info bg-transparent">
                       <a className="linkedin" href="#">
                         <i className="icon-linkedin"></i>

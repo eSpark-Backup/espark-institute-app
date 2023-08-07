@@ -32,9 +32,9 @@ const AboutUsThree = () => {
       <HomeOneInstructor background={"null"} color={"#20A39E"} />
       {/* <AboutUsThreeInstructor /> */}
 
-      <CounterUpOne />
+      {/* <CounterUpOne />
 
-      <TestimonialSectionTwo classes="counterup-overlay-top" />
+      <TestimonialSectionTwo classes="counterup-overlay-top" /> */}
     </>
   );
 };

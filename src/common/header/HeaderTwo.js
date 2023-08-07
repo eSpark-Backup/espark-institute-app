@@ -54,7 +54,7 @@ const HeaderTwo = ( { styles, disableSticky, searchDisable, buttonStyle } ) => {
                                 } */}
                                 <div className="quote-icon quote-user d-none d-md-block ml--15 ml_sm--5">
                                     <Link className={`edu-btn btn-medium left-icon header-button ${ buttonStyle || '' }`} to={process.env.PUBLIC_URL + "/courses"}>
-                                        <i className="ri-user-line"></i>Join Now
+                                        <i className="ri-user-line"></i>Enroll Now
                                     </Link>
                                 </div>
                                 {/* <div className="quote-icon quote-user d-block d-md-none ml--15 ml_sm--5">

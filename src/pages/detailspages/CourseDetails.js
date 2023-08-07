@@ -334,7 +334,7 @@ const CourseDetails = () => {
                       >
                         <div className="course-tab-content">
                           <div className="row row--30">
-                            <div className="col-lg-4">
+                            <div className="col-lg-5">
                               <div className="rating-box">
                                 <div className="rating-number">
                                   {courseItem.rating}
@@ -349,7 +349,7 @@ const CourseDetails = () => {
                                 <span>({courseItem.review} Review)</span>
                               </div>
                             </div>
-                            <div className="col-lg-8">
+                            <div className="col-lg-7">
                               <div className="review-wrapper">
                                 <div className="single-progress-bar">
                                   <div className="rating-text">

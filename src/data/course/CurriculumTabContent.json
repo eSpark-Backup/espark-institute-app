@@ -1,57 +1,62 @@
 [
   {
-    "Course": ".net/C#",
+    "Course": "Programming Fundamentals using Microsoft .NET & C#",
     "tabContent": [
       {
-        "title": "Week 1 - Introduction to .net/c#",
+        "title": "Week 1",
         "content": [
+          "Introduction to .net/c#",
           "Primitive types and expressions",
           "Non-Primitive Types"
         ]
       },
       {
-        "title": "Week 2 - Hands On type System",
+        "title": "Week 2",
         "content": [
+          "Hands On type System",
           "Basic Math",
           "User Input",
           "More Math"
         ]
       },
       {
-        "title": "Week 3 - Arrays",
+        "title": "Week 3",
         "content": [
+          "Arrays",
           "Working with files",
           "User methods",
           "Value and Reference types"
         ]
       },
       {
-        "title": "Week 4 - Making your own classes/ properties/structs",
+        "title": "Week 4",
         "content": [
+          "Making your own classes/ properties/structs",
           "Inheritance/Polymorphism",
           "Virtual Methods",
           "Abstract Classes"
         ]
       },
       {
-        "title": "Week 5 - Interfaces",
+        "title": "Week 5",
         "content": [
+          "Interfaces",
           "Generics",
           "Making Generic types",
           "Language Integrated Query (LINQ)"
         ]
       },
       {
-        "title": "Week 6 - Introduction to windows forms",
-        "content": ["windows forms"]
+        "title": "Week 6",
+        "content": ["Introduction to windows forms"]
       },
       {
-        "title": "Week 7 - Introduction to ASP .Net",
-        "content": ["ASP .Net"]
+        "title": "Week 7",
+        "content": ["Introduction to ASP .Net"]
       },
       {
-        "title": "Week 8 - Introduction to .net core",
-        "content": [".net core"]
+        "title": "Week 8",
+        "content": ["Introduction to .net core"]
       }
     ]
   },
@@ -59,24 +64,25 @@
     "Course": "Advertising with Meta",
     "tabContent": [
       {
-        "title": "Week 1 - Introduction to Facebook Ads Ecosystem",
+        "title": "Week 1",
         "content": [
           "Careers in Meta Advertising",
-          "Introduction to the Facebook Marketing Facebook Ads Account & Business Manager",
+          "Introduction to the Facebook Marketing",
+          "Facebook Ads Account & Business Manager",
           "How to add payments into Facebook Ads Account"
         ]
       },
       {
-        "title": "Week 2 - Determine Your Goals",
+        "title": "Week 2",
         "content": [
-          "Understanding All types of Campaign Objectives in FB",
           "Concept Related to Landing Pages",
           "Concept of Facebook Ads Auction",
-          "Buyers Persona in Facebook Ads"
+          "Buyers Persona in Facebook Ads",
+          "Understanding All types of Campaign Objectives in FB"
         ]
       },
       {
-        "title": "Week 3 - Facebook Pixel",
+        "title": "Week 3",
         "content": [
           "Facebook Pixel Integrations",
           "Facebook Pixel Event",
@@ -85,7 +91,7 @@
         ]
       },
       {
-        "title": "Week 4 - Campaign Structure",
+        "title": "Week 4",
         "content": [
           "Facebook Ads Hierarchy",
           "Set a Campaign Objective",
@@ -94,7 +100,7 @@
         ]
       },
       {
-        "title": "Week 5 - How to do Detailed Audience Targeting",
+        "title": "Week 5",
         "content": [
           "Introduction to Audiences in Ads Manager",
           "Custom Audiences",
@@ -104,7 +110,7 @@
       },
 
       {
-        "title": "Week 6 - Instagram Mystery",
+        "title": "Week 6",
         "content": [
           "Power Instagram Ad Techniques",
           "Learn How to Make the Most Out Of Instagram Ads",
@@ -113,7 +119,7 @@
         ]
       },
       {
-        "title": "Week 7 - Evaluate Your Campaign Results",
+        "title": "Week 7",
         "content": [
           "Edit and Troubleshoot Your Campaign",
           "Understand Your Campaign Performance",
@@ -122,7 +128,7 @@
         ]
       },
       {
-        "title": "Week 8  - Summary",
+        "title": "Week 8",
         "content": [
           "Facebook Marketing Summary",
           "Facebook Ads Summary",
@@ -136,34 +142,59 @@
     "Course": "UI/UX & Graphic Designing",
     "tabContent": [
       {
-        "title": "Weeks 1-2: Introduction to Design Theory & Composition of design elements",
+        "title": "Week 1",
         "content": [
-          "Deep understanding of Colour Theory, Typography & Interaction design basics",
+          "Introduction to Design Theory & Composition of design elements",
+          "Deep understanding of Colour Theory, Typography & Interaction design basics"
+        ]
+      },
+      {
+        "title": "Week 2",
+        "content": [
           "Implementation and examples of Design Principles in details",
           "Importance of User Experience (UX) in design"
         ]
       },
       {
-        "title": "Weeks 3-4: Introduction to Adobe Illustrator",
+        "title": "Week 3",
         "content": [
+          "Introduction to Adobe Illustrator",
           "Working with shape tool, pen tool, curvature tool & pathfinder & shape builder tool",
-          "Illustrator Project + advanced tips & tricks",
-          "Introduction to Adobe Photoshop",
-          "Working with selection tools, layers, pen tool, grids & blending modes"
+          "Illustrator Project + advanced tips & tricks"
         ]
       },
       {
-        "title": "Weeks 5-6: Introduction to Figma",
+        "title": "Week 4",
         "content": [
-          "Introduction to User Interface (UI) Principles. Creating User Personas & wireframing",
+          "Introduction to Adobe Photoshop",
+          "Working with selection tools, layers, pen tool, grids & blending modes",
+          "Photoshop Project + advanced tips & tricks"
+        ]
+      },
+      {
+        "title": "Week 5",
+        "content": [
+          "Introduction to Figma",
+          "Introduction to User Interface (UI) Principles. Creating User Personas & wireframing"
+        ]
+      },
+      {
+        "title": "Week 6",
+        "content": [
           "Working with Figma Tool Panel, Framing, layering, Grouping, creating/editing shapes & masking",
           "Working with Components & Variants"
         ]
       },
       {
-        "title": "Weeks 6-8: Understanding what 'Auto Layout' is & when to use it",
+        "title": "Week 7",
         "content": [
-          "Using Prototypes to create interactive and working designs that simulate the experience of a working website or an App",
+          "Understanding what 'Auto Layout' is & when to use it",
+          "Using Prototypes to create interactive and working designs that simulate the experience of a working website or an App"
+        ]
+      },
+      {
+        "title": "Week 8",
+        "content": [
           "Creating predetermined Fonts, Colour & Layout styles to create a consistency in our designs",
           "Figma project + Advanced tips & tricks"
         ]
@@ -174,7 +205,7 @@
     "Course": "Basic Web Development",
     "tabContent": [
       {
-        "title": "Weeks 1-2: Introduction and Visual Studio Code Basics",
+        "title": "Week 1",
         "content": [
           "Get acquainted with the course objectives and structure.",
           "Learn how to install Visual Studio Code, a popular code editor used for web development.",
@@ -182,29 +213,61 @@
         ]
       },
       {
-        "title": "Weeks 3-4: HTML Fundamentals",
+        "title": "Week 2",
         "content": [
-          "Gain a solid understanding of HTML (Hypertext Markup Language).",
+          "Gain a solid understanding of HTML (Hypertext Markup Language) by exploring basic HTML tags and their usage.",
           "Differentiate between block and inline elements. Learn how to work with elements, attributes, classes, and IDs.",
-          "ncorporate various media elements such as audio, video, and images into web pages. Create hyperlinks to connect web pages."
+          "Implementing FavIcons for branding and visual appeal.",
+          "Incorporating various media elements such as audio, video, and images into web pages and adding quotations to enhance content presentation."
         ]
       },
       {
-        "title": "Weeks 5-6: Cascading Style Sheets (CSS)",
+        "title": "Week 3",
+        "content": [
+          "Create interactive forms for user input",
+          "Use lists to present information",
+          "Employ entities for special characters and symbols"
+        ]
+      },
+      {
+        "title": "Week 4",
         "content": [
           "Understand the role of CSS (Cascading Style Sheets) in web development. Master CSS syntax and its application.",
           "Select and style HTML elements using CSS selectors. Annotate your CSS code effectively with comments.",
-          "Manipulate colors to create appealing designs. Apply borders to elements for visual distinction. Control margins, padding, height, and width of elements.",
-          "Arrange elements in layers using z-index. Position elements precisely on web pages. Handle content overflow within elements."
+          "Manipulate colors to create appealing designs. Customize backgrounds with colors, images, and gradients."
         ]
       },
       {
-        "title": "Weeks 7-8: JavaScript Essentials",
+        "title": "Week 5",
         "content": [
-          "Understand JavaScript syntax and fundamental concepts. Annotate JavaScript code using comments.",
-          "Declare and manipulate variables to store and retrieve data. Explore different data types in JavaScript and learn useful string methods.",
-          "Perform calculations and comparisons using arithmetic, assignment, and comparison operators. Implement conditional statements (if, else, else if, switch) for decision-making.",
-          "Work with arrays to store and manipulate collections of data."
+          "Control margins, padding, height, and width of elements. Arrange elements in layers using z-index. Position elements precisely on web pages.",
+          "Handle content overflow within elements.",
+          "Utilize pseudo-classes for dynamic styling.",
+          "Create flexible layouts with the power of Flexbox."
+        ]
+      },
+      {
+        "title": "Week 6",
+        "content": [
+          "Dive into JavaScript, a powerful programming language for web development. Understand JavaScript syntax and fundamental concepts. Annotate JavaScript code using comments.",
+          "Declare and manipulate variables to store and retrieve data.",
+          "Perform calculations and comparisons using arithmetic, assignment, and comparison operators.",
+          "Explore different data types in JavaScript and learn useful string methods."
+        ]
+      },
+      {
+        "title": "Week 7",
+        "content": [
+          "Work with arrays to store and manipulate collections of data.",
+          "Implement conditional statements (if, else, else if, switch) for decision-making.",
+          "Create reusable code blocks using functions.",
+          "Manipulate and display dates dynamically with in web pages."
+        ]
+      },
+      {
+        "title": "Week 8",
+        "content": [
+          "Q/A"
         ]
       }
     ]

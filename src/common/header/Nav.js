@@ -61,9 +61,9 @@ const Nav = ({ onClose }) => {
       </li>
 
       <li>
-        <Link to="events" className={pathname === "/events" && "active"}>
+        {/* <Link to="events" className={pathname === "/events" && "active"}>
           Events
-        </Link>
+        </Link> */}
         {/* <ul className="submenu">
                     <li className="has-droupdown">
                         <Link to="#">Event</Link>
@@ -104,13 +104,13 @@ const Nav = ({ onClose }) => {
       </li>
 
       <li>
-        <Link
+        {/* <Link
           to="/blogs"
           className={pathname.includes("blog") && "active"}
           onClick={() => onClose()}
         >
           Blogs
-        </Link>
+        </Link> */}
         {/* <ul className="submenu">
                     <li><Link to="/blog-grid-1">Blog Grid 1</Link></li>
                     <li><Link to="/blog-grid-2">Blog Grid 2</Link></li>
