@@ -41,7 +41,7 @@ const FooterOne = () => {
                     </li>
                     <li>
                       <a href="#">
-                      <FaInstagram style={{ fontSize: 25 }} />
+                      <FaInstagram style={{ fontSize: 25, marginBottom:6}} />
                       </a>
                     </li>
                     <li>
