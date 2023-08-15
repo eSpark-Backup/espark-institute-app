@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaInstagram } from 'react-icons/fa';
 import ScrollTopButton from "./ScrollTopButton";
+import { ABOUT, ADVERTISING_WITH_META, BASIC_WEB_DEVELOPMENT, CONTACT, COURSES, FAQ, GRAPHIC_DESIGNING, HOME, PRIVACY_POLICY, PROGRAMMING_FUNDAMENTALS } from "../../constants/Constants";
+
 
 const FooterOne = () => {
   return (
@@ -60,32 +62,32 @@ const FooterOne = () => {
                     <ul className="footer-link link-hover">
                     <li>
                         <Link to="#">
-                          <i className="icon-Double-arrow"></i>Home
+                          <i className="icon-Double-arrow"></i>{HOME}
                         </Link>
                       </li>
                       <li>
                         <Link to="/about-us">
-                          <i className="icon-Double-arrow"></i>About Us
+                          <i className="icon-Double-arrow"></i>{ABOUT}
                         </Link>
                       </li>
                       <li>
                         <Link to="/courses">
-                          <i className="icon-Double-arrow"></i>Courses
+                          <i className="icon-Double-arrow"></i>{COURSES}
                         </Link>
                       </li>
                       <li>
                         <Link to="/contact-us">
-                          <i className="icon-Double-arrow"></i>Contact Us
+                          <i className="icon-Double-arrow"></i>{CONTACT}
                         </Link>
                       </li>
                       <li>
                         <Link to="/faqs">
-                          <i className="icon-Double-arrow"></i>FAQ Question
+                          <i className="icon-Double-arrow"></i>{FAQ}
                         </Link>
                       </li>
                       <li>
                         <Link to="/privacypolicy">
-                          <i className="icon-Double-arrow"></i>Privacy Policy
+                          <i className="icon-Double-arrow"></i>{PRIVACY_POLICY}
                         </Link>
                       </li>
                     </ul>
@@ -100,22 +102,22 @@ const FooterOne = () => {
                     <ul className="footer-link link-hover">
                       <li>
                         <Link to="/course-details/1">
-                          <i className="icon-Double-arrow"></i>Programming Fundamentals
+                          <i className="icon-Double-arrow"></i>{PROGRAMMING_FUNDAMENTALS}
                         </Link>
                       </li>
                       <li>
                         <Link to="/course-details/2">
-                          <i className="icon-Double-arrow"></i>Graphic Designing
+                          <i className="icon-Double-arrow"></i>{GRAPHIC_DESIGNING}
                         </Link>
                       </li>
                       <li>
                         <Link to="/course-details/3">
-                          <i className="icon-Double-arrow"></i>Basic Web Development
+                          <i className="icon-Double-arrow"></i>{BASIC_WEB_DEVELOPMENT}
                         </Link>
                       </li>
                       <li>
                         <Link to="/course-details/4">
-                          <i className="icon-Double-arrow"></i>Advertising with Meta
+                          <i className="icon-Double-arrow"></i>{ADVERTISING_WITH_META}
                         </Link>
                       </li>
                     </ul>
