@@ -6,14 +6,14 @@ import SectionTitle from "../sectionTitle/SectionTitle";
 
 const items = [
     {
-        title: "Expert-Led Learning",
-        info: "Gain knowledge and skills from eSpark’s exceptional panel of Tech experts.",
-        icon: "icon-Hand---Book",
+        title: "Professional Technical Training",
+        info: "Our trainers are one click away from leading you toward professional job opportunities in your selected IT-related field.",
+        image: "/images/icons/icon-1.png",
     },
     {
-        title: "Creative Progress",
-        info: "eSpark offers amazing eye visuals and UX that are found in modern online learning websites , including progress tracking  & interactive educational resources.",
-        icon: "icon-Campus",
+        title: "Opportunistic Platform",
+        info: "We furnish demanding and advanced courses to youngsters that are going to support them in their professional careers.​",
+        image: "/images/icons/icon-2.png",
     },
 ];
 
@@ -54,16 +54,14 @@ const HomeOneAbout = () => {
                         <div className="inner">
                             <SectionTitle
                                 slogan="About Us"
-                                title="Building A Community of Future Tech Leaders​"
-                            />
+                                title=" We Empower The Leaders of Tomorrow With Tech-Related Virtual Education"/>
                             <ScrollAnimation
                                 animateIn="fadeInUp"
                                 animateOut="fadeInOut"
                                 animateOnce={true}
                             >
                                 <p className="description">
-                                    Transform your tech passion into a profession with eSpark.
-                                    Enroll now to lead the future of tech.
+                                Transform your tech passion into a profession with eSpark Institute. Enroll now to lead the future of tech.
                                 </p>
                             </ScrollAnimation>
                             {items && items.length > 0 && (
@@ -77,8 +75,8 @@ const HomeOneAbout = () => {
                                             key={i}
                                         >
                                             <div className="our-feature">
-                                                <div className="icon">
-                                                    <i className={data.icon}></i>
+                                                <div className="icon ">
+                                                    <img src={data.image} /> 
                                                 </div>
                                                 <div className="feature-content">
                                                     <h6 className="feature-title">{data.title}</h6>

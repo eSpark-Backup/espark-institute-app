@@ -6,23 +6,23 @@ import { FaPlay } from 'react-icons/fa';
 
 const items = [
     {
-        title: 'Current Curriculum',
-        info: 'Cutting-edge courses that reflect the latest industry trends and technologies.​',
+        title: 'Experienced Trainers​',
+        info: 'Our Institute is packed with expert trainers and active instructors to assist you during your training.',
         icon: 'icon-student'
     },
     {
-        title: 'Expert Instructors',
-        info: 'Skilled instructors who are dedicated in providing effective and engaging learning experiences.​',
+        title: 'Broadband Virtual Connection​',
+        info: 'No more technical or connectivity issues at our hub of futuristic professional training.',
         icon: 'icon-square'
     },
     {
-        title: 'Industry Connections',
-        info: 'Strong relationships with leading technology professionals, offering chances of networking and job placement opportunities.​',
+        title: '​On-Time Classes​',
+        info: 'Our trainers are punctual and there will be no class delays at our virtual tech institute.​​',
         icon: 'icon-research'
     },
     {
-        title: 'Hands-on Learning',
-        info: 'Practical education to reinforce learning through hands-on practice and application.​',
+        title: 'Practical Professional Skills​',
+        info: 'Our platform is filled with opportunities to learn professional skills and practice them on a regular basis. ​​',
         icon: 'icon-clock'
     }
 ];
@@ -38,8 +38,8 @@ const VideoSectionTwo = () => {
                         <div className="inner mt_md--40 mt_sm--40">
                             <SectionTitle
                                 classes = "text-start"
-                                slogan = "Why Choose US"
-                                title = "Our Core Features"
+                                slogan = "Why Choose eSpark Institute"
+                                title = "How eSpark Institutes Benefit Students?"
                             />
                             <div className="feature-list-wrapper mt--10">
                                 { items.map( ( data , i ) => (

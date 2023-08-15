@@ -12,16 +12,15 @@ const BannerOne = () => {
               <div className="inner">
                 <div className="content">
                   <span className="pre-title">
-                    Transform Your Future in Tech
+                  Welcome To The Prime Hub of Online Tech Education​
                   </span>
-                  <h1 className="title">LEARN MORE. DO MORE. EARN MORE. </h1>
+                  <h1 className="title">Join Our Expert Trainers & Master All Tech-Related Courses  </h1>
                   <p className="description">
-                    ​ Your one-stop solution for Dynamic IT Programs,
-                    Comprehensive IT Education & Industry-Driven IT Training.
+                  This is your chance to learn from expert professionals who have proven themselves by building brands! ​
                   </p>
                   <div className="read-more-btn">
                     <Link className="edu-btn" to="#">
-                      Get Started Today{" "}
+                    Reserve Your Seat Now!{" "}
                       {/* <i className="icon-arrow-right-line-right"></i> */}
                     </Link>
                   </div>
