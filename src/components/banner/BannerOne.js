@@ -37,7 +37,7 @@ const BannerOne = () => {
                       <Link to="/course-details/2">
                         <img
                           className="w-100"
-                          src="images/banner/banner-01/banner-course.jpg"
+                          src="images/banner/banner-01/1.jpg"
                           alt="Course Meta"
                         />
                       </Link>
@@ -74,7 +74,7 @@ const BannerOne = () => {
                   <div className="inner">
                     <div className="thumbnail">
                       <img
-                        src="/images/banner/banner-01/workshop.png"
+                        src="/images/banner/banner-01/3.png"
                         alt="Workshop Images"
                       />
                     </div>
@@ -100,7 +100,7 @@ const BannerOne = () => {
                   <div className="thumbnail">
                     <img
                       className="w-100"
-                      src="/images/banner/banner-01/video-image.png"
+                      src="/images/banner/banner-01/2.png"
                       alt="Video Images"
                     />
                   </div>

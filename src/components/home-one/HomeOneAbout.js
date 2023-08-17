@@ -29,12 +29,12 @@ const HomeOneAbout = () => {
                         <div className="about-image-gallery">
                             <img
                                 className="image-1"
-                                src="/images/about/about-09/about-image-01.jpg"
+                                src="/images/about/about-09/1.png"
                                 alt="About Main Thumb"
                             />
                             <div className="image-2">
                                 <img
-                                    src="/images/about/about-09/about-image-02.jpg"
+                                    src="/images/about/about-09/2.png"
                                     alt="About Parallax Thumb"
                                 />
                             </div>
