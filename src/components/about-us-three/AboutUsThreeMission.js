@@ -11,7 +11,7 @@ const AboutUsThreeMission = () => {
               <div className="shape-image image-1">
                 <Parallax speed={1} y={[0, 40]} tagOuter="figure">
                   <img
-                    src="/images/mission/mission-gallery-01.jpg"
+                    src="/images/mission/1.png"
                     alt="Gallery Images"
                   />
                 </Parallax>
@@ -19,7 +19,7 @@ const AboutUsThreeMission = () => {
               <div className="shape-image image-2">
                 <Parallax speed={1} y={[0, -20]} tagOuter="figure">
                   <img
-                    src="/images/mission/mission-gallery-02.jpg"
+                    src="/images/mission/2.png"
                     alt="Gallery Images"
                   />
                 </Parallax>
@@ -27,7 +27,7 @@ const AboutUsThreeMission = () => {
               <div className="shape-image image-3">
                 <Parallax speed={1} y={[0, 30]} tagOuter="figure">
                   <img
-                    src="/images/mission/mission-gallery-03.jpg"
+                    src="/images/mission/3.png"
                     alt="Gallery Images"
                   />
                 </Parallax>
@@ -35,7 +35,7 @@ const AboutUsThreeMission = () => {
               <div className="shape-image image-4">
                 <Parallax speed={1} y={[0, -18]} tagOuter="figure">
                   <img
-                    src="/images/mission/mission-gallery-04.jpg"
+                    src="/images/mission/4.png"
                     alt="Gallery Images"
                   />
                 </Parallax>
