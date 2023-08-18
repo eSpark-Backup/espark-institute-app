@@ -52,10 +52,39 @@ body.search-popup-active {
     color: var(--color-secondary);
 }
 
+@media only screen and (max-width: 700px){
+    .about-style-4 .gallery-wrapper .image-2 img{
+        margin-left: 61px;
+        height: 145px;
+    }
+    .about-style-4 .gallery-wrapper img{
+        width: 70%;
+        margin-left: 60px;
+    }
+    .about-style-4 .gallery-wrapper .image-3 img {
+        margin-right: -96px
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .about-style-4 .gallery-wrapper .image-3 img{
+        margin-right: -105px;
+        margin-bottom: -98px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width:800px){
+    .about-style-4 .gallery-wrapper{
+        margin-left: 210px;
+    }
+}
+
+@media only screen and (min-width: 800px){
 .about-style-4 .gallery-wrapper .image-2 img{
     margin-left: -15px;
     height: 200px;
     width: 100%;
+}
 }
 
 body .about-style-4 .gallery-wrapper .image-3 img {

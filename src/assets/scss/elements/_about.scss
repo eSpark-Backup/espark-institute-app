@@ -441,10 +441,6 @@
                 left: 3%;
             }
 
-            @media #{$sm-layout} {
-                display: none;
-            }
-
         }
         .image-3 {
             position: absolute;
@@ -463,9 +459,7 @@
             @media #{$sm-layout} {
                 right: 0;
             }
-            @media #{$large-mobile} {
-                display: none;
-            }
+            
             img {
                 border: 3px solid #FFFFFF;
             }

@@ -296,14 +296,14 @@ const HomeOneInstructor = ({ background, color }) => {
             </div>
           </div>
         </div>
-        <div className="shape-dot-wrapper shape-wrapper d-xl-block d-none">
+        {/* <div className="shape-dot-wrapper shape-wrapper d-xl-block d-none">
           <div className="shape-image shape-image-1">
             <img src="/images/shapes/shape-03-03.png" alt="Shape Thumb" />
           </div>
           <div className="shape-image shape-image-2">
             <img src="/images/shapes/shape-02-02.png" alt="Shape Thumb" />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
