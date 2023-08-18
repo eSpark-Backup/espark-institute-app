@@ -8,7 +8,7 @@ const HomeOneInstructor = ({ background, color }) => {
   return (
     <div
       className={`edu-instructor-area edu-section-gap ${
-        background ? background : "eduvibe-home-one-instructor"
+        background ? background : "eduvibe-home-one-instructor" 
       }`}
     >
       <div className="container eduvibe-animated-shape">
