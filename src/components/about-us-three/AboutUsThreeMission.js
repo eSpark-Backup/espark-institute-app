@@ -7,7 +7,7 @@ const AboutUsThreeMission = () => {
       <div className="container eduvibe-animated-shape">
         <div className="row">
           <div className="col-lg-12">
-            <div className="thumbnail mb--50" style={{marginBottom:"20px"}}>
+            <div className="thumbnail mb--50">
               <div className="shape-image image-1">
                 <Parallax speed={1} y={[0, 40]} tagOuter="figure">
                   <img

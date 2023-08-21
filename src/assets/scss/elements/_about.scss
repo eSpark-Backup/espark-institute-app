@@ -654,6 +654,7 @@
         }
         .shape-image {
             padding: 15px;
+            
             @media #{$md-layout} {
                 flex-basis: 50%;
             }
@@ -661,14 +662,30 @@
                 flex-basis: 50%;
             }
             @media #{$large-mobile} {
-                
                 text-align: center;
             }
         }
+        
     }
 }
 
+@media only screen and (max-width: 500px) {
+.eduvibe-about-three-mission .thumbnail .image-2 img{
+    height: 160px;
+}
+.eduvibe-about-three-mission .thumbnail .image-4 img{
+    height: 160px;
+}
+}
 
+@media only screen and (max-width: 500px) {
+    .eduvibe-about-three-mission .thumbnail .image-2 img{
+        height: 160px;
+    }
+    .eduvibe-about-three-mission .thumbnail .image-4 img{
+        height: 160px;
+    }
+    }
 
 .eduvibe-about-three-mission {
     .thumbnail img {
