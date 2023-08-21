@@ -661,12 +661,14 @@
                 flex-basis: 50%;
             }
             @media #{$large-mobile} {
-                flex-basis: 100%;
+                
                 text-align: center;
             }
         }
     }
 }
+
+
 
 .eduvibe-about-three-mission {
     .thumbnail img {
