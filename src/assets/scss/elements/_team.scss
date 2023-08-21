@@ -50,7 +50,11 @@
    
 }
 
-
+@media (max-width:1024px) and (min-width:768px){
+.edu-instructor-3 .edu-instructor .inner .thumbnail a img {
+    max-height: 285px;
+}
+}
 
 .edu-instructor-1 {
     text-align: center;
