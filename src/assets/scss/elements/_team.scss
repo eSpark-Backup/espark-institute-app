@@ -298,6 +298,7 @@
                     }
                 }
             }
+            
 
             .edu-instructor-info {
                 position: absolute;
@@ -395,7 +396,25 @@
         }
     }
 }
-
+@media (max-width:1024px) and (min-width:576px){
+    .edu-instructor-3 .edu-instructor .inner .thumbnail a img {
+        max-height: 285px;
+    }
+    }
+@media (max-width:576px) and (min-width:400px){
+        .edu-instructor-3 .edu-instructor .inner .thumbnail a img {
+            max-height: 285px;
+            width: 65%;
+        }
+    }
+@media (max-width:395px) and (min-width:300px){
+    .edu-instructor-3 .edu-instructor .inner .thumbnail a img {
+        max-height: 285px;
+        width: 90%;
+    }
+    }
+    
+    
 
 
 

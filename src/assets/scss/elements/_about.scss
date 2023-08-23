@@ -403,8 +403,8 @@
     .gallery-wrapper {
         position: relative;
         text-align: center;
-        margin-right: 120px;
-        margin-left: -50px;
+        margin-right: 100px;
+        // margin-left: -50px;
         z-index: 2;
         @media #{$lg-layout} {
             text-align: left;
@@ -429,7 +429,7 @@
         }
         .image-2 {
             position: absolute;
-            left: -95px;
+            left: -126px;
             z-index: -1;
             top: 88px;
 
@@ -437,9 +437,9 @@
                 left: -120px;
             }
 
-            @media #{$md-layout} {
-                left: 3%;
-            }
+            // @media #{$md-layout} {
+            //     left: 3%;
+            // }
 
         }
         .image-3 {
