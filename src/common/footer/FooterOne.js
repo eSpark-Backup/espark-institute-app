@@ -32,12 +32,12 @@ const FooterOne = () => {
                   </p>
                   <ul className="social-share">
                     <li>
-                      <a href="#">
+                      <a href="">
                         <i className="icon-Fb"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.linkedin.com/company/esparkinstitute-of-technical-training/">
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
@@ -47,7 +47,7 @@ const FooterOne = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.youtube.com/@eSparkInstitute">
                         <i className="icon-youtube"></i>
                       </a>
                     </li>

@@ -19,7 +19,7 @@ const BannerOne = () => {
                   This is your chance to learn from expert professionals who have proven themselves by building brands! ​
                   </p>
                   <div className="read-more-btn">
-                    <Link className="edu-btn" to="#">
+                    <Link className="edu-btn" to="/courses">
                     Reserve Your Seat Now!{" "}
                       {/* <i className="icon-arrow-right-line-right"></i> */}
                     </Link>
