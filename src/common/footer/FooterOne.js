@@ -86,7 +86,7 @@ const FooterOne = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/privacypolicy">
+                        <Link to="/privacy-policy">
                           <i className="icon-Double-arrow"></i>{PRIVACY_POLICY}
                         </Link>
                       </li>
