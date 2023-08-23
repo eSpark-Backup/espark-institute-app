@@ -15,7 +15,7 @@ const PrivacyPolicy = () => {
                     parentUrl="Home"
                     currentUrl="Privacy Policy"
                 />
-                <div className="edu-privacy-policy-area edu-privacy-policy edu-section-gap bg-color-white">
+                <div className="edu-privacy-policy-area edu-privacy-policy bg-color-white" style={{paddingTop:"40px"}}>
                     <div className="container">
                         <div className="row g-5">
                             <div className="content">
