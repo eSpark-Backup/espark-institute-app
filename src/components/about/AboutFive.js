@@ -97,11 +97,6 @@ const AboutFive = ({ wrapperClass }) => {
                 </div>
               </div>
             </div>
-            <div className="read-more-btn mt--30">
-              <Link className="edu-btn" to="#">
-                Know About Us <i className="icon-arrow-right-line-right"></i>
-              </Link>
-            </div>
           </div>
         </div>
 
