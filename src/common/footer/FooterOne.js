@@ -81,7 +81,7 @@ const FooterOne = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/faqs">
+                        <Link to="/faq">
                           <i className="icon-Double-arrow"></i>{FAQ}
                         </Link>
                       </li>

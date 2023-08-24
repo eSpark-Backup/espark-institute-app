@@ -6,161 +6,49 @@ import SEO from '../../common/SEO';
 import Layout from '../../common/Layout';
 import BreadcrumbOne from '../../common/breadcrumb/BreadcrumbOne';
  
-const faqCategories = [
-    {
-        id: 1,
-        slug: 'online-education',
-        label: 'Online Education'
-    },
-    {
-        id: 2,
-        slug: 'payment-method',
-        label: 'Payment Method'
-    },
-    {
-        id: 3,
-        slug: 'pricing-plan',
-        label: 'Pricing Plan'
-    }
-];
-
 const onlineEducation = {
     leftColumn: [
         {
             id: 1,
-            title: 'Am I eligible for admission?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
+            title: 'What is eSpark Institute?',
+            body: 'eSpark Institute is a cutting-edge educational platform dedicated to providing high-quality courses and resources in the fields of technology, data science, artificial intelligence, and more. Our mission is to empower learners with the skills they need to thrive in todays rapidly evolving digital landscape.'
         },
         {
             id: 2,
-            title: 'How long is my personal free trial?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
+            title: 'What types of courses does eSpark Institute offer?',
+            body: 'We offer a diverse range of courses, including but not limited to programming languages, machine learning, web development, cloud computing, and digital marketing. Our courses cater to all skill levels, from beginners to advanced learners.'
         },
         {
             id: 3,
-            title: 'Is There Any One To One Support System?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
+            title: 'Are the courses taught by industry professionals?',
+            body: 'Yes, our courses are developed and taught by experienced industry professionals who have a deep understanding of the subject matter. This ensures that our learners receive practical insights and real-world knowledge.'
         },
         {
             id: 4,
-            title: 'Is There Any Prerequisites To Learn Python?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
+            title: 'Can I access the courses from anywhere?',
+            body: 'Absolutely! All our courses are available online, allowing you to learn at your own pace and from the comfort of your preferred location.'
         }
     ],
     rightColumn: [
         {
             id: 1,
-            title: 'How to Change my Plan using PayPal?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
+            title: 'How do I enroll in a course?',
+            body: 'Enrolling in a course is simple. Just browse our course catalog, select the course you are interested in, and follow the enrolment instructions. If you have any issues, our support team is here to assist you.'
         },
         {
             id: 2,
-            title: 'How long it take to create a video course?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
+            title: 'Can I interact with instructors and other learners?',
+            body: 'Yes, our platform provides various ways to interact with instructors and fellow learners. From discussion forums to live Q&A sessions, you will have the opportunity to engage in meaningful discussions and collaborative learning experiences.'
         },
         {
             id: 3,
-            title: 'How do I redeem a coupon?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
+            title: 'Do you provide certificates upon course completion?',
+            body: 'Absolutely. Once you successfully complete a course, you will receive a certificate of completion. This certificate can be a valuable addition to your professional portfolio.'
         },
         {
             id: 4,
-            title: 'What does it take become an author?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
-        }
-    ]
-}
-
-const paymentMethod = {
-    leftColumn: [
-        {
-            id: 1,
-            title: 'Is There Any One To One Support System?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
-        },
-        {
-            id: 2,
-            title: 'Do You Provide Career Guideline?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
-        },
-        {
-            id: 3,
-            title: 'How do I redeem a coupon?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
-        },
-        {
-            id: 4,
-            title: 'How do I get a refund?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
-        }
-    ],
-    rightColumn: [
-        {
-            id: 1,
-            title: 'How do I get a refund?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
-        },
-        {
-            id: 2,
-            title: 'How do I redeem a coupon?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
-        },
-        {
-            id: 3,
-            title: 'How to Change my Plan using PayPal?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
-        },
-        {
-            id: 4,
-            title: 'Is There Any Prerequisites To Learn Python?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
-        }
-    ]
-}
-
-const pricingPlan = {
-    leftColumn: [
-        {
-            id: 1,
-            title: 'Is There Any Prerequisites To Learn Python?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
-        },
-        {
-            id: 2,
-            title: 'How do I redeem a coupon?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
-        },
-        {
-            id: 3,
-            title: 'How to Change my Plan using PayPal?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
-        },
-        {
-            id: 4,
-            title: 'How do I get a refund?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
-        }
-    ],
-    rightColumn: [
-        {
-            id: 1,
-            title: 'Do You Provide Career Guideline?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
-        },
-        {
-            id: 2,
-            title: 'How long it take to create a video course?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
-        },
-        {
-            id: 3,
-            title: 'Am I eligible for admission?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
-        },
-        {
-            id: 4,
-            title: 'How long is my personal free trial?',
-            body: 'Learning management system, combines a wide range of features to present a class setting without having the students come into a physical classroom. It all depends on the WordPress plugin you go with, but in general.'
+            title: 'How do I contact your support if I have more questions?',
+            body: 'If you have any further questions or need assistance, please don not hesitate to reach out to our support team. We are here to help you on your learning journey.'
         }
     ]
 }
@@ -240,29 +128,8 @@ const Faq = ( { wrapperClass } ) => {
                             <div className="col-lg-12">
                                 <div className="section-title text-center">
                                     <span className="pre-title">FaQ Questions</span>
-                                    <h3 className="title">Get Every General Answers <br /> From Here</h3>
+                                    <h3 className="title">Welcome to eSpark Institute <br/>FAQ's!</h3>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <ul className="edu-tab-nav nav nav-tabs mt--40">
-                                    {
-                                        faqCategories.map( ( button ) => (
-                                            <li className="nav-item" key={ button.id }>
-                                                <button
-                                                    className={ button.slug === selectedItem ? 'nav-link active' : 'nav-link'}
-                                                    type="button"
-                                                    aria-label={button.label}
-                                                    onClick={ () => setSelectedItem( button.slug ) }
-                                                >
-                                                    { button.label }
-                                                </button>
-                                            </li>
-                                        ) )
-                                    }
-                                </ul>
                             </div>
                         </div>
                         { selectedItem === 'online-education' && 
@@ -300,81 +167,10 @@ const Faq = ( { wrapperClass } ) => {
                                     </div>
                                 </div>
                             </div>
-                        }
+                        }<br/>
+                        <br/>
+                        <h6 className="title" style={{fontSize:"18px"}}>Remember, at eSpark Institute, we're committed to your success. Join us today and embark on a journey of knowledge and skill enhancement!</h6>
 
-                        { selectedItem === 'payment-method' && 
-                            <div className="row g-5 align-items-center mt--20">
-                                <div className="col-lg-6">
-                                    <div className="accordion-style-1">
-                                        <Accordion bsPrefix="edu-accordion" defaultActiveKey="0" flush>
-                                            {
-                                                paymentMethod.leftColumn.map( ( accordion, i ) => (
-                                                    <Accordion.Item eventKey={i.toString()} key={i} onClick={() => toggleActive3(i.toString())} bsPrefix={`edu-accordion-item ${activeId3 === i.toString() ? 'active-item' : ''}`}>
-                                                        <div className="edu-accordion-header">
-                                                            <CustomToggle eventKey={i.toString()}>{accordion.title}</CustomToggle>
-                                                        </div>
-                                                        <Accordion.Body bsPrefix="edu-accordion-body">{accordion.body}</Accordion.Body>
-                                                    </Accordion.Item>
-                                                ) )
-                                            }
-                                        </Accordion>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6">
-                                    <div className="accordion-style-1">
-                                        <Accordion bsPrefix="edu-accordion" defaultActiveKey="0" flush>
-                                            {
-                                                paymentMethod.rightColumn.map( ( accordion, i ) => (
-                                                    <Accordion.Item eventKey={i.toString()} key={i} onClick={() => toggleActive4(i.toString())} bsPrefix={`edu-accordion-item ${activeId4 === i.toString() ? 'active-item' : ''}`}>
-                                                        <div className="edu-accordion-header">
-                                                            <CustomToggle eventKey={i.toString()}>{accordion.title}</CustomToggle>
-                                                        </div>
-                                                        <Accordion.Body bsPrefix="edu-accordion-body">{accordion.body}</Accordion.Body>
-                                                    </Accordion.Item>
-                                                ) )
-                                            }
-                                        </Accordion>
-                                    </div>
-                                </div>
-                            </div>
-                        }
-
-                        { selectedItem === 'pricing-plan' && 
-                            <div className="row g-5 align-items-center mt--20">
-                                <div className="col-lg-6">
-                                    <div className="accordion-style-1">
-                                        <Accordion bsPrefix="edu-accordion" defaultActiveKey="0" flush>
-                                            {
-                                                pricingPlan.leftColumn.map( ( accordion, i ) => (
-                                                    <Accordion.Item eventKey={i.toString()} key={i} onClick={() => toggleActive5(i.toString())} bsPrefix={`edu-accordion-item ${activeId5 === i.toString() ? 'active-item' : ''}`}>
-                                                        <div className="edu-accordion-header">
-                                                            <CustomToggle eventKey={i.toString()}>{accordion.title}</CustomToggle>
-                                                        </div>
-                                                        <Accordion.Body bsPrefix="edu-accordion-body">{accordion.body}</Accordion.Body>
-                                                    </Accordion.Item>
-                                                ) )
-                                            }
-                                        </Accordion>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6">
-                                    <div className="accordion-style-1">
-                                        <Accordion bsPrefix="edu-accordion" defaultActiveKey="0" flush>
-                                            {
-                                                pricingPlan.rightColumn.map( ( accordion, i ) => (
-                                                    <Accordion.Item eventKey={i.toString()} key={i} onClick={() => toggleActive6(i.toString())} bsPrefix={`edu-accordion-item ${activeId6 === i.toString() ? 'active-item' : ''}`}>
-                                                        <div className="edu-accordion-header">
-                                                            <CustomToggle eventKey={i.toString()}>{accordion.title}</CustomToggle>
-                                                        </div>
-                                                        <Accordion.Body bsPrefix="edu-accordion-body">{accordion.body}</Accordion.Body>
-                                                    </Accordion.Item>
-                                                ) )
-                                            }
-                                        </Accordion>
-                                    </div>
-                                </div>
-                            </div>
-                        }
                     </div>
                 </div>
             
