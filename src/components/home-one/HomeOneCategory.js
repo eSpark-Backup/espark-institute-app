@@ -1,13 +1,11 @@
 import React from 'react';
 import SectionTitle from '../../components/sectionTitle/SectionTitle';
-import CourseTypeOne from '../../components/course/CourseTypeOne';
-import CourseData from '../../data/course/CourseData.json';
+import CategoryOne from '../category/CategoryOne';
 
-const CourseOne = () => {
-    const CourseItems = CourseData.slice(0, 9);
+const HomeOneCategory = () => {
     return (
 
-        <div className="home-one-cat edu-service-area service-wrapper-1 edu-section-gap bg-image">
+        <div className="home-one-cat edu-service-area service-wrapper-1 bg-image" style={{paddingBottom:"80px", paddingTop:"80px"}}>
             <div className="container eduvibe-animated-shape">
                 <div className="row">
                     <div className="col-lg-12">
@@ -18,23 +16,27 @@ const CourseOne = () => {
                         />
                     </div>
                 </div>
-            </div>
-            <div className="edu-course-area  bg-image">
-                    <div className="container">
-                        <div className="row g-5 mt--10">
-                            { 
-                                CourseItems.map((item) => (
-                                    <div className="col-12 col-sm-6 col-lg-4" key={ item.id }>
-                                        <CourseTypeOne data={item} />
-                                    </div>
-                                ) )
-                            }
-                        </div>
+
+                <CategoryOne />
+
+                {/* <div className="shape-dot-wrapper shape-wrapper d-xl-block d-none">
+                    <div className="shape-image shape-image-1">
+                        <img src="/images/shapes/shape-03-01.png" alt="Shape Thumb" />
                     </div>
-                </div>
-        </div>
+                    <div className="shape-image shape-image-2">
+                        <img src="/images/shapes/shape-08.png" alt="Shape Thumb" />
+                    </div>
+                    <div className="shape-image shape-image-3">
+                        <img src="/images/shapes/shape-04-01.png" alt="Shape Thumb" />
+                    </div>
+                    <div className="shape-image shape-image-4">
+                        <img src="/images/shapes/shape-03-02.png" alt="Shape Thumb" />
+                    </div>
+                </div> */}
+            </div>
+            </div>
         
     )
 }
 
-export default CourseOne;
+export default HomeOneCategory;

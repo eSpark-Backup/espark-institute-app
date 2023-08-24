@@ -12,7 +12,7 @@ const BannerOne = () => {
               <div className="inner">
                 <div className="content">
                   <span className="pre-title">
-                  Welcome To The Prime Hub of Online Tech Education​
+                  Welcome To The Prime Hub of Tech Education​
                   </span>
                   <h1 className="title">Join Our Expert Trainers & Master All Tech-Related Courses  </h1>
                   <p className="description">
@@ -58,13 +58,13 @@ const BannerOne = () => {
                       </ul>
                       <h6 className="title">
                         <Link to="/course-details/2">
-                          Learning How To Write As A Professional Author
+                        Wanna be a UI designing expert?
                         </Link>
                       </h6>
                       <div className="card-bottom">
                         <p>
-                          Nunc laoreet, lectue dapibus maximus sapien and
-                          tincidunted nequed for an finibu euarcu.
+                        Become proficient in graphic and UI/UX designing using all the necessary tools and learn when 
+                        and how to apply them effectively.
                         </p>
                       </div>
                     </div>
@@ -82,13 +82,6 @@ const BannerOne = () => {
                       <h6 className="title">Design Workshop</h6>
                       <span className="time">Today at 6:00 am</span>
                       <div>
-                        <Link
-                          className="edu-btn btn-secondary btn-small"
-                          to="/event-details/1"
-                        >
-                          Join Now
-                          <i className="icon-arrow-right-line-right"></i>
-                        </Link>
                       </div>
                     </div>
                   </div>

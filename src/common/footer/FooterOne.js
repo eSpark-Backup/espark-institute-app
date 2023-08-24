@@ -32,7 +32,7 @@ const FooterOne = () => {
                   </p>
                   <ul className="social-share">
                     <li>
-                      <a href="">
+                      <a href="https://www.facebook.com/esparkinstitute1/">
                         <i className="icon-Fb"></i>
                       </a>
                     </li>
@@ -42,7 +42,7 @@ const FooterOne = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.instagram.com/esparkinstitute/">
                       <FaInstagram style={{ fontSize: 25, marginBottom:6}} />
                       </a>
                     </li>

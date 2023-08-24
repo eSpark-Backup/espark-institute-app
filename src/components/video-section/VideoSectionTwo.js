@@ -11,13 +11,13 @@ const items = [
         icon: 'icon-student'
     },
     {
-        title: 'Broadband Virtual Connection​',
-        info: 'No more technical or connectivity issues at our hub of futuristic professional training.',
+        title: 'Hybrid Mode of Classes​',
+        info: 'Embrace the Hybrid Class Mode, where innovation and tradition converge to elevate your educationaljourney.',
         icon: 'icon-square'
     },
     {
         title: '​On-Time Classes​',
-        info: 'Our trainers are punctual and there will be no class delays at our virtual tech institute.​​',
+        info: 'Our trainers are punctual and there will be no class delays at our eSpark Institute.​​',
         icon: 'icon-research'
     },
     {

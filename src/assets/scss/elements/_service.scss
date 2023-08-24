@@ -18,10 +18,7 @@
             bottom: 80px;
             right: -37px;
         }
-        &.shape-image-4 {
-            bottom: -25px;
-            left: -201px;
-        }
+        
     }
 }
 
@@ -35,7 +32,8 @@
     text-align: center;
     position: relative;
     transition: 0.4s;
-    height: 450px;
+    height: 100%;
+    overflow: hidden;
     &::after {
         position: absolute;
         content: "";

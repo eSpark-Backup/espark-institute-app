@@ -54,7 +54,7 @@ const HomeOneAbout = () => {
                         <div className="inner">
                             <SectionTitle
                                 slogan="About Us"
-                                title=" We Empower The Leaders of Tomorrow With Tech-Related Virtual Education"/>
+                                title=" We Empower The Leaders of Tomorrow With Tech-Related Education"/>
                             <ScrollAnimation
                                 animateIn="fadeInUp"
                                 animateOut="fadeInOut"

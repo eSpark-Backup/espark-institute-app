@@ -4,33 +4,26 @@ import { Link } from 'react-router-dom';
 
 const items = [
     {
-        title: 'iOS Application Development',
-        info: 'Learn how to create engaging and functional iOS apps for mobile devices.',
-        numberOfCourses: '23 Courses',
-        image: 'category-01.jpg',
-        link: '#'
+        title: 'Programming Fundamentals using Microsoft .NET & C#',
+        info: 'Learn Programming with Microsoft .Net C#',
+        CourseDuration: '8 Weeks',
+        image: 'course-01.jpg',
+        link: '/course-details/1'
     },
     {
-        title: 'Search Engine Optimization (SEO)',
-        info: 'Maximize your reach and impact with powerful SEO tactics​.',
-        numberOfCourses: '18 Courses',
-        image: 'category-02.jpg',
-        link: '#'
+        title: 'UI/UX & Graphic Designing',
+        info: 'Gain comprehensive knowledge of graphic designing and UI/UX design.',
+        CourseDuration: '8 Weeks',
+        image: 'course-02.jpg',
+        link: '/course-details/2'
     },
     {
-        title: 'WordPress Development',
-        info: 'Design and develop websites using the popular CMS.​',
-        numberOfCourses: '15 Courses',
-        image: 'category-03.jpg',
-        link: '#'
+        title: 'Advertising with Meta',
+        info: 'This course will establish you as an expert in Meta Ads Manager.​',
+        CourseDuration: '8 Weeks',
+        image: 'course-04.jpg',
+        link: '/course-details/4'
     },
-    {
-        title: 'Node JS​',
-        info: 'Create scalable, high-performance web applications with Node JS​.',
-        numberOfCourses: '20 Courses',
-        image: 'category-04.jpg',
-        link: '#'
-    }
 ];
 
 const CategoryOne = ({ wrapperClass, styleClass, buttonStatus }) => {
@@ -41,7 +34,7 @@ const CategoryOne = ({ wrapperClass, styleClass, buttonStatus }) => {
                     <ScrollAnimation
                         animateIn="fadeInUp"
                         animateOut="fadeInOut"
-                        className={`col-lg-3 col-md-6 col-sm-6 col-12 ${styleClass ? styleClass : ''}`}
+                        className={`col-lg-4 col-md-6 col-sm-6 col-12 ${styleClass ? styleClass : ''}`}
                         animateOnce={true}
                         key={i}
                     >
@@ -49,7 +42,7 @@ const CategoryOne = ({ wrapperClass, styleClass, buttonStatus }) => {
                             <div className="inner">
                                 <div className="thumbnail">
                                     <a href={data.link}>
-                                        <img src={`${process.env.PUBLIC_URL}./images/category/category-01/${data.image}`} alt="Category Thumb" />
+                                        <img src={`${process.env.PUBLIC_URL}./images/course/course-01/${data.image}`} alt="Category Thumb" />
                                     </a>
                                 </div>
                                 <div className="content">
