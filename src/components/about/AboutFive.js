@@ -87,11 +87,10 @@ const AboutFive = ({ wrapperClass }) => {
                     />
                   </div>
                   <div className="content">
-                    <h6 className="title">Thriving Student Community</h6>
+                    <h6 className="title">Thriving Community of Professionals</h6>
                     <p className="description">
-                      Join our growing community of students and professionals
-                      who are passionate about technology and eager to
-                      collaborate and share their knowledge with one another.
+                    Join our growing community of tech professionals who are passionate and eager to collaborate 
+                    and share their knowledge with one another
                     </p>
                   </div>
                 </div>
