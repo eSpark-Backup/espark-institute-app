@@ -113,20 +113,6 @@ const HomeOneInstructor = ({ background, color }) => {
                       </Link>
                     </h5>
                     <span className="desc">.net/C# Developer</span>
-                    <div className="team-share-info bg-transparent">
-                      <a className="linkedin" href="#">
-                        <i className="icon-linkedin"></i>
-                      </a>
-                      <a className="facebook" href="#">
-                        <i className="icon-Fb"></i>
-                      </a>
-                      <a className="twitter" href="#">
-                        <i className="icon-Twitter"></i>
-                      </a>
-                      <a className="youtube" href="#">
-                        <i className="icon-youtube"></i>
-                      </a>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -168,20 +154,6 @@ const HomeOneInstructor = ({ background, color }) => {
                       </Link>
                     </h5>
                     <span className="desc">UI/UX Designer</span>
-                    <div className="team-share-info bg-transparent">
-                      <a className="linkedin" href="#">
-                        <i className="icon-linkedin"></i>
-                      </a>
-                      <a className="facebook" href="#">
-                        <i className="icon-Fb"></i>
-                      </a>
-                      <a className="twitter" href="#">
-                        <i className="icon-Twitter"></i>
-                      </a>
-                      <a className="youtube" href="#">
-                        <i className="icon-youtube"></i>
-                      </a>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -222,20 +194,6 @@ const HomeOneInstructor = ({ background, color }) => {
                       </Link>
                     </h5>
                     <span className="desc">Web Developer​</span>
-                    <div className="team-share-info bg-transparent">
-                      <a className="linkedin" href="#">
-                        <i className="icon-linkedin"></i>
-                      </a>
-                      <a className="facebook" href="#">
-                        <i className="icon-Fb"></i>
-                      </a>
-                      <a className="twitter" href="#">
-                        <i className="icon-Twitter"></i>
-                      </a>
-                      <a className="youtube" href="#">
-                        <i className="icon-youtube"></i>
-                      </a>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -276,20 +234,6 @@ const HomeOneInstructor = ({ background, color }) => {
                       </Link>
                     </h5>
                     <span className="desc">Digital Marketer</span>
-                    <div className="team-share-info bg-transparent">
-                      <a className="linkedin" href="#">
-                        <i className="icon-linkedin"></i>
-                      </a>
-                      <a className="facebook" href="#">
-                        <i className="icon-Fb"></i>
-                      </a>
-                      <a className="twitter" href="#">
-                        <i className="icon-Twitter"></i>
-                      </a>
-                      <a className="youtube" href="#">
-                        <i className="icon-youtube"></i>
-                      </a>
-                    </div>
                   </div>
                 </div>
               </div>
