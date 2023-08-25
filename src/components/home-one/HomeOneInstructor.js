@@ -22,7 +22,7 @@ const HomeOneInstructor = ({ background, color }) => {
             />
           </div>
         </div>
-        <div className="row g-5 mt--20">
+        <div className="row g-5 mt--20 instructor-space">
           {/* <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <div
               className={`edu-instructor-grid edu-instructor-3 edu-instructor-3-visible${
@@ -78,7 +78,7 @@ const HomeOneInstructor = ({ background, color }) => {
             </div>
           </div> */}
 
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div className="col-lg-4 col-md-6 col-sm-6 col-12">
             <div
               className={`edu-instructor-grid edu-instructor-3 edu-instructor-3-visible${
                 visible === "team2" ? " eduvibe-hover-active" : ""
@@ -119,7 +119,7 @@ const HomeOneInstructor = ({ background, color }) => {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div className="col-lg-4 col-md-6 col-sm-6 col-12">
             <div
               className={`edu-instructor-grid edu-instructor-3 edu-instructor-3-visible${
                 visible === "team3" ? " eduvibe-hover-active" : ""
@@ -159,47 +159,7 @@ const HomeOneInstructor = ({ background, color }) => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-            <div
-              className={`edu-instructor-grid edu-instructor-3 edu-instructor-3-visible${
-                visible === "team4" ? " eduvibe-hover-active" : ""
-              }`}
-              onMouseOver={() => setVisible("team4")}
-              onMouseOut={() => setVisible("")}
-            >
-              <div className="edu-instructor">
-                <div className="inner">
-                  <div className="thumbnail">
-                    <Link
-                      to={
-                        process.env.PUBLIC_URL +
-                        `/instructor-details/${slugify("Areeba Shakeel")}`
-                      }
-                    >
-                      <img
-                        src="/images/instructor/instructor-01/Areeba_Shakeel.jpg"
-                        alt="team images"
-                      />
-                    </Link>
-                  </div>
-                  <div className="edu-instructor-info">
-                    <h5 className="title">
-                      <Link
-                        to={
-                          process.env.PUBLIC_URL +
-                          `/instructor-details/${slugify("Areeba Shakeel")}`
-                        }
-                      >
-                        Areeba Shakeel
-                      </Link>
-                    </h5>
-                    <span className="desc">Web Developer​</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div className="col-lg-4 col-md-6 col-sm-6 col-12">
             <div
               className={`edu-instructor-grid edu-instructor-3 edu-instructor-3-visible${
                 visible === "team5" ? " eduvibe-hover-active" : ""
@@ -238,14 +198,6 @@ const HomeOneInstructor = ({ background, color }) => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-          <div className="shape-image shape-image-1">
-            <img src="/images/shapes/shape-03-03.png" alt="Shape Thumb" />
-          </div>
-          <div className="shape-image shape-image-2">
-            <img src="/images/shapes/shape-02-02.png" alt="Shape Thumb" />
           </div>
         </div>
       </div>
