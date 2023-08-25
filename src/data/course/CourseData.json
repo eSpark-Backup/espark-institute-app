@@ -64,7 +64,7 @@
     "details": "<h5>ABOUT THIS COURSE</h5> <p>In this course, you will gain comprehensive knowledge of graphic designing and UI/UX design. The course will guide you through the entire process, starting from the basics of opening the design program to completing a finished design. You will become proficient in using all the necessary tools and learn when and how to apply them effectively. Additionally, the course will focus on teaching you the principles of graphics and UI/UX design, enabling you to create purposeful and well-designed projects.</p><h5>WHAT YOU WILL LEARN</h5> <ul> <li>The Basics of Graphic Design, Color Theory</li><li>Understand the principles of User Experience</li><li> Create prototypes and collaborate with web developers easily</li><li>Achieve an understanding of the process, purpose, and tools of prototype design</li><li>Typography, Layout</li></ul> "
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "Advertising with Meta",
     "image": "course-04.jpg",
     "CourseDuration": "8 Weeks",
@@ -94,4 +94,5 @@
     "excerpt": "This course will establish you as an expert in Meta Ads Manager. Learn how to structure campaigns in Ads Manager by selecting ad objectives, target audience, budget, and placement that fit your unique goals.Learn to create and manage ads across Facebook and Instagram and evaluate and optimize the results of your Ads Manager campaigns. You will end the course by creating an actual ad campaign in Ads Manager to expand not only your knowledge, but your social media marketing portfolio. Learners don't need marketing experience, but they have basic internet navigation skills and are eager to participate and connect in social media.",
     "details": "<h5>ABOUT THIS COURSE</h5> <p>This course will establish you as an expert in Meta Ads Manager. Learn how to structure campaigns in Ads Manager by selecting ad objectives, target audience, budget, and placement that fit your unique goals.Learn to create and manage ads across Facebook and Instagram and evaluate and optimize the results of your Ads Manager campaigns. You will end the course by creating an actual ad campaign in Ads Manager to expand not only your knowledge, but your social media marketing portfolio. Learners don't need marketing experience, but they have basic internet navigation skills and are eager to participate and connect in social media.</p><h5>WHAT YOU WILL LEARN</h5> <ul> <li>Structure campaigns in Meta Ads Manager.</li><li>Identify the major components and elements of an ad in Meta Ads Manager.</li><li>Build an ad that aligns with your marketing objectives and target it to your intended audience.</li><li>Set a budget, placement, and schedule for your ads in Meta Ads Manager.</li><li>Edit and troubleshoot your ads in Meta Ads Manager.</li></ul> "
   }
+
 ]
