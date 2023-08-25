@@ -8,7 +8,7 @@ const HomeOneInstructor = ({ background, color }) => {
   return (
     <div
       className={`edu-instructor-area edu-section-gap ${
-        background ? background : "eduvibe-home-one-instructor" 
+        background ? background : "eduvibe-home-one-instructor"
       }`}
     >
       <div className="container eduvibe-animated-shape">
@@ -22,7 +22,7 @@ const HomeOneInstructor = ({ background, color }) => {
             />
           </div>
         </div>
-        <div className="row g-5 mt--20 instructor-space" >
+        <div className="row g-5 mt--20 instructor-space">
           {/* <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <div
               className={`edu-instructor-grid edu-instructor-3 edu-instructor-3-visible${
@@ -200,14 +200,6 @@ const HomeOneInstructor = ({ background, color }) => {
             </div>
           </div>
         </div>
-        {/* <div className="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-          <div className="shape-image shape-image-1">
-            <img src="/images/shapes/shape-03-03.png" alt="Shape Thumb" />
-          </div>
-          <div className="shape-image shape-image-2">
-            <img src="/images/shapes/shape-02-02.png" alt="Shape Thumb" />
-          </div>
-        </div> */}
       </div>
     </div>
   );

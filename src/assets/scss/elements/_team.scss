@@ -50,7 +50,11 @@
    
 }
 
-
+@media (max-width:1024px) and (min-width:768px){
+.edu-instructor-3 .edu-instructor .inner .thumbnail a img {
+    max-height: 285px;
+}
+}
 
 .edu-instructor-1 {
     text-align: center;
@@ -276,14 +280,31 @@
     }
 }
 
-
-@media (max-width:1660px) and (min-width:996px){
-.instructor-space{
-    padding-left: 70px;
-    padding-right: 70px;
-}
-}
-
+@media (max-width:767px) and (min-width:740px){
+    .instructor-space{
+        margin-left: -117px;
+        margin-right: -117px;
+    }
+    }
+    
+@media (max-width:740px) and (min-width:670px){
+        .instructor-space{
+            margin-left: -84px;
+            margin-right: -84px;    
+        }
+        }
+@media (max-width:669nppx) and (min-width:576px){
+            .instructor-space{
+                margin-left: -40px;
+                margin-right: -40px; 
+            }
+            }
+@media (max-width:575px) and (min-width:480px){
+    .instructor-space{
+        padding-left: 40px;
+        padding-right: 40px;   
+    }
+    }
 
 
 .edu-instructor-3 {
@@ -301,14 +322,12 @@
                     display: block;
                     position: relative;
                     img {
-                        width: 100%;
+                        width: 335px;
                         border-radius: 5px;
                         height: 350px;
-                        
                     }
                 }
             }
-            
 
             .edu-instructor-info {
                 position: absolute;
@@ -406,25 +425,7 @@
         }
     }
 }
-@media (max-width:1024px) and (min-width:576px){
-    .edu-instructor-3 .edu-instructor .inner .thumbnail a img {
-        max-height: 285px;
-    }
-    }
-@media (max-width:576px) and (min-width:400px){
-        .edu-instructor-3 .edu-instructor .inner .thumbnail a img {
-            max-height: 285px;
-            width: 65%;
-        }
-    }
-@media (max-width:395px) and (min-width:300px){
-    .edu-instructor-3 .edu-instructor .inner .thumbnail a img {
-        max-height: 285px;
-        width: 90%;
-    }
-    }
-    
-    
+
 
 
 
