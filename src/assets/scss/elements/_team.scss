@@ -50,11 +50,11 @@
    
 }
 
-@media (max-width:1024px) and (min-width:768px){
-.edu-instructor-3 .edu-instructor .inner .thumbnail a img {
-    max-height: 285px;
-}
-}
+// @media (max-width:1024px) and (min-width:768px){
+// .edu-instructor-3 .edu-instructor .inner .thumbnail a img {
+//     max-height: 285px;
+// }
+// }
 
 .edu-instructor-1 {
     text-align: center;
@@ -280,25 +280,11 @@
     }
 }
 
-@media (max-width:767px) and (min-width:740px){
-    .instructor-space{
-        margin-left: -117px;
-        margin-right: -117px;
-    }
-    }
-    
-@media (max-width:740px) and (min-width:670px){
-        .instructor-space{
-            margin-left: -84px;
-            margin-right: -84px;    
-        }
-        }
-@media (max-width:669nppx) and (min-width:576px){
-            .instructor-space{
-                margin-left: -40px;
-                margin-right: -40px; 
-            }
-            }
+@media (max-width:767px) and (min-width:575px){
+ .container{
+    max-width: 625px;
+ }
+}
 @media (max-width:575px) and (min-width:480px){
     .instructor-space{
         padding-left: 40px;
@@ -425,13 +411,3 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
