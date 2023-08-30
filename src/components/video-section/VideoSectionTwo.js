@@ -29,7 +29,7 @@ const items = [
 
 const VideoSectionTwo = () => {
     const [toggler, setToggler] = useState(false);
-    const videoLink = ['https://www.youtube.com/watch?v=pNje3bWz7V8'];
+    const videoLink = ['https://www.youtube.com/watch?v=sIkqkLN0U_s'];
     return (
         <div className="edu-feature-area eduvibe-home-one-video edu-section-gap bg-color">
             <div className="container eduvibe-animated-shape">
