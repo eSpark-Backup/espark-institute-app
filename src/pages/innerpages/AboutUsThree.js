@@ -29,7 +29,7 @@ const AboutUsThree = () => {
       <HomeFiveProgress />
 
       <AboutUsThreeMission />
-      <HomeOneInstructor background={"null"} color={"#20A39E"} />
+      <HomeOneInstructor background={"null"} color={"#20A39E"}  />
       {/* <AboutUsThreeInstructor /> */}
 
       {/* <CounterUpOne />

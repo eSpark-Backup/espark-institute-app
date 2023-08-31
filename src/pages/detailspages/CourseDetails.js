@@ -298,28 +298,6 @@ const CourseDetails = () => {
                                 {instructor.designation}
                               </span>
                               <p>{instructorExcerpt}</p>
-                              <ul className="social-share border-style">
-                                <li>
-                                  <a href={instructor.facebookUrl}>
-                                    <i className="icon-Fb"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href={instructor.linkedInUrl}>
-                                    <i className="icon-linkedin"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href={instructor.pinterest}>
-                                    <i className="icon-Pinterest"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href={instructor.twitterUrl}>
-                                    <i className="icon-Twitter"></i>
-                                  </a>
-                                </li>
-                              </ul>
                             </div>
                           </div>
                         </div>
@@ -438,7 +416,7 @@ const CourseDetails = () => {
                               </div>
                             </div>
                           </div>
-                          <div className="comment-wrapper pt--40">
+                          {/* <div className="comment-wrapper pt--40">
                             <div className="section-title">
                               <h5 className="mb--25">Reviews</h5>
                             </div>
@@ -472,7 +450,7 @@ const CourseDetails = () => {
                                 </p>
                               </div>
                             </div>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     )}

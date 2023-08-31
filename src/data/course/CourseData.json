@@ -65,38 +65,6 @@
   },
   {
     "id": 3,
-    "title": "Basic Web Development",
-    "image": "course-03.jpg",
-    "CourseDuration": "8 Weeks",
-    "CourseHours": "32 hours",
-    "ClassDuration": "2 hours/Class",
-    "ClassDays": "Mon & Wed",
-    "ClassMode": "Online",
-    "instructor": "Areeba Shakeel",
-    "duration": "32h 0m 0s",
-    "durationInHour": "32 Hours",
-    "durationInHourMinute": "32hr 0min",
-    "level": "Beginner",
-    "language": "English",
-    "deadline": "30 Nov, 2022",
-    "rating": "5.0",
-    "student": 550,
-    "lesson": 16,
-    "quizzes": 15,
-    "price": "7.00",
-    "oldPrice": "99.00",
-    "review": 23,
-    "passPercentage": 90,
-    "featured": true,
-    "certificate": "available",
-    "filterParam": "Featured",
-    "categories": ["Web Development"],
-    "videoLink": ["https://www.youtube.com/watch?v=pNje3bWz7V8"],
-    "excerpt": "A basic web development course provides foundational knowledge and skills in designing and building websites. This course covers fundamental concepts such as HTML, CSS, and JavaScript, which are the building blocks of the web. Participants will learn how to structure web pages, style them using CSS, and add interactivity using JavaScript. Additionally, the course may touch upon topics like responsive design, website optimization, and basic web security practices. By the end of the course, students will have a solid understanding of web development principles and be able to create simple,functional website from scratch.",
-    "details": "<h5>ABOUT THIS COURSE</h5> <p>A basic web development course provides foundational knowledge and skills in designing and building websites. This course covers fundamental concepts such as HTML, CSS, and JavaScript, which are the building blocks of the web. Participants will learn how to structure web pages, style them using CSS, and add interactivity using JavaScript. Additionally, the course may touch upon topics like responsive design, website optimization, and basic web security practices. By the end of the course, students will have a solid understanding of web development principles and be able to create simple,functional website from scratch.</p><h5>WHAT YOU WILL LEARN</h5> <ul> <li>You will have the ability to bring your creative ideas to life on the web.</li><li>You will be able to craft engaging user experiences, optimize websites for search engines, and create dynamic interactions that captivate visitors.</li><li>You will be able to collaborate effectively with designers and developers, providing you with a strong foundation to build upon as you delve into more advanced concepts and frameworks.</li></ul> "
-  },
-  {
-    "id": 4,
     "title": "Advertising with Meta",
     "image": "course-04.jpg",
     "CourseDuration": "8 Weeks",
@@ -126,4 +94,5 @@
     "excerpt": "This course will establish you as an expert in Meta Ads Manager. Learn how to structure campaigns in Ads Manager by selecting ad objectives, target audience, budget, and placement that fit your unique goals.Learn to create and manage ads across Facebook and Instagram and evaluate and optimize the results of your Ads Manager campaigns. You will end the course by creating an actual ad campaign in Ads Manager to expand not only your knowledge, but your social media marketing portfolio. Learners don't need marketing experience, but they have basic internet navigation skills and are eager to participate and connect in social media.",
     "details": "<h5>ABOUT THIS COURSE</h5> <p>This course will establish you as an expert in Meta Ads Manager. Learn how to structure campaigns in Ads Manager by selecting ad objectives, target audience, budget, and placement that fit your unique goals.Learn to create and manage ads across Facebook and Instagram and evaluate and optimize the results of your Ads Manager campaigns. You will end the course by creating an actual ad campaign in Ads Manager to expand not only your knowledge, but your social media marketing portfolio. Learners don't need marketing experience, but they have basic internet navigation skills and are eager to participate and connect in social media.</p><h5>WHAT YOU WILL LEARN</h5> <ul> <li>Structure campaigns in Meta Ads Manager.</li><li>Identify the major components and elements of an ad in Meta Ads Manager.</li><li>Build an ad that aligns with your marketing objectives and target it to your intended audience.</li><li>Set a budget, placement, and schedule for your ads in Meta Ads Manager.</li><li>Edit and troubleshoot your ads in Meta Ads Manager.</li></ul> "
   }
+
 ]

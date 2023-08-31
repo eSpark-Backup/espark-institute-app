@@ -111,11 +111,6 @@ const FooterOne = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/course-details/3">
-                          <i className="icon-Double-arrow"></i>{BASIC_WEB_DEVELOPMENT}
-                        </Link>
-                      </li>
-                      <li>
                         <Link to="/course-details/4">
                           <i className="icon-Double-arrow"></i>{ADVERTISING_WITH_META}
                         </Link>

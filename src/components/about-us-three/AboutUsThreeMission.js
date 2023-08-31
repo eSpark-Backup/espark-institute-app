@@ -11,7 +11,7 @@ const AboutUsThreeMission = () => {
               <div className="shape-image image-1">
                 <Parallax speed={1} y={[0, 40]} tagOuter="figure">
                   <img
-                    src="/images/mission/mission-gallery-01.jpg"
+                    src="/images/mission/1.png"
                     alt="Gallery Images"
                   />
                 </Parallax>
@@ -19,7 +19,7 @@ const AboutUsThreeMission = () => {
               <div className="shape-image image-2">
                 <Parallax speed={1} y={[0, -20]} tagOuter="figure">
                   <img
-                    src="/images/mission/mission-gallery-02.jpg"
+                    src="/images/mission/2.png"
                     alt="Gallery Images"
                   />
                 </Parallax>
@@ -27,7 +27,7 @@ const AboutUsThreeMission = () => {
               <div className="shape-image image-3">
                 <Parallax speed={1} y={[0, 30]} tagOuter="figure">
                   <img
-                    src="/images/mission/mission-gallery-03.jpg"
+                    src="/images/mission/3.png"
                     alt="Gallery Images"
                   />
                 </Parallax>
@@ -35,7 +35,7 @@ const AboutUsThreeMission = () => {
               <div className="shape-image image-4">
                 <Parallax speed={1} y={[0, -18]} tagOuter="figure">
                   <img
-                    src="/images/mission/mission-gallery-04.jpg"
+                    src="/images/mission/4.png"
                     alt="Gallery Images"
                   />
                 </Parallax>
@@ -87,16 +87,10 @@ const AboutUsThreeMission = () => {
                   The Story of Our <br /> Founders
                 </h3>
                 <p className="mt--30 mb--0">
-                  Our founders envision a future where Pakistan's tech industry
-                  is a global leader, fuelled by a new generation of talented
-                  and innovative professionals who have been empowered by eSpark
-                  Institute. Through our programs and courses, we strive to
-                  bridge the skills gap and provide individuals with the
-                  knowledge and expertise they need to excel in the fast-paced
-                  and constantly evolving world of technology. Our ultimate goal
-                  is to contribute to the growth and development of Pakistan's
-                  tech ecosystem, and inspire a new era of progress and
-                  prosperity for our country.
+                The vision of eSpark Institute is to spearhead a transformative future for Pakistan's technology 
+                landscape. We aspire to be the driving force behind Pakistan's emergence as a global leader in the 
+                tech industry. Our ultimate goal is to contribute to the growth and development of Pakistan's tech 
+                ecosystem and inspire a new era of progress and prosperity for our country.
                 </p>
               </div>
             </div>
