@@ -14,13 +14,13 @@ const AboutFive = ({ wrapperClass }) => {
           <div className="col-lg-12 col-xl-6">
             <div className="gallery-wrapper">
               <img
-                src="/images/about/about-05/about-group-01.jpg"
+                src="/images/about/about-05/2.png"
                 alt="About Images"
               />
               <div className="image-2">
                 <Parallax y={[-25, 15]} tagOuter="figure">
                   <img
-                    src="/images/about/about-05/about-group-02.jpg"
+                    src="/images/about/about-05/1.png"
                     alt="About Images"
                   />
                 </Parallax>
@@ -28,7 +28,7 @@ const AboutFive = ({ wrapperClass }) => {
               <div className="image-3">
                 <Parallax y={[40, -40]} tagOuter="figure">
                   <img
-                    src="/images/about/about-05/about-group-03.jpg"
+                    src="/images/about/about-05/3.png"
                     alt="About Images"
                   />
                 </Parallax>
@@ -87,20 +87,14 @@ const AboutFive = ({ wrapperClass }) => {
                     />
                   </div>
                   <div className="content">
-                    <h6 className="title">Thriving Student Community</h6>
+                    <h6 className="title">Thriving Community of Professionals</h6>
                     <p className="description">
-                      Join our growing community of students and professionals
-                      who are passionate about technology and eager to
-                      collaborate and share their knowledge with one another.
+                    Join our growing community of tech professionals who are passionate and eager to collaborate 
+                    and share their knowledge with one another
                     </p>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="read-more-btn mt--30">
-              <Link className="edu-btn" to="#">
-                Know About Us <i className="icon-arrow-right-line-right"></i>
-              </Link>
             </div>
           </div>
         </div>

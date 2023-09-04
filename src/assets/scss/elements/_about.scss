@@ -402,8 +402,8 @@
     .gallery-wrapper {
         position: relative;
         text-align: center;
-        margin-right: 120px;
-        margin-left: -50px;
+        margin-right: 100px;
+        // margin-left: -50px;
         z-index: 2;
         @media #{$lg-layout} {
             text-align: left;
@@ -428,7 +428,7 @@
         }
         .image-2 {
             position: absolute;
-            left: -95px;
+            left: -126px;
             z-index: -1;
             top: 88px;
 
@@ -436,13 +436,9 @@
                 left: -120px;
             }
 
-            @media #{$md-layout} {
-                left: 3%;
-            }
-
-            @media #{$sm-layout} {
-                display: none;
-            }
+            // @media #{$md-layout} {
+            //     left: 3%;
+            // }
 
         }
         .image-3 {
@@ -462,9 +458,7 @@
             @media #{$sm-layout} {
                 right: 0;
             }
-            @media #{$large-mobile} {
-                display: none;
-            }
+            
             img {
                 border: 3px solid #FFFFFF;
             }
@@ -659,6 +653,7 @@
         }
         .shape-image {
             padding: 15px;
+            
             @media #{$md-layout} {
                 flex-basis: 50%;
             }
@@ -666,12 +661,30 @@
                 flex-basis: 50%;
             }
             @media #{$large-mobile} {
-                flex-basis: 100%;
                 text-align: center;
             }
         }
+        
     }
 }
+
+@media only screen and (max-width: 500px) {
+.eduvibe-about-three-mission .thumbnail .image-2 img{
+    height: 160px;
+}
+.eduvibe-about-three-mission .thumbnail .image-4 img{
+    height: 160px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+    .eduvibe-about-three-mission .thumbnail .image-2 img{
+        height: 160px;
+    }
+    .eduvibe-about-three-mission .thumbnail .image-4 img{
+        height: 160px;
+    }
+    }
 
 .eduvibe-about-three-mission {
     .thumbnail img {

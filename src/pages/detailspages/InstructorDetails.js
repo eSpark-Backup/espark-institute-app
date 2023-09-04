@@ -71,28 +71,6 @@ const InstructorDetails = () => {
                         </a>
                       </p> */}
                     </div>
-                    <ul className="social-share bg-transparent justify-content-center medium-size">
-                      <li>
-                        <a href={teamMember.facebookUrl}>
-                          <i className="icon-Fb"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href={teamMember.linkedInUrl}>
-                          <i className="icon-linkedin"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href={teamMember.pinterest}>
-                          <i className="icon-Pinterest"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href={teamMember.twitterUrl}>
-                          <i className="icon-Twitter"></i>
-                        </a>
-                      </li>
-                    </ul>
                     <div className="contact-btn">
                       <Link to="/contact-me" className="edu-btn">
                         Contact Me

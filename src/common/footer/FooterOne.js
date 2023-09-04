@@ -81,12 +81,12 @@ const FooterOne = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/faqs">
+                        <Link to="/faq">
                           <i className="icon-Double-arrow"></i>{FAQ}
                         </Link>
                       </li>
                       <li>
-                        <Link to="/privacypolicy">
+                        <Link to="/privacy-policy">
                           <i className="icon-Double-arrow"></i>{PRIVACY_POLICY}
                         </Link>
                       </li>
@@ -108,11 +108,6 @@ const FooterOne = () => {
                       <li>
                         <Link to="/course-details/2">
                           <i className="icon-Double-arrow"></i>{GRAPHIC_DESIGNING}
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/course-details/3">
-                          <i className="icon-Double-arrow"></i>{BASIC_WEB_DEVELOPMENT}
                         </Link>
                       </li>
                       <li>
