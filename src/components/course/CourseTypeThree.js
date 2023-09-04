@@ -12,9 +12,9 @@ const CourseTypeThree = ({ data, classes, bgWhite }) => {
                     <div className="top-position status-group left-top">
                         <span className="eduvibe-status status-01">{data.level}</span>
                     </div>
-                    <div className="wishlist-top-right">
+                    {/* <div className="wishlist-top-right">
                         <button className="wishlist-btn"><i className="icon-Heart"></i></button>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="content">
                     <ul className="edu-meta meta-01">

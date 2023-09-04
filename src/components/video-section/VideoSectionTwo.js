@@ -66,7 +66,7 @@ const VideoSectionTwo = () => {
                     <div className="col-lg-7 col-12 order-1 order-lg-2">
                         <div className="feature-thumbnail">
                             <div className="main-image video-popup-wrapper video-popup-two">
-                                <img src={`${process.env.PUBLIC_URL}./images/videopopup/choose-us-image-01.jpg`} alt="Video PopUp Thumb" />
+                                <img src={`${process.env.PUBLIC_URL}./images/videopopup/choose-us-image-01.png`} alt="Video PopUp Thumb" />
 
                                 <button className="video-play-btn with-animation position-to-top btn-large video-popup-activation eduvibe-video-play-icon color-secondary" onClick={ () => setToggler( ! toggler ) }><span><FaPlay className="play-icon" /></span></button>
                             </div>

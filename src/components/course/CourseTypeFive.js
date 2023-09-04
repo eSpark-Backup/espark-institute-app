@@ -17,9 +17,9 @@ const CourseTwo = ({ data, classes }) => {
                         { isOffer && <span className="eduvibe-status status-01 bg-secondary-color">{offerInPercentage}% Off</span> }
                         <span className="eduvibe-status status-01 bg-primary-color">{data.level}</span>
                     </div>
-                    <div className="wishlist-top-right">
+                    {/* <div className="wishlist-top-right">
                         <button className="wishlist-btn"><i className="icon-Heart"></i></button>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="content">
                     <div className="price-list price-style-03">

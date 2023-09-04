@@ -23,11 +23,11 @@ const CourseTypeOne = ({ data, classes }) => {
               alt="Course Thumb"
             />
           </Link>
-          <div className="wishlist-top-right">
+          {/* <div className="wishlist-top-right">
             <button className="wishlist-btn">
               <i className="icon-Heart"></i>
             </button>
-          </div>
+          </div> */}
           <div className="top-position status-group left-bottom">
             <Link
               className="eduvibe-status status-03"
@@ -111,11 +111,11 @@ const CourseTypeOne = ({ data, classes }) => {
                 {data.categories.slice(0, 1)}
               </Link>
             </div>
-            <div className="top-wishlist-bar">
+            {/* <div className="top-wishlist-bar">
               <button className="wishlist-btn">
                 <i className="icon-Heart"></i>
               </button>
-            </div>
+            </div> */}
           </div>
 
           <h6 className="title">

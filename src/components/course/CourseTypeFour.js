@@ -16,9 +16,9 @@ const CourseTypeFour = ({ data, classes, bgWhite }) => {
                     <Link to={process.env.PUBLIC_URL + `/course-details/${data.id}`}>
                         <img className="w-100" src={`${process.env.PUBLIC_URL}/images/course/course-01/${data.image}`} alt="Course Thumb" />
                     </Link>
-                    <div className="wishlist-top-right">
+                    {/* <div className="wishlist-top-right">
                         <button className="wishlist-btn"><i className="icon-Heart"></i></button>
-                    </div>
+                    </div> */}
                     {data.featured === true &&
                         <div className="top-position status-group left-top">
                             <span className="eduvibe-status status-04">Featured</span>

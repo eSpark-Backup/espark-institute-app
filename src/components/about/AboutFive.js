@@ -14,13 +14,13 @@ const AboutFive = ({ wrapperClass }) => {
           <div className="col-lg-12 col-xl-6">
             <div className="gallery-wrapper">
               <img
-                src="/images/about/about-05/2.png"
+                src="/images/about/about-05/1.png"
                 alt="About Images"
               />
               <div className="image-2">
                 <Parallax y={[-25, 15]} tagOuter="figure">
                   <img
-                    src="/images/about/about-05/1.png"
+                    src="/images/about/about-05/2.png"
                     alt="About Images"
                   />
                 </Parallax>

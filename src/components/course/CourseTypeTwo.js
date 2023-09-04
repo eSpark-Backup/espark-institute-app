@@ -19,9 +19,9 @@ const CourseTwo = ({ data, classes }) => {
                     <div className="top-position status-group left-top">
                         <span className="eduvibe-status status-02"><i className="icon-time-line"></i> {data.durationInHour}</span>
                     </div>
-                    <div className="wishlist-top-right">
+                    {/* <div className="wishlist-top-right">
                         <button className="wishlist-btn"><i className="icon-Heart"></i></button>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="content">
                     <div className="card-top">
