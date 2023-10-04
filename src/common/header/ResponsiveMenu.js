@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Nav from "./Nav";
 
-const ResponsiveMenu = ({ show, onClose, showSearch, onSearch }) => {
+const ResponsiveMenu = ({ show, onClose, showSearch, onSearch, buttonStyle }) => {
   var elements = document.querySelectorAll(
     ".popup-mobile-menu .has-droupdown > a"
   );
@@ -46,6 +46,16 @@ const ResponsiveMenu = ({ show, onClose, showSearch, onSearch }) => {
             </div>
           </div>
           <Nav onClose={onClose} />
+          <div className="quote-icon quote-user d-md-block ml--15 ml_sm--5">
+            <Link
+              className={`edu-btn btn-medium left-icon header-button ${
+                buttonStyle || ""
+              }`}
+              to={process.env.PUBLIC_URL + "/courses"}
+            >
+              <i className="ri-user-line"></i>Enroll Now
+            </Link>
+          </div>
         </div>
       </div>
 

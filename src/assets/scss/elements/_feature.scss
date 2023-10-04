@@ -58,9 +58,9 @@
         right: 7px;
         z-index: -1;
         width: 97%;
-        @media #{$sm-layout} {
-            display: none;
-        }
+        // @media #{$sm-layout} {
+        //     display: none;
+        // }
     }
 }
 

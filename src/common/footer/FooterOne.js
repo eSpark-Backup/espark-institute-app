@@ -61,7 +61,7 @@ const FooterOne = () => {
                   <div className="inner">
                     <ul className="footer-link link-hover">
                     <li>
-                        <Link to="#">
+                        <Link to="/">
                           <i className="icon-Double-arrow"></i>{HOME}
                         </Link>
                       </li>
