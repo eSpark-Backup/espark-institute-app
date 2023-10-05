@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ScrollToTop from "./components/scrolltotop/ScrollToTop";
 import CourseFilterSidebar from "./pages/course/CourseFilterSidebar";
@@ -67,8 +67,11 @@ import "./assets/scss/style.scss";
 import Layout from "./common/Layout";
 
 function App() {
-  return (
-    <>
+  const isComingSoon = process.env.REACT_APP_COMING_SOON === 'true';
+  const [showComingSoon, setShowComingSoon] = useState(isComingSoon);
+
+  if (showComingSoon) {
+    return (
       <div className="coming-soon-container">
         <img
           src={comingSoonImage}
@@ -76,7 +79,11 @@ function App() {
           className="coming-soon-image"
         />
       </div>
-      {/* <Router>
+    );
+  }
+  return (
+    <>
+      <Router>
         <Layout>
           <ScrollToTop>
             <Routes>
@@ -370,7 +377,7 @@ function App() {
             </Routes>
           </ScrollToTop>
         </Layout>
-      </Router> */}
+      </Router>
     </>
   );
 }
