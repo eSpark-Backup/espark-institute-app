@@ -19,51 +19,51 @@ const PrivacyPolicy = () => {
                     <div className="container">
                         <div className="row g-5">
                             <div className="content">
-                                <h4 className="title">{Terms}</h4>
+                                <h4 className="title">1. {Terms}</h4>
                                 <p>{TermsPara}</p>
             
-                                <h4 className="title">{UseLicense}</h4>
+                                <h4 className="title">2. {UseLicense}</h4>
                                 <ol type="a">
-                                    <li>{UseLicense_OL_a}</li>
+                                    <li><span style={{marginLeft:"7px"}}>{UseLicense_OL_a}</span></li>
                                     <ol type="i">
-                                        <li>{UseLicense_OL_i}</li>
-                                        <li>{UseLicense_OL_ii}</li>
-                                        <li>{UseLicense_OL_iii}</li>
-                                        <li>{UseLicense_OL_iv}</li>
-                                        <li>{UseLicense_OL_v}</li>
+                                        <li><span style={{marginLeft:"20px"}}>{UseLicense_OL_i}</span></li>
+                                        <li><span style={{marginLeft:"20px"}}>{UseLicense_OL_ii}</span></li>
+                                        <li><span style={{marginLeft:"20px"}}>{UseLicense_OL_iii}</span></li>
+                                        <li><span style={{marginLeft:"20px"}}>{UseLicense_OL_iv}</span></li>
+                                        <li><span style={{marginLeft:"20px"}}>{UseLicense_OL_v}</span></li>
                                     </ol>
-                                    <li>{UseLicense_OL_b}</li>
+                                    <li><span style={{marginLeft:"7px"}}>{UseLicense_OL_b}</span></li>
                                 </ol>
 
-                                <h4 className="title">{Disclaimer}</h4>
+                                <h4 className="title">3. {Disclaimer}</h4>
                                 <p>{DisclaimerPara}</p>
 
-                                <h4 className="title">{Constraints}</h4>
+                                <h4 className="title">4. {Constraints}</h4>
                                 <p>{ConstraintsPara}</p>
                     
-                                <h4 className="title">{Amendments}</h4>
+                                <h4 className="title">5. {Amendments}</h4>
                                 <p>{AmendmentsPara}</p>
 
-                                <h4 className="title">{Links}</h4>
+                                <h4 className="title">6. {Links}</h4>
                                 <p>{LinksPara}</p>
 
-                                <h4 className="title">{SiteModifications}</h4>
+                                <h4 className="title">7. {SiteModifications}</h4>
                                 <p>{SiteModifications_Para}</p>
 
-                                <h4 className="title">{GoverningLaw}</h4>
+                                <h4 className="title">8. {GoverningLaw}</h4>
                                 <p>{GoverningLaw_Para}</p>
-                                <p>{GoverningLaw_ParaSmall}</p>
+                                <p style={{marginTop:"-20px"}}>{GoverningLaw_ParaSmall}</p>
 
                                 <h4 className="title">{PRIVACY_POLICY}</h4>
                                 <p>{PrivacyPolicy_Para}</p>
                                 <ul>
-                                    <li>{PrivacyPolicy_UL1}</li>
-                                    <li>{PrivacyPolicy_UL2}</li>
-                                    <li>{PrivacyPolicy_UL3}</li>
-                                    <li>{PrivacyPolicy_UL4}</li>
-                                    <li>{PrivacyPolicy_UL5}</li>
-                                    <li>{PrivacyPolicy_UL6}</li>
-                                    <li>{PrivacyPolicy_UL7}</li>
+                                    <li><span style={{marginLeft:"5px"}}>{PrivacyPolicy_UL1}</span></li>
+                                    <li><span style={{marginLeft:"5px"}}>{PrivacyPolicy_UL2}</span></li>
+                                    <li><span style={{marginLeft:"5px"}}>{PrivacyPolicy_UL3}</span></li>
+                                    <li><span style={{marginLeft:"5px"}}>{PrivacyPolicy_UL4}</span></li>
+                                    <li><span style={{marginLeft:"5px"}}>{PrivacyPolicy_UL5}</span></li>
+                                    <li><span style={{marginLeft:"5px"}}>{PrivacyPolicy_UL6}</span></li>
+                                    <li><span style={{marginLeft:"5px"}}>{PrivacyPolicy_UL7}</span></li>
                                 </ul>
                                 <p>{PrivacyPolicy_Para2}</p>
 
