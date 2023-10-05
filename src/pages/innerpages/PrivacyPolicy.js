@@ -26,11 +26,11 @@ const PrivacyPolicy = () => {
                                 <ol type="a">
                                     <li><span style={{marginLeft:"7px"}}>{UseLicense_OL_a}</span></li>
                                     <ol type="i">
-                                        <li><span style={{marginLeft:"20px"}}>{UseLicense_OL_i}</span></li>
-                                        <li><span style={{marginLeft:"20px"}}>{UseLicense_OL_ii}</span></li>
-                                        <li><span style={{marginLeft:"20px"}}>{UseLicense_OL_iii}</span></li>
-                                        <li><span style={{marginLeft:"20px"}}>{UseLicense_OL_iv}</span></li>
-                                        <li><span style={{marginLeft:"20px"}}>{UseLicense_OL_v}</span></li>
+                                        <li><span className="privacy-policy-space" >{UseLicense_OL_i}</span></li>
+                                        <li><span className="privacy-policy-space">{UseLicense_OL_ii}</span></li>
+                                        <li><span className="privacy-policy-space">{UseLicense_OL_iii}</span></li>
+                                        <li><span className="privacy-policy-space">{UseLicense_OL_iv}</span></li>
+                                        <li><span className="privacy-policy-space">{UseLicense_OL_v}</span></li>
                                     </ol>
                                     <li><span style={{marginLeft:"7px"}}>{UseLicense_OL_b}</span></li>
                                 </ol>

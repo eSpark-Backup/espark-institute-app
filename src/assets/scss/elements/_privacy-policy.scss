@@ -14,9 +14,15 @@
         margin-bottom: 15px;
     }
 }
+.privacy-policy-space{
+    margin-left: 20px;
+}
 
-
-
+@media screen and (max-width:990px) {
+    .privacy-policy-space{
+        margin-left: 5px;
+    }
+}
 
 
 /* Purchase Guide  */

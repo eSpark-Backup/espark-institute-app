@@ -22,7 +22,7 @@ const items = [
         info: 'This course will establish you as an expert in Meta Ads Manager.​',
         CourseDuration: '8 Weeks',
         image: 'course-04.jpg',
-        link: '/course-details/4'
+        link: '/course-details/3'
     },
 ];
 

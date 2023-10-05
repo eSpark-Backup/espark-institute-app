@@ -12,7 +12,7 @@ const items = [
     },
     {
         title: 'Hybrid Mode of Classes​',
-        info: 'Embrace the Hybrid Class Mode, where innovation and tradition converge to elevate your educationaljourney.',
+        info: 'Embrace the Hybrid Class Mode, where innovation and tradition converge to elevate your educational journey.',
         icon: 'icon-square'
     },
     {
